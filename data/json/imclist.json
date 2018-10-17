@@ -1,0 +1,3234 @@
+{
+  "content": [
+    {
+      "type": "content",
+      "data": {
+        "datacode": "",
+        "filter": [],
+        "field": []
+      },
+      "external": [],
+      "setting": {
+        "gridstack": [
+          {
+            "tabid": "001ar16060619634",
+            "id": "gs16060619637",
+            "type": "text",
+            "x": 0,
+            "y": 0,
+            "width": 12,
+            "height": 2,
+            "content": {
+              "savetype": "html",
+              "text": "<p>ㅇㄴㅇㄴ</p>"
+            }
+          }
+        ],
+        "tab": [
+          {
+            "href": "001ar16060619634",
+            "html": "hithere"
+          }
+        ]
+      },
+      "lastupdate": "2016-06-07T00:37:28.515Z",
+      "setup": {
+        "tab": "none",
+        "wrap": "wrap",
+        "wrapname": "",
+        "height": "200px",
+        "dispnum": "1",
+        "pagenum": "10"
+      },
+      "ctrtype": "content",
+      "comp": "170721165259",
+      "code": "ar16060619634",
+      "name": "sorry",
+      "desc": ""
+    },
+    {
+      "type": "content",
+      "data": {
+        "datacode": "",
+        "filter": [],
+        "field": []
+      },
+      "external": [],
+      "setup": {
+        "tab": "none",
+        "wrap": "none",
+        "wrapname": "",
+        "height": "200px",
+        "dispnum": "1",
+        "pagenum": "10"
+      },
+      "setting": {
+        "gridstack": [
+          {
+            "tabid": "001ar170805123535",
+            "id": "gs170805123537",
+            "type": "text",
+            "x": 0,
+            "y": 0,
+            "width": 12,
+            "height": 2,
+            "content": {
+              "savetype": "html",
+              "text": "<p>asdfasdfasdfasdfasdddd</p>"
+            }
+          }
+        ],
+        "tab": [
+          {
+            "href": "001ar170805123535",
+            "html": "FirstTab"
+          }
+        ]
+      },
+      "ctrtype": "content",
+      "comp": "1",
+      "code": "ar170805123535",
+      "name": "testt",
+      "desc": "ssss"
+    }
+  ],
+  "map": [
+    {
+      "data": {
+        "title": "anyang",
+        "descript": "",
+        "comp": "acuvue",
+        "dtype": "json",
+        "fileupload": "",
+        "url": "http://api.openweathermap.org/data/2.5/find?q=anyang,kr&type=like&mode=json&appid=ecf364acf2524eb65780b8481d9dbcb0",
+        "param": [],
+        "startnode": "list",
+        "interval": "none",
+        "updated": "2016-01-04 08:55",
+        "datalist": [
+          {
+            "id": 1846898,
+            "name": "Anyang",
+            "coord_lon": 126.926941,
+            "coord_lat": 37.392502,
+            "main_temp": 274.72,
+            "main_pressure": 1022,
+            "main_humidity": 64,
+            "main_temp_min": 273.15,
+            "main_temp_max": 277.15,
+            "dt": 1451863200,
+            "wind_speed": 2.1,
+            "wind_deg": 280,
+            "sys_country": "KR",
+            "clouds_all": 1,
+            "weather_0_id": 701,
+            "weather_0_main": "Mist",
+            "weather_0_description": "mist",
+            "weather_0_icon": "50n",
+            "weather_1_id": 721,
+            "weather_1_main": "Haze",
+            "weather_1_description": "haze",
+            "weather_1_icon": "50n"
+          }
+        ],
+        "filter": [
+          [
+            "id",
+            "",
+            ":",
+            "",
+            "",
+            false
+          ],
+          [
+            "name",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "coord_lon",
+            "",
+            ":",
+            "",
+            "",
+            false
+          ],
+          [
+            "coord_lat",
+            "",
+            ":",
+            "",
+            "",
+            false
+          ],
+          [
+            "main_temp",
+            "",
+            ":",
+            "",
+            "",
+            false
+          ],
+          [
+            "main_pressure",
+            "",
+            ":",
+            "",
+            "",
+            false
+          ],
+          [
+            "main_humidity",
+            "",
+            ":",
+            "",
+            "",
+            false
+          ],
+          [
+            "main_temp_min",
+            "",
+            ":",
+            "",
+            "",
+            false
+          ],
+          [
+            "main_temp_max",
+            "",
+            ":",
+            "",
+            "",
+            false
+          ],
+          [
+            "dt",
+            "",
+            ":",
+            "",
+            "",
+            false
+          ],
+          [
+            "wind_speed",
+            "",
+            ":",
+            "",
+            "",
+            false
+          ],
+          [
+            "wind_deg",
+            "",
+            ":",
+            "",
+            "",
+            false
+          ],
+          [
+            "sys_country",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "clouds_all",
+            "",
+            ":",
+            "",
+            "",
+            false
+          ],
+          [
+            "weather_0_id",
+            "",
+            ":",
+            "",
+            "",
+            false
+          ],
+          [
+            "weather_0_main",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "weather_0_description",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "weather_0_icon",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "weather_1_id",
+            "",
+            ":",
+            "",
+            "",
+            false
+          ],
+          [
+            "weather_1_main",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "weather_1_description",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "weather_1_icon",
+            "",
+            [],
+            "",
+            "",
+            false
+          ]
+        ],
+        "field": [],
+        "datacode": "dt1601048557"
+      },
+      "setting": {
+        "mapmode": "ROADMAP",
+        "detailshow": "dialog",
+        "markerimage": "0",
+        "center": "37.392502^126.926941",
+        "zoom": "10",
+        "content": "ext1",
+        "fieldmap": [
+          [
+            "LocId",
+            "id"
+          ],
+          [
+            "LocName",
+            "name"
+          ],
+          [
+            "Lat",
+            "coord_lat"
+          ],
+          [
+            "Lng",
+            "coord_lon"
+          ],
+          [
+            "Address1",
+            ""
+          ],
+          [
+            "Address2",
+            ""
+          ],
+          [
+            "markerimg",
+            ""
+          ]
+        ]
+      },
+      "type": "map",
+      "lastupdate": "2016-08-05T06:41:55.763Z",
+      "external": [
+        {
+          "type": "content",
+          "code": "ar160805154123",
+          "data": {
+            "datacode": "",
+            "filter": [],
+            "field": []
+          },
+          "external": [],
+          "setting": {
+            "gridstack": [
+              {
+                "tabid": "001undefined",
+                "id": "gs160805154127",
+                "type": "text",
+                "x": 0,
+                "y": 0,
+                "width": 12,
+                "height": 2,
+                "content": {
+                  "savetype": "html",
+                  "text": "<p>good</p>"
+                }
+              }
+            ],
+            "tab": [
+              {
+                "href": "001undefined",
+                "html": "FirstTab"
+              }
+            ]
+          },
+          "extid": "ext1"
+        }
+      ],
+      "code": "ar16061011358",
+      "name": "sampel",
+      "desc": ""
+    }
+  ],
+  "googlechart": [
+    {
+      "type": "googlechart",
+      "data": {
+        "datacode": "dt130316115840",
+        "filter": [
+          [
+            "series",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "period",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "value",
+            "",
+            ":",
+            "",
+            "",
+            false
+          ]
+        ],
+        "field": []
+      },
+      "layout": [
+        {
+          "field": "value",
+          "type": "Value",
+          "datatype": "number",
+          "Format": "0",
+          "Sort": "",
+          "asc": "",
+          "order": "",
+          "Sum": "sum",
+          "": ""
+        },
+        {
+          "field": "period",
+          "type": "Axis",
+          "datatype": "string",
+          "Format": "",
+          "Sort": "",
+          "asc": "",
+          "order": "",
+          "Sum": "",
+          "": ""
+        }
+      ],
+      "lastupdate": "2016-08-03T04:11:35.067Z",
+      "src": "list",
+      "stay": true,
+      "options": {
+        "legacyScatterChartLabels": true,
+        "legend": "right",
+        "isStacked": false,
+        "booleanRole": "certainty",
+        "vAxes": [
+          {
+            "minValue": null,
+            "maxValue": null,
+            "viewWindow": null,
+            "viewWindowMode": null,
+            "useFormatFromData": true
+          },
+          {
+            "useFormatFromData": true
+          }
+        ],
+        "hAxis": {
+          "viewWindow": {
+            "max": null,
+            "min": null
+          },
+          "minValue": null,
+          "maxValue": null,
+          "useFormatFromData": true
+        },
+        "width": "100%",
+        "height": "100%"
+      },
+      "chartType": "BarChart",
+      "code": "ar16060919442",
+      "name": "sss",
+      "desc": ""
+    },
+    {
+      "type": "googlechart",
+      "data": {
+        "datacode": "dt130316115840",
+        "filter": [
+          [
+            "series",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "period",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "value",
+            "",
+            ":",
+            "",
+            "",
+            false
+          ]
+        ],
+        "field": []
+      },
+      "layout": [
+        {
+          "field": "value",
+          "type": "Value",
+          "datatype": "number",
+          "Format": "0",
+          "Sort": "",
+          "asc": "",
+          "order": "",
+          "Sum": "sum",
+          "": ""
+        },
+        {
+          "field": "series",
+          "type": "Axis",
+          "datatype": "string",
+          "Format": "",
+          "Sort": "",
+          "asc": "",
+          "order": "",
+          "Sum": "",
+          "": ""
+        }
+      ],
+      "lastupdate": "2016-08-03T04:22:30.493Z",
+      "src": "list",
+      "stay": true,
+      "options": {
+        "hAxis": {
+          "useFormatFromData": true,
+          "minValue": null,
+          "maxValue": null,
+          "viewWindow": null,
+          "viewWindowMode": null
+        },
+        "legacyScatterChartLabels": true,
+        "legend": "right",
+        "vAxes": [
+          {
+            "title": null,
+            "minValue": null,
+            "maxValue": null,
+            "useFormatFromData": true,
+            "viewWindow": {
+              "max": null,
+              "min": null
+            }
+          },
+          {
+            "useFormatFromData": true,
+            "viewWindow": {
+              "max": null,
+              "min": null
+            },
+            "minValue": null,
+            "maxValue": null
+          }
+        ],
+        "curveType": "",
+        "booleanRole": "certainty",
+        "lineWidth": 2,
+        "width": "100%",
+        "height": "100%"
+      },
+      "chartType": "LineChart",
+      "code": "ar160803132114",
+      "name": "rrrr",
+      "desc": ""
+    },
+    {
+      "data": {
+        "datacode": "dt130316115840",
+        "filter": [
+          [
+            "series",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "period",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "value",
+            "",
+            ":",
+            "",
+            "",
+            false
+          ]
+        ],
+        "field": []
+      },
+      "src": "list",
+      "stay": true,
+      "options": {
+        "vAxes": [
+          {
+            "title": null,
+            "minValue": null,
+            "maxValue": null,
+            "useFormatFromData": true,
+            "viewWindow": {
+              "max": null,
+              "min": null
+            },
+            "logScale": false
+          },
+          {
+            "useFormatFromData": true,
+            "viewWindow": {
+              "max": null,
+              "min": null
+            },
+            "minValue": null,
+            "maxValue": null,
+            "logScale": false
+          }
+        ],
+        "legacyScatterChartLabels": true,
+        "isStacked": true,
+        "booleanRole": "certainty",
+        "hAxis": {
+          "useFormatFromData": true,
+          "minValue": null,
+          "maxValue": null,
+          "viewWindow": null,
+          "viewWindowMode": null
+        },
+        "annotations": {
+          "domain": {
+            "style": "line"
+          }
+        },
+        "legend": "right",
+        "width": "100%",
+        "height": "100%"
+      },
+      "chartType": "ColumnChart",
+      "type": "googlechart",
+      "layout": [
+        {
+          "field": "value",
+          "type": "Value",
+          "datatype": "number",
+          "Format": "0",
+          "Sort": "",
+          "asc": "",
+          "order": "",
+          "Sum": "sum",
+          "": ""
+        },
+        {
+          "field": "period",
+          "type": "Axis",
+          "datatype": "string",
+          "Format": "",
+          "Sort": "",
+          "asc": "",
+          "order": "",
+          "Sum": "",
+          "": ""
+        }
+      ],
+      "code": "ar160803132248",
+      "name": "eeeee",
+      "desc": "",
+      "lastupdate": "2016-08-03T04:23:31.371Z"
+    },
+    {
+      "type": "googlechart",
+      "data": {
+        "datacode": "dt160622194745",
+        "filter": [
+          [
+            "staff",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "datetime",
+            "",
+            ":",
+            "",
+            "",
+            false
+          ],
+          [
+            "revenue",
+            "",
+            ":",
+            "",
+            "",
+            false
+          ]
+        ],
+        "field": []
+      },
+      "layout": [
+        {
+          "field": "revenue",
+          "type": "Value",
+          "datatype": "number",
+          "Format": "0",
+          "Sort": "",
+          "asc": "",
+          "order": "",
+          "Sum": "sum",
+          "": ""
+        },
+        {
+          "field": "staff",
+          "type": "Axis",
+          "datatype": "string",
+          "Format": "",
+          "Sort": "",
+          "asc": "",
+          "order": "",
+          "Sum": "",
+          "": ""
+        }
+      ],
+      "lastupdate": "2016-08-04T09:33:09.681Z",
+      "src": "list",
+      "stay": true,
+      "options": {
+        "hAxis": {
+          "useFormatFromData": true,
+          "viewWindow": null,
+          "minValue": null,
+          "maxValue": null,
+          "viewWindowMode": null
+        },
+        "legacyScatterChartLabels": true,
+        "vAxes": [
+          {
+            "title": null,
+            "minValue": null,
+            "maxValue": null,
+            "useFormatFromData": true,
+            "viewWindow": {
+              "max": null,
+              "min": null
+            }
+          },
+          {
+            "useFormatFromData": true,
+            "viewWindow": {
+              "max": null,
+              "min": null
+            },
+            "minValue": null,
+            "maxValue": null
+          }
+        ],
+        "isStacked": false,
+        "booleanRole": "certainty",
+        "legend": "right",
+        "width": "100%",
+        "height": "100%"
+      },
+      "chartType": "ColumnChart",
+      "code": "ar16080215742",
+      "name": "ㄷㄷㄷㄷ",
+      "desc": ""
+    },
+    {
+      "data": {
+        "datacode": "dt16081110028",
+        "filter": [
+          [
+            "compcode",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "compname",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "prodcode",
+            "",
+            [],
+            "",
+            "",
+            true
+          ],
+          [
+            "prodname",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "chcode",
+            "",
+            [],
+            "",
+            "",
+            true
+          ],
+          [
+            "chname",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "eventcode",
+            "",
+            "",
+            "",
+            "",
+            true
+          ],
+          [
+            "dvcode",
+            "",
+            [],
+            "",
+            "",
+            true
+          ],
+          [
+            "dvname",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "kpi",
+            "",
+            [],
+            "",
+            "",
+            true
+          ],
+          [
+            "kpiname",
+            "",
+            [],
+            "",
+            "",
+            true
+          ],
+          [
+            "yr",
+            "",
+            ":",
+            "",
+            "",
+            false
+          ],
+          [
+            "period",
+            "",
+            ":",
+            "",
+            "",
+            false
+          ],
+          [
+            "value",
+            "",
+            ":",
+            "",
+            "",
+            false
+          ],
+          [
+            "eventname",
+            "",
+            "",
+            "",
+            "",
+            true
+          ]
+        ],
+        "field": [
+          [
+            true,
+            "prodcode",
+            ""
+          ],
+          [
+            true,
+            "chcode",
+            ""
+          ],
+          [
+            true,
+            "eventcode",
+            ""
+          ],
+          [
+            true,
+            "dvcode",
+            ""
+          ],
+          [
+            true,
+            "kpi",
+            ""
+          ],
+          [
+            true,
+            "kpiname",
+            ""
+          ],
+          [
+            true,
+            "eventname",
+            ""
+          ]
+        ]
+      },
+      "layout": [
+        {
+          "field": "value",
+          "type": "Value",
+          "datatype": "number",
+          "Format": "0",
+          "Sort": "",
+          "asc": "",
+          "order": "",
+          "Sum": "sum",
+          "": ""
+        },
+        {
+          "field": "chname",
+          "type": "Axis",
+          "datatype": "string",
+          "Format": "",
+          "Sort": "",
+          "asc": "",
+          "order": "",
+          "Sum": "",
+          "": ""
+        }
+      ],
+      "ctrtype": "googlechart",
+      "options": {
+        "vAxes": [
+          {
+            "title": null,
+            "minValue": null,
+            "maxValue": null,
+            "useFormatFromData": true,
+            "viewWindow": {
+              "max": null,
+              "min": null
+            }
+          },
+          {
+            "useFormatFromData": true,
+            "viewWindow": {
+              "max": null,
+              "min": null
+            },
+            "minValue": null,
+            "maxValue": null
+          }
+        ],
+        "legacyScatterChartLabels": true,
+        "isStacked": false,
+        "booleanRole": "certainty",
+        "hAxis": {
+          "useFormatFromData": true,
+          "minValue": null,
+          "maxValue": null,
+          "viewWindow": null,
+          "viewWindowMode": null
+        },
+        "legend": "right",
+        "width": "100%",
+        "height": "100%"
+      },
+      "chartType": "ColumnChart",
+      "type": "googlechart",
+      "code": "ar160811104816",
+      "name": "achieve",
+      "desc": "",
+      "lastupdate": "2016-08-11T01:48:32.041Z"
+    }
+  ],
+  "jstree": [
+    {
+      "data": {
+        "datacode": "dt150331074655",
+        "filter": [
+          [
+            "code",
+            "string",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "name",
+            "string",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "parentcode",
+            "string",
+            "",
+            [],
+            "",
+            "",
+            false
+          ]
+        ],
+        "field": []
+      },
+      "setting": {
+        "parent": "parentcode",
+        "topnode": "PD00000229",
+        "topname": "Top",
+        "value": "code",
+        "text": "name",
+        "order": "",
+        "icon": "",
+        "iconpic": "{\"Top\":\"fa-github-alt\",\"Default\":\"fa-css3\",\"Parent\":\"fa-comment\"}",
+        "valprefix": "",
+        "width": "12",
+        "textbox": "textlist",
+        "valuebox": "valuelist",
+        "includechild": false,
+        "display": "none",
+        "title": "",
+        "plugin": [
+          "checkbox",
+          "contextmenu"
+        ]
+      },
+      "type": "jstree",
+      "lastupdate": "2016-08-03T05:27:20.141Z",
+      "ctrtype": "jstree",
+      "comp": "170721165259",
+      "code": "ar16071981747",
+      "name": "goodtree",
+      "desc": ""
+    }
+  ],
+  "jqgrid": [
+    {
+      "type": "jqgrid",
+      "data": {
+        "code": "dt160622194745",
+        "title": "test2.xlsx",
+        "descript": "",
+        "comp": "acuvue",
+        "interval": "none",
+        "updated": "2016-11-16 09:05",
+        "dtype": "excel",
+        "datalist": [
+          {
+            "staff": "acuvue1",
+            "datetime": "20160101",
+            "revenue": "100"
+          },
+          {
+            "staff": "acuvue1",
+            "datetime": "20160102",
+            "revenue": "200"
+          },
+          {
+            "staff": "acuvue1",
+            "datetime": "20160103",
+            "revenue": "250"
+          },
+          {
+            "staff": "acuvue1",
+            "datetime": "20160104",
+            "revenue": "150"
+          },
+          {
+            "staff": "acuvue1",
+            "datetime": "20160105",
+            "revenue": "200"
+          },
+          {
+            "staff": "acuvue1",
+            "datetime": "20160106",
+            "revenue": "230"
+          },
+          {
+            "staff": "acuvue1",
+            "datetime": "20160107",
+            "revenue": "170"
+          },
+          {
+            "staff": "acuvue2",
+            "datetime": "20160101",
+            "revenue": "200"
+          },
+          {
+            "staff": "acuvue2",
+            "datetime": "20160102",
+            "revenue": "230"
+          },
+          {
+            "staff": "acuvue2",
+            "datetime": "20160103",
+            "revenue": "300"
+          },
+          {
+            "staff": "acuvue2",
+            "datetime": "20160104",
+            "revenue": "200"
+          },
+          {
+            "staff": "acuvue2",
+            "datetime": "20160105",
+            "revenue": "150"
+          },
+          {
+            "staff": "acuvue2",
+            "datetime": "20160106",
+            "revenue": "200"
+          },
+          {
+            "staff": "acuvue2",
+            "datetime": "20160107",
+            "revenue": "250"
+          },
+          {
+            "staff": "acuvue3",
+            "datetime": "20160101",
+            "revenue": "300"
+          },
+          {
+            "staff": "acuvue3",
+            "datetime": "20160102",
+            "revenue": "200"
+          },
+          {
+            "staff": "acuvue3",
+            "datetime": "20160103",
+            "revenue": "250"
+          },
+          {
+            "staff": "acuvue3",
+            "datetime": "20160104",
+            "revenue": "150"
+          },
+          {
+            "staff": "acuvue3",
+            "datetime": "20160105",
+            "revenue": "300"
+          },
+          {
+            "staff": "acuvue3",
+            "datetime": "20160106",
+            "revenue": "220"
+          },
+          {
+            "staff": "acuvue3",
+            "datetime": "20160107",
+            "revenue": "200"
+          },
+          {
+            "staff": "",
+            "datetime": "",
+            "revenue": ""
+          }
+        ],
+        "filter": [
+          [
+            "staff",
+            "string",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "datetime",
+            "datetime",
+            "",
+            ":",
+            "N/A",
+            "",
+            false
+          ],
+          [
+            "revenue",
+            "int",
+            "",
+            ":",
+            "",
+            "",
+            false
+          ]
+        ],
+        "field": [],
+        "lastupdate": "2016-11-16T01:05:43.816Z"
+      },
+      "setting": {
+        "pager": "pgar16060872315",
+        "rowNum": "10",
+        "multiselect": false,
+        "autowidth": true,
+        "height": "auto",
+        "rowList": [
+          10,
+          20,
+          30
+        ],
+        "toolbarfilter": true,
+        "loadtext": "Loading..!!.",
+        "viewrecords": true,
+        "userDataOnFooter": true,
+        "datatype": "local",
+        "editurl": "clientArray",
+        "wrapcontrol": true,
+        "wrapname": "",
+        "grid": "jqar16060872315",
+        "data": [
+          {
+            "staff": "acuvue1",
+            "datetime": "20160101",
+            "revenue": "100"
+          },
+          {
+            "staff": "acuvue1",
+            "datetime": "20160102",
+            "revenue": "200"
+          },
+          {
+            "staff": "acuvue1",
+            "datetime": "20160103",
+            "revenue": "250"
+          },
+          {
+            "staff": "acuvue1",
+            "datetime": "20160104",
+            "revenue": "150"
+          },
+          {
+            "staff": "acuvue1",
+            "datetime": "20160105",
+            "revenue": "200"
+          },
+          {
+            "staff": "acuvue1",
+            "datetime": "20160106",
+            "revenue": "230"
+          },
+          {
+            "staff": "acuvue1",
+            "datetime": "20160107",
+            "revenue": "170"
+          },
+          {
+            "staff": "acuvue2",
+            "datetime": "20160101",
+            "revenue": "200"
+          },
+          {
+            "staff": "acuvue2",
+            "datetime": "20160102",
+            "revenue": "230"
+          },
+          {
+            "staff": "acuvue2",
+            "datetime": "20160103",
+            "revenue": "300"
+          },
+          {
+            "staff": "acuvue2",
+            "datetime": "20160104",
+            "revenue": "200"
+          },
+          {
+            "staff": "acuvue2",
+            "datetime": "20160105",
+            "revenue": "150"
+          },
+          {
+            "staff": "acuvue2",
+            "datetime": "20160106",
+            "revenue": "200"
+          },
+          {
+            "staff": "acuvue2",
+            "datetime": "20160107",
+            "revenue": "250"
+          },
+          {
+            "staff": "acuvue3",
+            "datetime": "20160101",
+            "revenue": "300"
+          },
+          {
+            "staff": "acuvue3",
+            "datetime": "20160102",
+            "revenue": "200"
+          },
+          {
+            "staff": "acuvue3",
+            "datetime": "20160103",
+            "revenue": "250"
+          },
+          {
+            "staff": "acuvue3",
+            "datetime": "20160104",
+            "revenue": "150"
+          },
+          {
+            "staff": "acuvue3",
+            "datetime": "20160105",
+            "revenue": "300"
+          },
+          {
+            "staff": "acuvue3",
+            "datetime": "20160106",
+            "revenue": "220"
+          },
+          {
+            "staff": "acuvue3",
+            "datetime": "20160107",
+            "revenue": "200"
+          },
+          {
+            "staff": "",
+            "datetime": "",
+            "revenue": ""
+          }
+        ]
+      },
+      "colNames": [
+        "staff",
+        "datetime",
+        "revenue"
+      ],
+      "colModel": [
+        {
+          "name": "staff"
+        },
+        {
+          "name": "datetime"
+        },
+        {
+          "name": "revenue"
+        }
+      ],
+      "lastupdate": "2016-06-12T00:51:26.601Z",
+      "ctrtype": "jqgrid",
+      "comp": "170721165259",
+      "code": "ar16060872315",
+      "name": "gfgfgf",
+      "desc": ""
+    }
+  ],
+  "form": [
+    {
+      "title": "",
+      "formgrplist": "",
+      "colnum": "1",
+      "wrap": true,
+      "actsave": false,
+      "ctrlist": [
+        {
+          "ctrtype": "input",
+          "odr": "2",
+          "seq": 2,
+          "title": "dvname",
+          "mapdata": "dvname"
+        },
+        {
+          "ctrtype": "input",
+          "odr": "3",
+          "seq": 3,
+          "title": "desc",
+          "mapdata": "desc",
+          "formgroup": ""
+        },
+        {
+          "ctrtype": "input",
+          "odr": "4",
+          "seq": 4,
+          "title": "pcode",
+          "mapdata": "pcode",
+          "formgroup": ""
+        },
+        {
+          "seq": 1,
+          "subseq": 1,
+          "title": "dvcode",
+          "mapdata": "dvcode",
+          "functype": "none",
+          "ctrtype": "label",
+          "style": {
+            "ctrid": "jc170731182941",
+            "style": ""
+          },
+          "label": "dvcode",
+          "keymake": true,
+          "keyprefix": "dv",
+          "formgroup": "",
+          "odr": "1"
+        }
+      ],
+      "data": {
+        "datacode": "dt170731181834",
+        "filter": [
+          [
+            "dvcode",
+            "string",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "dvname",
+            "string",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "desc",
+            "string",
+            "",
+            "",
+            "",
+            "",
+            false
+          ],
+          [
+            "pcode",
+            "string",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "odr",
+            "string",
+            "",
+            "",
+            "",
+            "",
+            false
+          ]
+        ],
+        "field": []
+      },
+      "ctrtype": "form",
+      "comp": "1",
+      "eventlist": [
+        {
+          "seq": "1",
+          "subseq": "1",
+          "code": "bt17073122464",
+          "title": "저장",
+          "object": "button",
+          "buttonname": "저장",
+          "buttonwidth": false,
+          "position": "bottomright",
+          "display": "show",
+          "action": "update",
+          "dataset": "dt170731181834",
+          "mapping": [
+            [
+              "dvcode",
+              "dvcode",
+              true
+            ],
+            [
+              "dvname",
+              "dvname",
+              false
+            ],
+            [
+              "desc",
+              "desc",
+              false
+            ],
+            [
+              "pcode",
+              "pcode",
+              false
+            ],
+            [
+              "odr",
+              null,
+              false
+            ]
+          ]
+        }
+      ],
+      "wrapname": "",
+      "type": "form",
+      "code": "ar17080114508",
+      "name": "division form",
+      "desc": "",
+      "lastupdate": "2017-08-01T05:50:40.064Z"
+    }
+  ],
+  "pivot": [
+    {
+      "type": "pivot",
+      "data": {
+        "datacode": "dt130316115840",
+        "filter": [
+          [
+            "series",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "period",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "value",
+            "",
+            ":",
+            "",
+            "",
+            false
+          ]
+        ],
+        "field": []
+      },
+      "setting": {
+        "hiddenfield": "[]",
+        "derieveddate": "[]",
+        "numbergrp": ";",
+        "editable": "edit all",
+        "aggregate": "Count",
+        "rendername": "Table",
+        "cols": "[\"series\"]",
+        "rows": "[\"period\"]",
+        "unused": "[\"value\"]"
+      },
+      "eventlist": [
+        {
+          "seq": "1",
+          "subseq": "1",
+          "code": "bt16063082655",
+          "type": "button",
+          "position": "bottomright",
+          "linkfield": "",
+          "display": "show",
+          "icon": "",
+          "command": "save",
+          "buttonname": "Save",
+          "commandtype": "",
+          "connectstring": "",
+          "script": "//region insert from program var newdt = pivotInsert('$curid', { type: 'save' }) updatedataset('dt130316115840', newdt,'[[\"series\",\"series\",true],[\"period\",\"period\",false],[\"value\",\"value\",false]]')//endof region",
+          "dataset": "dt130316115840",
+          "mapping": [
+            [
+              "series",
+              "series",
+              true
+            ],
+            [
+              "period",
+              "period",
+              false
+            ],
+            [
+              "value",
+              "value",
+              false
+            ]
+          ],
+          "series": "series",
+          "period": "period",
+          "value": "value"
+        }
+      ],
+      "code": "ar16063082618",
+      "name": "first pivot archive test",
+      "desc": "",
+      "lastupdate": "2016-06-29T23:27:40.534Z"
+    },
+    {
+      "data": {
+        "datacode": "dt130316115840",
+        "filter": [
+          [
+            "series",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "period",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "value",
+            "",
+            ":",
+            "",
+            "",
+            false
+          ]
+        ],
+        "field": []
+      },
+      "setting": {
+        "hiddenfield": "[]",
+        "derieveddate": "[]",
+        "numbergrp": ";",
+        "editable": "edit all",
+        "aggregate": "Integer Sum",
+        "rendername": "Table",
+        "cols": "[\"period\"]",
+        "rows": "[\"series\"]",
+        "unused": "[\"value\"]",
+        "vals": "[\"\"]"
+      },
+      "eventlist": [],
+      "type": "pivot",
+      "code": "ar16063083440",
+      "name": "save to archive test",
+      "desc": "",
+      "lastupdate": "2016-06-29T23:35:13.911Z"
+    }
+  ],
+  "fullcalendar": [
+    {
+      "setting": {
+        "field": {
+          "id": null,
+          "title": null,
+          "start": null,
+          "end": null,
+          "allday": null,
+          "color": null,
+          "staff": null,
+          "desc": null,
+          "invite": null,
+          "recur": null,
+          "reminder": null,
+          "mycal": []
+        },
+        "options": {
+          "Width": "",
+          "Firstday": "0",
+          "AllDaySlot": true,
+          "AllDayText": "종일",
+          "defaultView": "month",
+          "sideBarShow": false
+        }
+      },
+      "type": "fullcalendar",
+      "code": "ar160802151238",
+      "name": "test",
+      "desc": "",
+      "data": {
+        "datacode": "dt150603073923",
+        "filter": [
+          [
+            "comp",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "id",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "staff",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "invitestaff",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "title",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "sdesc",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "start",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "end",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "resource",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "backgroundColor",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "allDay",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "recurrence",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "recurrence1",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "reminder",
+            "",
+            ":",
+            "",
+            "",
+            false
+          ],
+          [
+            "tasktype",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "staffname",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "span",
+            "",
+            [],
+            "",
+            "",
+            false
+          ]
+        ],
+        "field": []
+      },
+      "lastupdate": "2016-08-02T06:13:09.544Z"
+    }
+  ],
+  "html": [
+    {
+      "ctrtype": "html",
+      "setting": {
+        "html": "<i class=\"fa fa-link fa-lg imdim\"></i>",
+        "js": "$(\".fa-link\").click(function(){\n    var model=\"dt170731181834\";\n    pstatus = \"j170725173428\";\n    cdbmap.modelcode=model;\n    jsonReadMyAjax(\"imcdata\",mycomp,\"\",\"code\",model,connectdbcheck);\n});\n\n$(\".fa-link\").popover({\n    title:\"External Data Mapping\",\n    placement:\"bottom\",\n    trigger:\"hover\",\n    content:\"Connect external data source and batch input data!!\"\n});",
+        "style": ".popover{height:200px !important};"
+      },
+      "wrap": false,
+      "comp": "1",
+      "type": "html",
+      "code": "ar170801143710",
+      "name": "data mapping",
+      "desc": "link external data source for company setting",
+      "lastupdate": "2017-08-01T05:37:47.386Z"
+    },
+    {
+      "ctrtype": "html",
+      "setting": {
+        "html": " <div class=\"form-inline marginbottom\">\n     <input class=\"form-control forminput col-3 marginright\" type=\"text\" id=\"sample4_postcode\" placeholder=\"우편번호\">\n     <input class=\"btn btn-primary\" type=\"button\" onclick=\"sample4_execDaumPostcode()\" value=\"우편번호 찾기\">\n</div>\n<div class=\"form-inline\">\n    <input class=\"form-control forminput col-12\"  type=\"text\" id=\"sample4_roadAddress\" placeholder=\"도로명주소\">\n</div>\n    <span id=\"guide\" style=\"color:#999\"></span>",
+        "js": "//본 예제에서는 도로명 주소 표기 방식에 대한 법령에 따라, 내려오는 데이터를 조합하여 올바른 주소를 구성하는 방법을 설명합니다.\nfunction sample4_execDaumPostcode() {\n    new daum.Postcode({\n        oncomplete: function(data) {\n            // 팝업에서 검색결과 항목을 클릭했을때 실행할 코드를 작성하는 부분.\n\n            // 도로명 주소의 노출 규칙에 따라 주소를 조합한다.\n            // 내려오는 변수가 값이 없는 경우엔 공백('')값을 가지므로, 이를 참고하여 분기 한다.\n            var fullRoadAddr = data.roadAddress; // 도로명 주소 변수\n            var extraRoadAddr = ''; // 도로명 조합형 주소 변수\n\n            // 법정동명이 있을 경우 추가한다. (법정리는 제외)\n            // 법정동의 경우 마지막 문자가 \"동/로/가\"로 끝난다.\n            if(data.bname !== '' && /[동|로|가]$/g.test(data.bname)){\n                extraRoadAddr += data.bname;\n            }\n            // 건물명이 있고, 공동주택일 경우 추가한다.\n            if(data.buildingName !== '' && data.apartment === 'Y'){\n                extraRoadAddr += (extraRoadAddr !== '' ? ', ' + data.buildingName : data.buildingName);\n            }\n            // 도로명, 지번 조합형 주소가 있을 경우, 괄호까지 추가한 최종 문자열을 만든다.\n            if(extraRoadAddr !== ''){\n                extraRoadAddr = ' (' + extraRoadAddr + ')';\n            }\n            // 도로명, 지번 주소의 유무에 따라 해당 조합형 주소를 추가한다.\n            if(fullRoadAddr !== ''){\n                fullRoadAddr += extraRoadAddr;\n            }\n            // 우편번호와 주소 정보를 해당 필드에 넣는다.\n            document.getElementById('sample4_postcode').value = data.zonecode; //5자리 새우편번호 사용\n            document.getElementById('sample4_roadAddress').value = fullRoadAddr;\n            // document.getElementById('sample4_jibunAddress').value = data.jibunAddress;\n\n            // 사용자가 '선택 안함'을 클릭한 경우, 예상 주소라는 표시를 해준다.\n            if(data.autoRoadAddress) {\n                //예상되는 도로명 주소에 조합형 주소를 추가한다.\n                var expRoadAddr = data.autoRoadAddress + extraRoadAddr;\n                document.getElementById('guide').innerHTML = '(예상 도로명 주소 : ' + expRoadAddr + ')';\n            }\n            else \n                document.getElementById('guide').innerHTML = '';\n        }\n    }).open();\n}",
+        "style": ""
+      },
+      "wrap": false,
+      "comp": "1",
+      "type": "html",
+      "code": "ar171029111835",
+      "name": "daum zip",
+      "desc": "zip code finder provided by Daum"
+    },
+    {
+      "ctrtype": "html",
+      "setting": {
+        "html": " <div class=\"form-inline marginbottom\">\n     <input class=\"form-control forminput col-3 marginright\" type=\"text\" id=\"sample4_postcode\" placeholder=\"우편번호\">\n     <input class=\"btn btn-primary\" type=\"button\" onclick=\"sample4_execDaumPostcode()\" value=\"우편번호 찾기\">\n</div>\n<div class=\"form-inline\">\n    <input class=\"form-control col-6 forminput\"  type=\"text\" id=\"sample4_roadAddress\" placeholder=\"도로명주소\">\n    <input class=\"form-control col-6 forminput\"  type=\"text\" id=\"sample4_jibunAddress\" placeholder=\"세부주소\">\n</div>\n    <span id=\"guide\" style=\"color:#999\"></span>",
+        "js": "//본 예제에서는 도로명 주소 표기 방식에 대한 법령에 따라, 내려오는 데이터를 조합하여 올바른 주소를 구성하는 방법을 설명합니다.\n    function sample4_execDaumPostcode() {\n        new daum.Postcode({\n            oncomplete: function(data) {\n                // 팝업에서 검색결과 항목을 클릭했을때 실행할 코드를 작성하는 부분.\n\n                // 도로명 주소의 노출 규칙에 따라 주소를 조합한다.\n                // 내려오는 변수가 값이 없는 경우엔 공백('')값을 가지므로, 이를 참고하여 분기 한다.\n                var fullRoadAddr = data.roadAddress; // 도로명 주소 변수\n                var extraRoadAddr = ''; // 도로명 조합형 주소 변수\n\n                // 법정동명이 있을 경우 추가한다. (법정리는 제외)\n                // 법정동의 경우 마지막 문자가 \"동/로/가\"로 끝난다.\n                if(data.bname !== '' && /[동|로|가]$/g.test(data.bname)){\n                    extraRoadAddr += data.bname;\n                }\n                // 건물명이 있고, 공동주택일 경우 추가한다.\n                if(data.buildingName !== '' && data.apartment === 'Y'){\n                   extraRoadAddr += (extraRoadAddr !== '' ? ', ' + data.buildingName : data.buildingName);\n                }\n                // 도로명, 지번 조합형 주소가 있을 경우, 괄호까지 추가한 최종 문자열을 만든다.\n                if(extraRoadAddr !== ''){\n                    extraRoadAddr = ' (' + extraRoadAddr + ')';\n                }\n                // 도로명, 지번 주소의 유무에 따라 해당 조합형 주소를 추가한다.\n                if(fullRoadAddr !== ''){\n                    fullRoadAddr += extraRoadAddr;\n                }\n\n                // 우편번호와 주소 정보를 해당 필드에 넣는다.\n                document.getElementById('sample4_postcode').value = data.zonecode; //5자리 새우편번호 사용\n                document.getElementById('sample4_roadAddress').value = fullRoadAddr;\n               // document.getElementById('sample4_jibunAddress').value = data.jibunAddress;\n\n                // 사용자가 '선택 안함'을 클릭한 경우, 예상 주소라는 표시를 해준다.\n                if(data.autoRoadAddress) {\n                    //예상되는 도로명 주소에 조합형 주소를 추가한다.\n                    var expRoadAddr = data.autoRoadAddress + extraRoadAddr;\n                    document.getElementById('guide').innerHTML = '(예상 도로명 주소 : ' + expRoadAddr + ')';\n\n                } else if(data.autoJibunAddress) {\n                    var expJibunAddr = data.autoJibunAddress;\n                    document.getElementById('guide').innerHTML = '(예상 지번 주소 : ' + expJibunAddr + ')';\n\n                } else {\n                    document.getElementById('guide').innerHTML = '';\n                }\n            }\n        }).open();\n    }",
+        "style": ""
+      },
+      "wrap": false,
+      "comp": "1",
+      "type": "html",
+      "code": "ar171030155228",
+      "name": "daumzip_1",
+      "desc": "show input for detail address"
+    }
+  ],
+  "templatemenu": [
+    {
+      "menuid": "template1",
+      "templatetype": "common",
+      "title": "fsttemp",
+      "page": "",
+      "default": "",
+      "width": "150",
+      "menuopen": false,
+      "keepopen": false,
+      "position": "left",
+      "backcolor": "#4a6184",
+      "fontsize": "14px",
+      "theme": "cupertino",
+      "permissionname": "",
+      "permission": "",
+      "odr": 0
+    },
+    {
+      "menuid": "template2",
+      "templatetype": "crm",
+      "title": "ggddd",
+      "page": "",
+      "default": "",
+      "width": "150",
+      "menuopen": false,
+      "keepopen": false,
+      "position": "left",
+      "backcolor": "#4a6184",
+      "fontsize": "14px",
+      "theme": "cupertino",
+      "permissionname": "",
+      "permission": "",
+      "odr": 0
+    },
+    {
+      "menuid": "template3",
+      "templatetype": "common",
+      "title": "template2",
+      "page": "",
+      "default": "",
+      "width": "150",
+      "menuopen": false,
+      "keepopen": false,
+      "position": "left",
+      "backcolor": "#4a6184",
+      "fontsize": "14px",
+      "theme": "cupertino",
+      "permissionname": "",
+      "permission": "",
+      "odr": 1
+    },
+    {
+      "menuid": "template4",
+      "templatetype": "crm",
+      "title": "crm123",
+      "page": "",
+      "default": "",
+      "width": "150",
+      "menuopen": false,
+      "keepopen": false,
+      "position": "left",
+      "backcolor": "#4a6184",
+      "fontsize": "14px",
+      "theme": "cupertino",
+      "permissionname": "",
+      "permission": "",
+      "odr": 1
+    }
+  ],
+  "templatesubmenu": [
+    {
+      "comp": "1",
+      "menuid": "template0",
+      "module": "common",
+      "subid": "j17080918511",
+      "text": "commonsub",
+      "parent": "template0",
+      "icon": "fa-align-justify",
+      "tab": "selected:selectedNone",
+      "height": "",
+      "permissionname": "",
+      "permission": ""
+    },
+    {
+      "comp": "1",
+      "menuid": "2",
+      "subid": "ar17082785542",
+      "text": "testagain123",
+      "parent": "2",
+      "icon": "fa-align-justify",
+      "permissionname": "",
+      "permission": "",
+      "table": [
+        [
+          {
+            "id": 0,
+            "style": "vertical-align:top;:",
+            "dv": [
+              {
+                "id": "jc170824172747",
+                "style": "border-style: solid; cursor: move; width: 453px;",
+                "clas": "drag yellow1 form",
+                "txt": "Form"
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "style": "vertical-align:top;:",
+            "dv": [
+              {
+                "id": "dc17082785344",
+                "style": "border-style: solid; cursor: move; width: 309px;",
+                "clas": "drag yellow1 googlechart",
+                "txt": "Chart"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "id": 0,
+            "style": "vertical-align:top;:",
+            "dv": [
+              {
+                "id": "cc170828145737",
+                "style": "border-style: solid; cursor: move; width: 453px;",
+                "clas": "drag blue1 jstree",
+                "txt": "Tree"
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "style": "vertical-align:top"
+          }
+        ]
+      ],
+      "width": "468px,324px",
+      "tab": "tab",
+      "height": "",
+      "heightunit": "",
+      "archive": {
+        "type": "templatesubmenu",
+        "code": "ar17082785542",
+        "name": "testagain123",
+        "desc": ""
+      },
+      "desc": "",
+      "templatetype": "current"
+    }
+  ],
+  "templatecontrol": [
+    {
+      "menuid": "template1",
+      "subid": "j16102418314",
+      "dvid": "cc161024183255",
+      "data": {
+        "datacode": "dt160825151949",
+        "filter": [
+          [
+            "code",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "name",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "descript",
+            "",
+            "",
+            "",
+            "",
+            false
+          ],
+          [
+            "parentcode",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "compcode",
+            "",
+            [],
+            "",
+            "",
+            false
+          ]
+        ],
+        "field": []
+      },
+      "setting": {
+        "parent": "parentcode",
+        "topnode": "dv00000000",
+        "topname": "Top",
+        "value": "code",
+        "text": "name",
+        "icon": "",
+        "iconpic": "",
+        "width": "150",
+        "textbox": "txcc161024183255",
+        "valuebox": "inpcc161024183255",
+        "display": "none",
+        "plugin": []
+      },
+      "ctrtype": "jstree",
+      "templatetype": "common"
+    },
+    {
+      "menuid": "admin4",
+      "subid": "ar17080818816",
+      "dvid": "jc170808172324",
+      "title": "",
+      "formgrplist": "",
+      "colnum": "1",
+      "wrap": false,
+      "actsave": false,
+      "ctrlist": [
+        {
+          "seq": 1,
+          "subseq": 1,
+          "odr": "1",
+          "title": "test",
+          "functype": "none",
+          "ctrtype": "input",
+          "subctrtype": null,
+          "style": {
+            "ctrid": "jc170808172324",
+            "style": ""
+          }
+        }
+      ],
+      "ctrtype": "form",
+      "comp": "1"
+    },
+    {
+      "menuid": "admin4",
+      "subid": "ar170808181950",
+      "dvid": "cc170808181938",
+      "setting": {
+        "parent": "",
+        "topname": "Top",
+        "value": "",
+        "text": "",
+        "order": "",
+        "icon": "",
+        "iconpic": "",
+        "valprefix": "",
+        "width": null,
+        "textbox": "txcc170731182936",
+        "valuebox": "inpcc170731182936",
+        "includechild": false,
+        "display": "none",
+        "title": "",
+        "plugin": []
+      },
+      "ctrtype": "jstree",
+      "comp": "1",
+      "data": {
+        "datacode": "dt170731181834",
+        "filter": [
+          [
+            "dvcode",
+            "string",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "dvname",
+            "string",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "desc",
+            "string",
+            "",
+            "",
+            "",
+            "",
+            false
+          ],
+          [
+            "pcode",
+            "string",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "odr",
+            "string",
+            "",
+            "",
+            "",
+            "",
+            false
+          ]
+        ],
+        "field": []
+      },
+      "eventlist": []
+    },
+    {
+      "menuid": "admin4",
+      "subid": "ar170808181950",
+      "dvid": "lc170808181938",
+      "ctrtype": "html",
+      "setting": {
+        "html": "<i class=\"fa fa-link fa-lg imdim\"></i>",
+        "js": "$(\".fa-link\").click(function(){\n    var model=\"dt170731181834\";\n    pstatus = \"j170725173428\";\n    cdbmap.modelcode=model;\n    jsonReadMyAjax(\"imcdata\",mycomp,\"\",\"code\",model,connectdbcheck);\n});\n\n$(\".fa-link\").popover({\n    title:\"External Data Mapping\",\n    placement:\"bottom\",\n    trigger:\"hover\",\n    content:\"Connect external data source and batch input data!!\"\n});",
+        "style": ".popover{height:200px !important};"
+      },
+      "wrap": false,
+      "comp": "1"
+    },
+    {
+      "title": "",
+      "formgrplist": "",
+      "colnum": "1",
+      "wrap": true,
+      "actsave": false,
+      "ctrlist": [
+        {
+          "seq": 1,
+          "subseq": 1,
+          "title": "dvcode",
+          "mapdata": "dvcode",
+          "functype": "none",
+          "ctrtype": "label",
+          "style": {
+            "ctrid": "jc170731182941",
+            "style": ""
+          },
+          "label": "dvcode",
+          "keymake": true,
+          "keyprefix": "dv",
+          "formgroup": "",
+          "odr": "1"
+        },
+        {
+          "ctrtype": "input",
+          "odr": "2",
+          "seq": 2,
+          "title": "dvname",
+          "mapdata": "dvname"
+        },
+        {
+          "ctrtype": "input",
+          "odr": "3",
+          "seq": 3,
+          "title": "desc",
+          "mapdata": "desc",
+          "formgroup": ""
+        },
+        {
+          "ctrtype": "input",
+          "odr": "4",
+          "seq": 4,
+          "title": "pcode",
+          "mapdata": "pcode",
+          "formgroup": ""
+        }
+      ],
+      "data": {
+        "datacode": "dt170731181834",
+        "filter": [
+          [
+            "dvcode",
+            "string",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "dvname",
+            "string",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "desc",
+            "string",
+            "",
+            "",
+            "",
+            "",
+            false
+          ],
+          [
+            "pcode",
+            "string",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "odr",
+            "string",
+            "",
+            "",
+            "",
+            "",
+            false
+          ]
+        ],
+        "field": []
+      },
+      "ctrtype": "form",
+      "comp": "1",
+      "eventlist": [
+        {
+          "seq": "1",
+          "subseq": "1",
+          "code": "bt17073122464",
+          "title": "저장",
+          "object": "button",
+          "buttonname": "저장",
+          "buttonwidth": false,
+          "position": "bottomright",
+          "display": "show",
+          "action": "update",
+          "dataset": "dt170731181834",
+          "mapping": [
+            [
+              "dvcode",
+              "dvcode",
+              true
+            ],
+            [
+              "dvname",
+              "dvname",
+              false
+            ],
+            [
+              "desc",
+              "desc",
+              false
+            ],
+            [
+              "pcode",
+              "pcode",
+              false
+            ],
+            [
+              "odr",
+              null,
+              false
+            ]
+          ]
+        }
+      ],
+      "wrapname": "",
+      "type": "form",
+      "lastupdate": "2017-08-01T05:50:40.064Z",
+      "archive": {
+        "type": "form",
+        "code": "ar17080114508",
+        "name": "division form",
+        "desc": ""
+      },
+      "menuid": "admin4",
+      "subid": "ar170808181950",
+      "dvid": "jc170808181938"
+    },
+    {
+      "menuid": "2",
+      "subid": "ar17082785542",
+      "dvid": "jc170824172747",
+      "title": "",
+      "formgrplist": "",
+      "colnum": "1",
+      "wrap": false,
+      "actsave": false,
+      "ctrlist": [],
+      "eventlist": [
+        {
+          "seq": "1",
+          "subseq": "1",
+          "code": "bt17063011339",
+          "title": "act1",
+          "object": "button",
+          "buttonname": "rrr",
+          "buttonwidth": true,
+          "position": "bottomright",
+          "display": "show"
+        }
+      ],
+      "ctrtype": "form",
+      "comp": "1"
+    },
+    {
+      "menuid": "2",
+      "subid": "ar17082785542",
+      "dvid": "dc17082785344",
+      "data": {
+        "datacode": "dt16051018537",
+        "filter": [
+          [
+            "series",
+            "string",
+            "",
+            [],
+            "",
+            "ser",
+            false
+          ],
+          [
+            "period",
+            "datetime",
+            "",
+            [],
+            "",
+            "",
+            false
+          ],
+          [
+            "value",
+            "float",
+            "",
+            ":",
+            "",
+            "",
+            false
+          ]
+        ],
+        "field": [
+          [
+            "ser",
+            "series",
+            ""
+          ]
+        ]
+      },
+      "layout": [
+        {
+          "field": "value",
+          "type": "Value",
+          "datatype": "number",
+          "Format": "0",
+          "Sort": "",
+          "asc": "",
+          "order": "",
+          "Sum": "sum",
+          "": ""
+        },
+        {
+          "field": "period",
+          "type": "Axis",
+          "datatype": "string",
+          "Format": "",
+          "Sort": "",
+          "asc": "",
+          "order": "",
+          "Sum": "",
+          "": ""
+        }
+      ],
+      "ctrtype": "googlechart",
+      "setting": [
+        [
+          "Tab",
+          "tab"
+        ],
+        [
+          "Tabname",
+          ""
+        ],
+        [
+          "Height",
+          "400"
+        ]
+      ],
+      "comp": "1",
+      "stay": true,
+      "options": {
+        "hAxis": {
+          "useFormatFromData": true,
+          "minValue": null,
+          "maxValue": null,
+          "viewWindow": null,
+          "viewWindowMode": null
+        },
+        "legacyScatterChartLabels": true,
+        "legend": "right",
+        "vAxes": [
+          {
+            "title": null,
+            "minValue": null,
+            "maxValue": null,
+            "useFormatFromData": true,
+            "viewWindow": {
+              "max": null,
+              "min": null
+            }
+          },
+          {
+            "useFormatFromData": true,
+            "viewWindow": {
+              "max": null,
+              "min": null
+            },
+            "minValue": null,
+            "maxValue": null
+          }
+        ],
+        "curveType": "",
+        "booleanRole": "certainty",
+        "lineWidth": 2,
+        "width": "100%",
+        "height": 371
+      },
+      "chartType": "LineChart"
+    }
+  ],
+  "templatetype": [
+    {
+      "code": "common",
+      "name": "common"
+    },
+    {
+      "code": "crm",
+      "name": "crm"
+    }
+  ],
+  "statistics": [
+    {
+      "code": "regression",
+      "group": "analysis",
+      "column": "2",
+      "name": "regression",
+      "desc": "description form regression",
+      "model": "fit=lm(@y~@x)",
+      "predict": true,
+      "varlist": [
+        [
+          "dependent",
+          "@y",
+          ""
+        ],
+        [
+          "multiple",
+          "@x",
+          ""
+        ]
+      ],
+      "outlist": [
+        [
+          "1",
+          "t544",
+          "text",
+          "1",
+          "main",
+          "",
+          "fit=lm(@y~@x)",
+          "fit"
+        ],
+        [
+          "2",
+          "t346",
+          "text",
+          "1",
+          "stat eval",
+          "statistic model summary of this regression",
+          "sum=summary(fit)",
+          "sum"
+        ],
+        [
+          "3",
+          "t995",
+          "graph",
+          "1",
+          "plotting xy",
+          "plotting xy test",
+          "plot(@y,@x)",
+          ""
+        ],
+        [
+          "4",
+          "t771",
+          "graph",
+          "1",
+          "his",
+          "togram",
+          "hist(@x)\nhist(@y)",
+          ""
+        ]
+      ],
+      "lastupdate": "2016-12-13T04:46:13.266Z"
+    },
+    {
+      "code": "st161211145841",
+      "group": "predict",
+      "column": "1",
+      "name": "linear regression predict",
+      "desc": "",
+      "model": "",
+      "predict": true,
+      "varlist": [
+        [
+          "dependent",
+          "@y",
+          ""
+        ],
+        [
+          "multiple",
+          "@x",
+          ""
+        ]
+      ],
+      "outlist": [
+        [
+          "1",
+          "t784",
+          "text",
+          "1",
+          "main",
+          "",
+          "fit=lm(@y~@x)",
+          "fit"
+        ],
+        [
+          "2",
+          "t552",
+          "predict",
+          "1",
+          "prediction",
+          "",
+          "pred=predict(fit, newdata, interval='predict')",
+          "pred"
+        ]
+      ],
+      "lastupdate": "2016-12-14T09:10:31.408Z"
+    },
+    {
+      "code": "scattergram",
+      "group": "analysis",
+      "column": "2",
+      "name": "sta",
+      "desc": "",
+      "model": "",
+      "predict": false,
+      "varlist": [
+        [
+          "multiple",
+          "@x",
+          ""
+        ],
+        [
+          "multiple",
+          "@y",
+          ""
+        ]
+      ],
+      "outlist": [
+        [
+          "1",
+          "t471",
+          "graph",
+          "1",
+          "plot",
+          "",
+          "plot(@x,@y)",
+          ""
+        ]
+      ]
+    },
+    {
+      "code": "st161116182226",
+      "library": "",
+      "group": "analysis",
+      "column": "1",
+      "name": "plott",
+      "desc": "plotting diagram123",
+      "model": "",
+      "predict": false,
+      "varlist": [
+        [
+          "dependent",
+          "@x",
+          ""
+        ]
+      ],
+      "outlist": [
+        [
+          "1",
+          "t568",
+          "graph",
+          "1",
+          "boxplot",
+          "box plot the graph",
+          "Boxplot(@x,data=data,id.n=5)",
+          ""
+        ],
+        [
+          "2",
+          "t109",
+          "graph",
+          "1",
+          "qqplot",
+          "qq ploting this chart",
+          "qqPlot(@x,labels=row.names(data),id.n=5)",
+          ""
+        ]
+      ]
+    },
+    {
+      "code": "st180206112046",
+      "group": "neuralnet",
+      "name": "neural1",
+      "desc": "neural net work example",
+      "library": "datasets;neuralnet",
+      "isjson": false,
+      "pridict": false,
+      "varlist": [
+        {
+          "select": false,
+          "field": "education",
+          "varname": "",
+          "vartype": "variable"
+        },
+        {
+          "select": true,
+          "field": "age",
+          "varname": "@a",
+          "vartype": "multivariable"
+        },
+        {
+          "select": true,
+          "field": "parity",
+          "varname": "@a",
+          "vartype": "multivariable"
+        },
+        {
+          "select": true,
+          "field": "induced",
+          "varname": "@a",
+          "vartype": "multivariable"
+        },
+        {
+          "select": true,
+          "field": "case",
+          "varname": "@x",
+          "vartype": "dependent"
+        },
+        {
+          "select": true,
+          "field": "spontaneous",
+          "varname": "@a",
+          "vartype": "multivariable"
+        },
+        {
+          "select": false,
+          "field": "stratum",
+          "varname": "",
+          "vartype": "variable"
+        },
+        {
+          "select": false,
+          "field": "pooled.stratum",
+          "varname": "",
+          "vartype": "variable"
+        }
+      ],
+      "outlist": [
+        {
+          "select": false,
+          "model": "#  ------------------------------------------------------------------\n#  |PROGRAM NAME: NEURALNET_PKG_R\n#  |DATE: 12/3/10\n#  |CREATED BY: MATT BOGARD\n#  |PROJECT FILE:   P:\\R  Code References\\Data Mining_R\n#  |----------------------------------------------------------------\n#  | PURPOSE: DEMO OF THE 'neuralnet' PACKAGE AND OUTPUT INTERPRETATION\n#  |\n#  |  ADAPTED FROM:  neuralnet: Training of Neural Networks\n#  |    by Frauke Günther and Stefan Fritsch The R Journal Vol. 2/1, June 2010\n#  |    ISSN 2073-4859  (LOCATED: P:\\TOOLS AND REFERENCES (Copy)\\R References\\Neural Networks\n#  |\n#  |\n#  |------------------------------------------------------------------\n#  |DATA USED: 'infert' FROM THE 'datasets' LIBRARY\n#  |------------------------------------------------------------------\n#  |CONTENTS:\n#  |\n#  |  PART 1: get the data\n#  |  PART 2: train the network\n#  |  PART 3:\n#  |  PART 4:\n#  |  PART 5:\n#  |------------------------------------------------------------------\n#  |COMMENTS:\n#  |\n#  |-----------------------------------------------------------------\n#  |UPDATES:\n#  |\n#  |\n#  |------------------------------------------------------------------\n\n#  *------------------------------------------------------------------*\n#  | get the data\n#  *------------------------------------------------------------------*",
+          "type": "remark",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "library(datasets)",
+          "type": "text",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "names(infert)",
+          "type": "text",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "#  *------------------------------------------------------------------*\n#  | train the network\n#  *------------------------------------------------------------------*\n# 추가로 하나더",
+          "type": "remark",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "library(neuralnet)",
+          "type": "text",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "nn <- neuralnet(\n@x~@a,\ndata=@dt, hidden=2, err.fct=\"ce\",\nlinear.output=FALSE)",
+          "script": "nn <- neuralnet(\ncase~age+parity+induced+spontaneous,\ndata=infert, hidden=2, err.fct=\"ce\",\nlinear.output=FALSE)",
+          "type": "text",
+          "outname": "nn ",
+          "multivarstyle": "@+"
+        },
+        {
+          "select": false,
+          "model": "#  *------------------------------------------------------------------*\n#  | output training results\n#  *------------------------------------------------------------------*\n\n# basic",
+          "type": "remark",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "nn",
+          "type": "text",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "# reults options",
+          "type": "remark",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "names(nn)",
+          "type": "text",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "# result matrix",
+          "type": "remark",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "nn$result.matrix",
+          "type": "text",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "# The given data is saved in nn$covariate and\n# nn$response as well as in nn$data for the whole data\n# set inclusive non-used variables. The output of the\n# neural network, i.e. the fitted values o(x), is provided\n# by nn$net.result:",
+          "type": "remark",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "out <- cbind(nn$covariate,nn$net.result[[1]])",
+          "type": "text",
+          "outname": "out ",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "dimnames(out) <- list(NULL, c(@a))",
+          "script": "dimnames(out) <- list(NULL, c(\"age,parity,induced,spontaneous\"))",
+          "type": "text",
+          "outname": "dimnames(out) ",
+          "multivarstyle": "\"@a\","
+        },
+        {
+          "select": false,
+          "model": "head(out)",
+          "type": "text",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "# generalized weights\n\n# The generalized weight expresses the effect of each\n# ovariate xi and thus has an analogous interpretation\n# as the ith regression parameter in regression models.\n# However, the generalized weight depends on all\n# other covariates. Its distribution indicates whether\n# the effect of the covariate is linear since a small variance\n# suggests a linear effect\n\n# The columns refer to the four covariates age (j =\n# 1), parity (j = 2), induced (j = 3), and spontaneous (j=4)",
+          "type": "remark",
+          "outname": "# generalized weights# The generalized weight expresses the effect of each# ovariate xi and thus has an analogous interpretation# as the ith regression parameter in regression models.# However, the generalized weight depends on all# other covariates. Its distribution indicates whether# the effect of the covariate is linear since a small variance# suggests a linear effect# The columns refer to the four covariates age (j ",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "head(nn$generalized.weights[[1]])",
+          "type": "text",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "# visualization",
+          "type": "remark",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": true,
+          "model": "plot(nn,rep=\"best\")",
+          "type": "graphic",
+          "outname": "1",
+          "multivarstyle": ""
+        }
+      ],
+      "modelrun": [
+        {
+          "select": false,
+          "model": "#  ------------------------------------------------------------------\n#  |PROGRAM NAME: NEURALNET_PKG_R\n#  |DATE: 12/3/10\n#  |CREATED BY: MATT BOGARD\n#  |PROJECT FILE:   P:\\R  Code References\\Data Mining_R\n#  |----------------------------------------------------------------\n#  | PURPOSE: DEMO OF THE 'neuralnet' PACKAGE AND OUTPUT INTERPRETATION\n#  |\n#  |  ADAPTED FROM:  neuralnet: Training of Neural Networks\n#  |    by Frauke Günther and Stefan Fritsch The R Journal Vol. 2/1, June 2010\n#  |    ISSN 2073-4859  (LOCATED: P:\\TOOLS AND REFERENCES (Copy)\\R References\\Neural Networks\n#  |\n#  |\n#  |------------------------------------------------------------------\n#  |DATA USED: 'infert' FROM THE 'datasets' LIBRARY\n#  |------------------------------------------------------------------\n#  |CONTENTS:\n#  |\n#  |  PART 1: get the data\n#  |  PART 2: train the network\n#  |  PART 3:\n#  |  PART 4:\n#  |  PART 5:\n#  |------------------------------------------------------------------\n#  |COMMENTS:\n#  |\n#  |-----------------------------------------------------------------\n#  |UPDATES:\n#  |\n#  |\n#  |------------------------------------------------------------------\n\n#  *------------------------------------------------------------------*\n#  | get the data\n#  *------------------------------------------------------------------*",
+          "type": "remark",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "library(datasets)",
+          "type": "text",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "names(infert)",
+          "type": "text",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "#  *------------------------------------------------------------------*\n#  | train the network\n#  *------------------------------------------------------------------*\n# 추가로 하나더",
+          "type": "remark",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "library(neuralnet)",
+          "type": "text",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "nn <- neuralnet(\n@x~@a,\ndata=@dt, hidden=2, err.fct=\"ce\",\nlinear.output=FALSE)",
+          "script": "nn <- neuralnet(\ncase~age+parity+induced+spontaneous,\ndata=infert, hidden=2, err.fct=\"ce\",\nlinear.output=FALSE)",
+          "type": "text",
+          "outname": "nn ",
+          "multivarstyle": "@+"
+        },
+        {
+          "select": false,
+          "model": "#  *------------------------------------------------------------------*\n#  | output training results\n#  *------------------------------------------------------------------*\n\n# basic",
+          "type": "remark",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "nn",
+          "type": "text",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "# reults options",
+          "type": "remark",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "names(nn)",
+          "type": "text",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "# result matrix",
+          "type": "remark",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "nn$result.matrix",
+          "type": "text",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "# The given data is saved in nn$covariate and\n# nn$response as well as in nn$data for the whole data\n# set inclusive non-used variables. The output of the\n# neural network, i.e. the fitted values o(x), is provided\n# by nn$net.result:",
+          "type": "remark",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "out <- cbind(nn$covariate,nn$net.result[[1]])",
+          "type": "text",
+          "outname": "out ",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "dimnames(out) <- list(NULL, c(@a))",
+          "script": "dimnames(out) <- list(NULL, c(\"age,parity,induced,spontaneous\"))",
+          "type": "text",
+          "outname": "dimnames(out) ",
+          "multivarstyle": "\"@a\","
+        },
+        {
+          "select": false,
+          "model": "head(out)",
+          "type": "text",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "# generalized weights\n\n# The generalized weight expresses the effect of each\n# ovariate xi and thus has an analogous interpretation\n# as the ith regression parameter in regression models.\n# However, the generalized weight depends on all\n# other covariates. Its distribution indicates whether\n# the effect of the covariate is linear since a small variance\n# suggests a linear effect\n\n# The columns refer to the four covariates age (j =\n# 1), parity (j = 2), induced (j = 3), and spontaneous (j=4)",
+          "type": "remark",
+          "outname": "# generalized weights# The generalized weight expresses the effect of each# ovariate xi and thus has an analogous interpretation# as the ith regression parameter in regression models.# However, the generalized weight depends on all# other covariates. Its distribution indicates whether# the effect of the covariate is linear since a small variance# suggests a linear effect# The columns refer to the four covariates age (j ",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "head(nn$generalized.weights[[1]])",
+          "type": "text",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "# visualization",
+          "type": "remark",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": true,
+          "model": "plot(nn,rep=\"best\")",
+          "type": "graphic",
+          "outname": "1",
+          "multivarstyle": ""
+        }
+      ],
+      "dataset": "datasets;infert",
+      "sessiondate": "Tue Feb 06 2018 11:29:50 GMT+0900 (Japan Standard Time)",
+      "sessiondata": "/ocpu/tmp/x0098082d64/R/identity\n/ocpu/tmp/x0098082d64/R/nn\n/ocpu/tmp/x0098082d64/R/out\n/ocpu/tmp/x0098082d64/R/.val\n/ocpu/tmp/x0098082d64/graphics/1\n/ocpu/tmp/x0098082d64/source\n/ocpu/tmp/x0098082d64/console\n/ocpu/tmp/x0098082d64/info\n/ocpu/tmp/x0098082d64/files/DESCRIPTION\n",
+      "batchscript": "#  ------------------------------------------------------------------\n#  |PROGRAM NAME: NEURALNET_PKG_R\n#  |DATE: 12/3/10\n#  |CREATED BY: MATT BOGARD \n#  |PROJECT FILE:   P:\\R  Code References\\Data Mining_R           \n#  |----------------------------------------------------------------\n#  | PURPOSE: DEMO OF THE 'neuralnet' PACKAGE AND OUTPUT INTERPRETATION              \n#  | \n#  |  ADAPTED FROM:  neuralnet: Training of Neural Networks\n#  |    by Frauke Günther and Stefan Fritsch The R Journal Vol. 2/1, June 2010 \n#  |    ISSN 2073-4859  (LOCATED: P:\\TOOLS AND REFERENCES (Copy)\\R References\\Neural Networks\n#  | \n#  | \n#  |------------------------------------------------------------------\n#  |DATA USED: 'infert' FROM THE 'datasets' LIBRARY              \n#  |------------------------------------------------------------------\n#  |CONTENTS:               \n#  |\n#  |  PART 1: get the data \n#  |  PART 2: train the network\n#  |  PART 3: \n#  |  PART 4: \n#  |  PART 5: \n#  |------------------------------------------------------------------\n#  |COMMENTS:               \n#  |\n#  |-----------------------------------------------------------------\n#  |UPDATES:               \n#  |\n#  |\n#  |------------------------------------------------------------------\n \n#  *------------------------------------------------------------------*\n#  | get the data\n#  *------------------------------------------------------------------* \n \nlibrary(datasets)\n \nnames(infert)\n \n#  *------------------------------------------------------------------*\n#  | train the network\n#  *------------------------------------------------------------------* \n \nlibrary(neuralnet)\n \nnn <- neuralnet(\n case~age+parity+induced+spontaneous,\n data=infert, hidden=2, err.fct=\"ce\",\n linear.output=FALSE)\n \n#  *------------------------------------------------------------------*\n#  | output training results\n#  *------------------------------------------------------------------*  \n \n# basic\nnn\n \n# reults options\nnames(nn)\n \n \n# result matrix\n \nnn$result.matrix\n \n# The given data is saved in nn$covariate and\n# nn$response as well as in nn$data for the whole data\n# set inclusive non-used variables. The output of the\n# neural network, i.e. the fitted values o(x), is provided\n# by nn$net.result:\n \nout <- cbind(nn$covariate,nn$net.result[[1]])\n \ndimnames(out) <- list(NULL, c(\"age\", \"parity\",\"induced\",\"spontaneous\",\"nn-output\"))\n \nhead(out)\n \n# generalized weights\n \n# The generalized weight expresses the effect of each\n# ovariate xi and thus has an analogous interpretation\n# as the ith regression parameter in regression models.\n# However, the generalized weight depends on all\n# other covariates. Its distribution indicates whether\n# the effect of the covariate is linear since a small variance\n# suggests a linear effect\n \n# The columns refer to the four covariates age (j =\n# 1), parity (j = 2), induced (j = 3), and spontaneous (j=4)\n \nhead(nn$generalized.weights[[1]])\n \n# visualization\n \nplot(nn,rep=\"best\")"
+    }
+  ],
+  "lastupdate": "2017-08-28T05:57:48.399Z",
+  "rstat": [
+    {
+      "data": {
+        "datacode": "dt1706011639",
+        "filter": [
+          [
+            "id",
+            "int",
+            "",
+            ":",
+            "",
+            "",
+            false
+          ],
+          [
+            "num",
+            "int",
+            "",
+            ":",
+            "",
+            "",
+            false
+          ]
+        ],
+        "field": []
+      },
+      "tablist": [
+        {
+          "index": 0,
+          "id": "001ar171126215844",
+          "name": "Stat",
+          "column": "1",
+          "tabname": "Stat",
+          "predictarr": [],
+          "varlist": [
+            {
+              "varname": "@x",
+              "vartype": "multiple",
+              "imgid": "id",
+              "imgsrc": "/images/string1.gif"
+            },
+            {
+              "varname": "@y",
+              "vartype": "multiple",
+              "imgid": "num",
+              "imgsrc": "/images/string1.gif"
+            }
+          ],
+          "outlist": [
+            [
+              "1",
+              "t471",
+              "graph",
+              "1",
+              "plot",
+              "",
+              "plot(id,num)",
+              ""
+            ]
+          ],
+          "outorder": [
+            {
+              "code": "t471",
+              "type": "graph",
+              "column": "1",
+              "name": "plot",
+              "desc": "",
+              "model": "plot(id,num)",
+              "outname": 1,
+              "url": "https://public.opencpu.org/ocpu/tmp/x0aa75f1c68/graphics/1",
+              "odr": 0
+            }
+          ],
+          "cmd": "",
+          "tabsetting": [
+            [
+              "autoheight",
+              ""
+            ],
+            [
+              "height",
+              ""
+            ],
+            [
+              "hide",
+              ""
+            ],
+            [
+              "wrapcontrol",
+              "true"
+            ],
+            [
+              "wrapname",
+              ""
+            ]
+          ],
+          "modelcode": "scattergram"
+        },
+        ""
+      ],
+      "opencputmp": [
+        {
+          "tabname": "Stat",
+          "data": "/ocpu/tmp/x09e76c40b3/R/data\n/ocpu/tmp/x09e76c40b3/R/identity\n/ocpu/tmp/x09e76c40b3/R/.val\n/ocpu/tmp/x09e76c40b3/graphics/1\n/ocpu/tmp/x09e76c40b3/source\n/ocpu/tmp/x09e76c40b3/console\n/ocpu/tmp/x09e76c40b3/info\n/ocpu/tmp/x09e76c40b3/files/DESCRIPTION\n",
+          "date": "2017-11-26T08:33:31.129Z"
+        },
+        {
+          "tabname": "001mc171123174433",
+          "data": "/ocpu/tmp/x043fc25653/R/data\n/ocpu/tmp/x043fc25653/R/identity\n/ocpu/tmp/x043fc25653/R/.val\n/ocpu/tmp/x043fc25653/source\n/ocpu/tmp/x043fc25653/console\n/ocpu/tmp/x043fc25653/info\n/ocpu/tmp/x043fc25653/files/DESCRIPTION\n",
+          "date": "2017-11-25T07:50:25.863Z"
+        },
+        {
+          "tabname": "stat3",
+          "data": "/ocpu/tmp/x024601a89a/R/data\n/ocpu/tmp/x024601a89a/R/fit\n/ocpu/tmp/x024601a89a/R/identity\n/ocpu/tmp/x024601a89a/R/sum\n/ocpu/tmp/x024601a89a/R/.val\n/ocpu/tmp/x024601a89a/graphics/1\n/ocpu/tmp/x024601a89a/graphics/2\n/ocpu/tmp/x024601a89a/graphics/3\n/ocpu/tmp/x024601a89a/source\n/ocpu/tmp/x024601a89a/console\n/ocpu/tmp/x024601a89a/info\n/ocpu/tmp/x024601a89a/files/DESCRIPTION\n",
+          "date": "2017-11-26T12:55:00.628Z"
+        },
+        {
+          "tabname": "001ar171126215844",
+          "data": "/ocpu/tmp/x0aa75f1c68/R/data\n/ocpu/tmp/x0aa75f1c68/R/identity\n/ocpu/tmp/x0aa75f1c68/R/.val\n/ocpu/tmp/x0aa75f1c68/graphics/1\n/ocpu/tmp/x0aa75f1c68/source\n/ocpu/tmp/x0aa75f1c68/console\n/ocpu/tmp/x0aa75f1c68/info\n/ocpu/tmp/x0aa75f1c68/files/DESCRIPTION\n",
+          "date": "2017-11-26T13:01:07.748Z"
+        }
+      ],
+      "ctrtype": "rstat",
+      "comp": "1",
+      "type": "rstat",
+      "code": "ar171126215923",
+      "name": "test",
+      "desc": ""
+    }
+  ]
+}

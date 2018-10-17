@@ -1,0 +1,4746 @@
+[
+  {
+    "section": "new",
+    "icon": "fa-american-sign-language-interpreting",
+    "font": "&#xf2a3;"
+  },
+  {
+    "section": "new",
+    "icon": "fa-asl-interpreting",
+    "font": "&#xf2a3;"
+  },
+  {
+    "section": "new",
+    "icon": "fa-assistive-listening-systems",
+    "font": "&#xf2a2;"
+  },
+  {
+    "section": "new",
+    "icon": "fa-audio-description",
+    "font": "&#xf29e;"
+  },
+  {
+    "section": "new",
+    "icon": "fa-blind",
+    "font": "&#xf29d;"
+  },
+  {
+    "section": "new",
+    "icon": "fa-braille",
+    "font": "&#xf2a1;"
+  },
+  {
+    "section": "new",
+    "icon": "fa-deaf",
+    "font": "&#xf2a4;"
+  },
+  {
+    "section": "new",
+    "icon": "fa-deafness",
+    "font": "&#xf2a4;"
+  },
+  {
+    "section": "new",
+    "icon": "fa-envira",
+    "font": "&#xf299;"
+  },
+  {
+    "section": "new",
+    "icon": "fa-fa",
+    "font": "&#xf2b4;"
+  },
+  {
+    "section": "new",
+    "icon": "fa-first-order",
+    "font": "&#xf2b0;"
+  },
+  {
+    "section": "new",
+    "icon": "fa-font-awesome",
+    "font": "&#xf2b4;"
+  },
+  {
+    "section": "new",
+    "icon": "fa-gitlab",
+    "font": "&#xf296;"
+  },
+  {
+    "section": "new",
+    "icon": "fa-glide",
+    "font": "&#xf2a5;"
+  },
+  {
+    "section": "new",
+    "icon": "fa-glide-g",
+    "font": "&#xf2a6;"
+  },
+  {
+    "section": "new",
+    "icon": "fa-google-plus-circle",
+    "font": "&#xf2b3;"
+  },
+  {
+    "section": "new",
+    "icon": "fa-google-plus-official",
+    "font": "&#xf2b3;"
+  },
+  {
+    "section": "new",
+    "icon": "fa-hard-of-hearing",
+    "font": "&#xf2a4;"
+  },
+  {
+    "section": "new",
+    "icon": "fa-instagram",
+    "font": "&#xf16d;"
+  },
+  {
+    "section": "new",
+    "icon": "fa-low-vision",
+    "font": "&#xf2a8;"
+  },
+  {
+    "section": "new",
+    "icon": "fa-pied-piper",
+    "font": "&#xf2ae;"
+  },
+  {
+    "section": "new",
+    "icon": "fa-question-circle-o",
+    "font": "&#xf29c;"
+  },
+  {
+    "section": "new",
+    "icon": "fa-sign-language",
+    "font": "&#xf2a7;"
+  },
+  {
+    "section": "new",
+    "icon": "fa-signing",
+    "font": "&#xf2a7;"
+  },
+  {
+    "section": "new",
+    "icon": "fa-snapchat",
+    "font": "&#xf2ab;"
+  },
+  {
+    "section": "new",
+    "icon": "fa-snapchat-ghost",
+    "font": "&#xf2ac;"
+  },
+  {
+    "section": "new",
+    "icon": "fa-snapchat-square",
+    "font": "&#xf2ad;"
+  },
+  {
+    "section": "new",
+    "icon": "fa-themeisle",
+    "font": "&#xf2b2;"
+  },
+  {
+    "section": "new",
+    "icon": "fa-universal-access",
+    "font": "&#xf29a;"
+  },
+  {
+    "section": "new",
+    "icon": "fa-viadeo",
+    "font": "&#xf2a9;"
+  },
+  {
+    "section": "new",
+    "icon": "fa-viadeo-square",
+    "font": "&#xf2aa;"
+  },
+  {
+    "section": "new",
+    "icon": "fa-volume-control-phone",
+    "font": "&#xf2a0;"
+  },
+  {
+    "section": "new",
+    "icon": "fa-wheelchair-alt",
+    "font": "&#xf29b;"
+  },
+  {
+    "section": "new",
+    "icon": "fa-wpbeginner",
+    "font": "&#xf297;"
+  },
+  {
+    "section": "new",
+    "icon": "fa-wpforms",
+    "font": "&#xf298;"
+  },
+  {
+    "section": "new",
+    "icon": "fa-yoast",
+    "font": "&#xf2b1;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-adjust",
+    "font": "&#xf042;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-american-sign-language-interpreting",
+    "font": "&#xf2a3;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-anchor",
+    "font": "&#xf13d;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-archive",
+    "font": "&#xf187;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-area-chart",
+    "font": "&#xf1fe;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-arrows",
+    "font": "&#xf047;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-arrows-h",
+    "font": "&#xf07e;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-arrows-v",
+    "font": "&#xf07d;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-asl-interpreting",
+    "font": "&#xf2a3;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-assistive-listening-systems",
+    "font": "&#xf2a2;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-asterisk",
+    "font": "&#xf069;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-at",
+    "font": "&#xf1fa;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-audio-description",
+    "font": "&#xf29e;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-automobile",
+    "font": "&#xf1b9;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-balance-scale",
+    "font": "&#xf24e;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-ban",
+    "font": "&#xf05e;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-bank",
+    "font": "&#xf19c;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-bar-chart",
+    "font": "&#xf080;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-bar-chart-o",
+    "font": "&#xf080;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-barcode",
+    "font": "&#xf02a;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-bars",
+    "font": "&#xf0c9;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-battery-0",
+    "font": "&#xf244;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-battery-1",
+    "font": "&#xf243;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-battery-2",
+    "font": "&#xf242;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-battery-3",
+    "font": "&#xf241;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-battery-4",
+    "font": "&#xf240;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-battery-empty",
+    "font": "&#xf244;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-battery-full",
+    "font": "&#xf240;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-battery-half",
+    "font": "&#xf242;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-battery-quarter",
+    "font": "&#xf243;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-battery-three-quarters",
+    "font": "&#xf241;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-bed",
+    "font": "&#xf236;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-beer",
+    "font": "&#xf0fc;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-bell",
+    "font": "&#xf0f3;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-bell-o",
+    "font": "&#xf0a2;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-bell-slash",
+    "font": "&#xf1f6;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-bell-slash-o",
+    "font": "&#xf1f7;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-bicycle",
+    "font": "&#xf206;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-binoculars",
+    "font": "&#xf1e5;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-birthday-cake",
+    "font": "&#xf1fd;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-blind",
+    "font": "&#xf29d;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-bluetooth",
+    "font": "&#xf293;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-bluetooth-b",
+    "font": "&#xf294;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-bolt",
+    "font": "&#xf0e7;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-bomb",
+    "font": "&#xf1e2;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-book",
+    "font": "&#xf02d;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-bookmark",
+    "font": "&#xf02e;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-bookmark-o",
+    "font": "&#xf097;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-braille",
+    "font": "&#xf2a1;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-briefcase",
+    "font": "&#xf0b1;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-bug",
+    "font": "&#xf188;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-building",
+    "font": "&#xf1ad;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-building-o",
+    "font": "&#xf0f7;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-bullhorn",
+    "font": "&#xf0a1;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-bullseye",
+    "font": "&#xf140;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-bus",
+    "font": "&#xf207;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-cab",
+    "font": "&#xf1ba;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-calculator",
+    "font": "&#xf1ec;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-calendar",
+    "font": "&#xf073;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-calendar-check-o",
+    "font": "&#xf274;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-calendar-minus-o",
+    "font": "&#xf272;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-calendar-o",
+    "font": "&#xf133;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-calendar-plus-o",
+    "font": "&#xf271;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-calendar-times-o",
+    "font": "&#xf273;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-camera",
+    "font": "&#xf030;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-camera-retro",
+    "font": "&#xf083;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-car",
+    "font": "&#xf1b9;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-caret-square-o-down",
+    "font": "&#xf150;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-caret-square-o-left",
+    "font": "&#xf191;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-caret-square-o-right",
+    "font": "&#xf152;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-caret-square-o-up",
+    "font": "&#xf151;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-cart-arrow-down",
+    "font": "&#xf218;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-cart-plus",
+    "font": "&#xf217;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-cc",
+    "font": "&#xf20a;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-certificate",
+    "font": "&#xf0a3;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-check",
+    "font": "&#xf00c;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-check-circle",
+    "font": "&#xf058;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-check-circle-o",
+    "font": "&#xf05d;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-check-square",
+    "font": "&#xf14a;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-check-square-o",
+    "font": "&#xf046;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-child",
+    "font": "&#xf1ae;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-circle",
+    "font": "&#xf111;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-circle-o",
+    "font": "&#xf10c;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-circle-o-notch",
+    "font": "&#xf1ce;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-circle-thin",
+    "font": "&#xf1db;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-clock-o",
+    "font": "&#xf017;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-clone",
+    "font": "&#xf24d;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-close",
+    "font": "&#xf00d;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-cloud",
+    "font": "&#xf0c2;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-cloud-download",
+    "font": "&#xf0ed;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-cloud-upload",
+    "font": "&#xf0ee;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-code",
+    "font": "&#xf121;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-code-fork",
+    "font": "&#xf126;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-coffee",
+    "font": "&#xf0f4;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-cog",
+    "font": "&#xf013;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-cogs",
+    "font": "&#xf085;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-comment",
+    "font": "&#xf075;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-comment-o",
+    "font": "&#xf0e5;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-commenting",
+    "font": "&#xf27a;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-commenting-o",
+    "font": "&#xf27b;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-comments",
+    "font": "&#xf086;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-comments-o",
+    "font": "&#xf0e6;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-compass",
+    "font": "&#xf14e;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-copyright",
+    "font": "&#xf1f9;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-creative-commons",
+    "font": "&#xf25e;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-credit-card",
+    "font": "&#xf09d;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-credit-card-alt",
+    "font": "&#xf283;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-crop",
+    "font": "&#xf125;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-crosshairs",
+    "font": "&#xf05b;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-cube",
+    "font": "&#xf1b2;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-cubes",
+    "font": "&#xf1b3;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-cutlery",
+    "font": "&#xf0f5;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-dashboard",
+    "font": "&#xf0e4;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-database",
+    "font": "&#xf1c0;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-deaf",
+    "font": "&#xf2a4;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-deafness",
+    "font": "&#xf2a4;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-desktop",
+    "font": "&#xf108;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-diamond",
+    "font": "&#xf219;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-dot-circle-o",
+    "font": "&#xf192;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-download",
+    "font": "&#xf019;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-edit",
+    "font": "&#xf044;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-ellipsis-h",
+    "font": "&#xf141;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-ellipsis-v",
+    "font": "&#xf142;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-envelope",
+    "font": "&#xf0e0;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-envelope-o",
+    "font": "&#xf003;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-envelope-square",
+    "font": "&#xf199;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-eraser",
+    "font": "&#xf12d;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-exchange",
+    "font": "&#xf0ec;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-exclamation",
+    "font": "&#xf12a;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-exclamation-circle",
+    "font": "&#xf06a;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-exclamation-triangle",
+    "font": "&#xf071;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-external-link",
+    "font": "&#xf08e;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-external-link-square",
+    "font": "&#xf14c;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-eye",
+    "font": "&#xf06e;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-eye-slash",
+    "font": "&#xf070;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-eyedropper",
+    "font": "&#xf1fb;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-fax",
+    "font": "&#xf1ac;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-feed",
+    "font": "&#xf09e;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-female",
+    "font": "&#xf182;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-fighter-jet",
+    "font": "&#xf0fb;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-file-archive-o",
+    "font": "&#xf1c6;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-file-audio-o",
+    "font": "&#xf1c7;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-file-code-o",
+    "font": "&#xf1c9;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-file-excel-o",
+    "font": "&#xf1c3;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-file-image-o",
+    "font": "&#xf1c5;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-file-movie-o",
+    "font": "&#xf1c8;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-file-pdf-o",
+    "font": "&#xf1c1;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-file-photo-o",
+    "font": "&#xf1c5;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-file-picture-o",
+    "font": "&#xf1c5;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-file-powerpoint-o",
+    "font": "&#xf1c4;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-file-sound-o",
+    "font": "&#xf1c7;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-file-video-o",
+    "font": "&#xf1c8;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-file-word-o",
+    "font": "&#xf1c2;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-file-zip-o",
+    "font": "&#xf1c6;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-film",
+    "font": "&#xf008;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-filter",
+    "font": "&#xf0b0;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-fire",
+    "font": "&#xf06d;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-fire-extinguisher",
+    "font": "&#xf134;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-flag",
+    "font": "&#xf024;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-flag-checkered",
+    "font": "&#xf11e;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-flag-o",
+    "font": "&#xf11d;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-flash",
+    "font": "&#xf0e7;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-flask",
+    "font": "&#xf0c3;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-folder",
+    "font": "&#xf07b;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-folder-o",
+    "font": "&#xf114;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-folder-open",
+    "font": "&#xf07c;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-folder-open-o",
+    "font": "&#xf115;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-frown-o",
+    "font": "&#xf119;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-futbol-o",
+    "font": "&#xf1e3;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-gamepad",
+    "font": "&#xf11b;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-gavel",
+    "font": "&#xf0e3;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-gear",
+    "font": "&#xf013;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-gears",
+    "font": "&#xf085;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-gift",
+    "font": "&#xf06b;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-glass",
+    "font": "&#xf000;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-globe",
+    "font": "&#xf0ac;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-graduation-cap",
+    "font": "&#xf19d;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-group",
+    "font": "&#xf0c0;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-hand-grab-o",
+    "font": "&#xf255;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-hand-lizard-o",
+    "font": "&#xf258;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-hand-paper-o",
+    "font": "&#xf256;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-hand-peace-o",
+    "font": "&#xf25b;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-hand-pointer-o",
+    "font": "&#xf25a;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-hand-rock-o",
+    "font": "&#xf255;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-hand-scissors-o",
+    "font": "&#xf257;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-hand-spock-o",
+    "font": "&#xf259;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-hand-stop-o",
+    "font": "&#xf256;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-hard-of-hearing",
+    "font": "&#xf2a4;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-hashtag",
+    "font": "&#xf292;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-hdd-o",
+    "font": "&#xf0a0;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-headphones",
+    "font": "&#xf025;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-heart",
+    "font": "&#xf004;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-heart-o",
+    "font": "&#xf08a;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-heartbeat",
+    "font": "&#xf21e;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-history",
+    "font": "&#xf1da;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-home",
+    "font": "&#xf015;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-hotel",
+    "font": "&#xf236;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-hourglass",
+    "font": "&#xf254;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-hourglass-1",
+    "font": "&#xf251;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-hourglass-2",
+    "font": "&#xf252;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-hourglass-3",
+    "font": "&#xf253;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-hourglass-end",
+    "font": "&#xf253;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-hourglass-half",
+    "font": "&#xf252;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-hourglass-o",
+    "font": "&#xf250;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-hourglass-start",
+    "font": "&#xf251;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-i-cursor",
+    "font": "&#xf246;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-image",
+    "font": "&#xf03e;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-inbox",
+    "font": "&#xf01c;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-industry",
+    "font": "&#xf275;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-info",
+    "font": "&#xf129;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-info-circle",
+    "font": "&#xf05a;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-institution",
+    "font": "&#xf19c;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-key",
+    "font": "&#xf084;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-keyboard-o",
+    "font": "&#xf11c;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-language",
+    "font": "&#xf1ab;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-laptop",
+    "font": "&#xf109;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-leaf",
+    "font": "&#xf06c;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-legal",
+    "font": "&#xf0e3;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-lemon-o",
+    "font": "&#xf094;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-level-down",
+    "font": "&#xf149;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-level-up",
+    "font": "&#xf148;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-life-bouy",
+    "font": "&#xf1cd;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-life-buoy",
+    "font": "&#xf1cd;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-life-ring",
+    "font": "&#xf1cd;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-life-saver",
+    "font": "&#xf1cd;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-lightbulb-o",
+    "font": "&#xf0eb;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-line-chart",
+    "font": "&#xf201;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-location-arrow",
+    "font": "&#xf124;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-lock",
+    "font": "&#xf023;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-low-vision",
+    "font": "&#xf2a8;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-magic",
+    "font": "&#xf0d0;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-magnet",
+    "font": "&#xf076;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-mail-forward",
+    "font": "&#xf064;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-mail-reply",
+    "font": "&#xf112;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-mail-reply-all",
+    "font": "&#xf122;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-male",
+    "font": "&#xf183;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-map",
+    "font": "&#xf279;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-map-marker",
+    "font": "&#xf041;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-map-o",
+    "font": "&#xf278;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-map-pin",
+    "font": "&#xf276;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-map-signs",
+    "font": "&#xf277;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-meh-o",
+    "font": "&#xf11a;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-microphone",
+    "font": "&#xf130;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-microphone-slash",
+    "font": "&#xf131;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-minus",
+    "font": "&#xf068;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-minus-circle",
+    "font": "&#xf056;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-minus-square",
+    "font": "&#xf146;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-minus-square-o",
+    "font": "&#xf147;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-mobile",
+    "font": "&#xf10b;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-mobile-phone",
+    "font": "&#xf10b;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-money",
+    "font": "&#xf0d6;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-moon-o",
+    "font": "&#xf186;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-mortar-board",
+    "font": "&#xf19d;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-motorcycle",
+    "font": "&#xf21c;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-mouse-pointer",
+    "font": "&#xf245;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-music",
+    "font": "&#xf001;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-navicon",
+    "font": "&#xf0c9;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-newspaper-o",
+    "font": "&#xf1ea;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-object-group",
+    "font": "&#xf247;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-object-ungroup",
+    "font": "&#xf248;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-paint-brush",
+    "font": "&#xf1fc;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-paper-plane",
+    "font": "&#xf1d8;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-paper-plane-o",
+    "font": "&#xf1d9;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-paw",
+    "font": "&#xf1b0;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-pencil",
+    "font": "&#xf040;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-pencil-square",
+    "font": "&#xf14b;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-pencil-square-o",
+    "font": "&#xf044;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-percent",
+    "font": "&#xf295;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-phone",
+    "font": "&#xf095;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-phone-square",
+    "font": "&#xf098;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-photo",
+    "font": "&#xf03e;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-picture-o",
+    "font": "&#xf03e;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-pie-chart",
+    "font": "&#xf200;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-plane",
+    "font": "&#xf072;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-plug",
+    "font": "&#xf1e6;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-plus",
+    "font": "&#xf067;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-plus-circle",
+    "font": "&#xf055;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-plus-square",
+    "font": "&#xf0fe;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-plus-square-o",
+    "font": "&#xf196;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-power-off",
+    "font": "&#xf011;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-print",
+    "font": "&#xf02f;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-puzzle-piece",
+    "font": "&#xf12e;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-qrcode",
+    "font": "&#xf029;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-question",
+    "font": "&#xf128;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-question-circle",
+    "font": "&#xf059;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-question-circle-o",
+    "font": "&#xf29c;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-quote-left",
+    "font": "&#xf10d;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-quote-right",
+    "font": "&#xf10e;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-random",
+    "font": "&#xf074;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-recycle",
+    "font": "&#xf1b8;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-refresh",
+    "font": "&#xf021;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-registered",
+    "font": "&#xf25d;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-remove",
+    "font": "&#xf00d;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-reorder",
+    "font": "&#xf0c9;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-reply",
+    "font": "&#xf112;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-reply-all",
+    "font": "&#xf122;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-retweet",
+    "font": "&#xf079;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-road",
+    "font": "&#xf018;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-rocket",
+    "font": "&#xf135;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-rss",
+    "font": "&#xf09e;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-rss-square",
+    "font": "&#xf143;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-search",
+    "font": "&#xf002;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-search-minus",
+    "font": "&#xf010;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-search-plus",
+    "font": "&#xf00e;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-send",
+    "font": "&#xf1d8;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-send-o",
+    "font": "&#xf1d9;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-server",
+    "font": "&#xf233;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-share",
+    "font": "&#xf064;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-share-alt",
+    "font": "&#xf1e0;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-share-alt-square",
+    "font": "&#xf1e1;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-share-square",
+    "font": "&#xf14d;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-share-square-o",
+    "font": "&#xf045;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-shield",
+    "font": "&#xf132;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-ship",
+    "font": "&#xf21a;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-shopping-bag",
+    "font": "&#xf290;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-shopping-basket",
+    "font": "&#xf291;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-shopping-cart",
+    "font": "&#xf07a;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-sign-in",
+    "font": "&#xf090;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-sign-language",
+    "font": "&#xf2a7;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-sign-out",
+    "font": "&#xf08b;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-signal",
+    "font": "&#xf012;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-signing",
+    "font": "&#xf2a7;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-sitemap",
+    "font": "&#xf0e8;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-sliders",
+    "font": "&#xf1de;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-smile-o",
+    "font": "&#xf118;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-soccer-ball-o",
+    "font": "&#xf1e3;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-sort",
+    "font": "&#xf0dc;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-sort-alpha-asc",
+    "font": "&#xf15d;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-sort-alpha-desc",
+    "font": "&#xf15e;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-sort-amount-asc",
+    "font": "&#xf160;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-sort-amount-desc",
+    "font": "&#xf161;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-sort-asc",
+    "font": "&#xf0de;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-sort-desc",
+    "font": "&#xf0dd;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-sort-down",
+    "font": "&#xf0dd;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-sort-numeric-asc",
+    "font": "&#xf162;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-sort-numeric-desc",
+    "font": "&#xf163;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-sort-up",
+    "font": "&#xf0de;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-space-shuttle",
+    "font": "&#xf197;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-spinner",
+    "font": "&#xf110;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-spoon",
+    "font": "&#xf1b1;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-square",
+    "font": "&#xf0c8;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-square-o",
+    "font": "&#xf096;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-star",
+    "font": "&#xf005;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-star-half",
+    "font": "&#xf089;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-star-half-empty",
+    "font": "&#xf123;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-star-half-full",
+    "font": "&#xf123;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-star-half-o",
+    "font": "&#xf123;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-star-o",
+    "font": "&#xf006;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-sticky-note",
+    "font": "&#xf249;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-sticky-note-o",
+    "font": "&#xf24a;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-street-view",
+    "font": "&#xf21d;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-suitcase",
+    "font": "&#xf0f2;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-sun-o",
+    "font": "&#xf185;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-support",
+    "font": "&#xf1cd;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-tablet",
+    "font": "&#xf10a;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-tachometer",
+    "font": "&#xf0e4;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-tag",
+    "font": "&#xf02b;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-tags",
+    "font": "&#xf02c;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-tasks",
+    "font": "&#xf0ae;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-taxi",
+    "font": "&#xf1ba;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-television",
+    "font": "&#xf26c;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-terminal",
+    "font": "&#xf120;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-thumb-tack",
+    "font": "&#xf08d;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-thumbs-down",
+    "font": "&#xf165;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-thumbs-o-down",
+    "font": "&#xf088;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-thumbs-o-up",
+    "font": "&#xf087;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-thumbs-up",
+    "font": "&#xf164;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-ticket",
+    "font": "&#xf145;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-times",
+    "font": "&#xf00d;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-times-circle",
+    "font": "&#xf057;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-times-circle-o",
+    "font": "&#xf05c;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-tint",
+    "font": "&#xf043;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-toggle-down",
+    "font": "&#xf150;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-toggle-left",
+    "font": "&#xf191;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-toggle-off",
+    "font": "&#xf204;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-toggle-on",
+    "font": "&#xf205;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-toggle-right",
+    "font": "&#xf152;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-toggle-up",
+    "font": "&#xf151;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-trademark",
+    "font": "&#xf25c;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-trash",
+    "font": "&#xf1f8;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-trash-o",
+    "font": "&#xf014;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-tree",
+    "font": "&#xf1bb;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-trophy",
+    "font": "&#xf091;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-truck",
+    "font": "&#xf0d1;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-tty",
+    "font": "&#xf1e4;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-tv",
+    "font": "&#xf26c;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-umbrella",
+    "font": "&#xf0e9;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-universal-access",
+    "font": "&#xf29a;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-university",
+    "font": "&#xf19c;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-unlock",
+    "font": "&#xf09c;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-unlock-alt",
+    "font": "&#xf13e;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-unsorted",
+    "font": "&#xf0dc;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-upload",
+    "font": "&#xf093;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-user",
+    "font": "&#xf007;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-user-plus",
+    "font": "&#xf234;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-user-secret",
+    "font": "&#xf21b;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-user-times",
+    "font": "&#xf235;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-users",
+    "font": "&#xf0c0;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-video-camera",
+    "font": "&#xf03d;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-volume-control-phone",
+    "font": "&#xf2a0;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-volume-down",
+    "font": "&#xf027;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-volume-off",
+    "font": "&#xf026;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-volume-up",
+    "font": "&#xf028;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-warning",
+    "font": "&#xf071;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-wheelchair",
+    "font": "&#xf193;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-wheelchair-alt",
+    "font": "&#xf29b;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-wifi",
+    "font": "&#xf1eb;"
+  },
+  {
+    "section": "web-application",
+    "icon": "fa-wrench",
+    "font": "&#xf0ad;"
+  },
+  {
+    "section": "accessibility",
+    "icon": "fa-american-sign-language-interpreting",
+    "font": "&#xf2a3;"
+  },
+  {
+    "section": "accessibility",
+    "icon": "fa-asl-interpreting",
+    "font": "&#xf2a3;"
+  },
+  {
+    "section": "accessibility",
+    "icon": "fa-assistive-listening-systems",
+    "font": "&#xf2a2;"
+  },
+  {
+    "section": "accessibility",
+    "icon": "fa-audio-description",
+    "font": "&#xf29e;"
+  },
+  {
+    "section": "accessibility",
+    "icon": "fa-blind",
+    "font": "&#xf29d;"
+  },
+  {
+    "section": "accessibility",
+    "icon": "fa-braille",
+    "font": "&#xf2a1;"
+  },
+  {
+    "section": "accessibility",
+    "icon": "fa-cc",
+    "font": "&#xf20a;"
+  },
+  {
+    "section": "accessibility",
+    "icon": "fa-deaf",
+    "font": "&#xf2a4;"
+  },
+  {
+    "section": "accessibility",
+    "icon": "fa-deafness",
+    "font": "&#xf2a4;"
+  },
+  {
+    "section": "accessibility",
+    "icon": "fa-hard-of-hearing",
+    "font": "&#xf2a4;"
+  },
+  {
+    "section": "accessibility",
+    "icon": "fa-low-vision",
+    "font": "&#xf2a8;"
+  },
+  {
+    "section": "accessibility",
+    "icon": "fa-question-circle-o",
+    "font": "&#xf29c;"
+  },
+  {
+    "section": "accessibility",
+    "icon": "fa-sign-language",
+    "font": "&#xf2a7;"
+  },
+  {
+    "section": "accessibility",
+    "icon": "fa-signing",
+    "font": "&#xf2a7;"
+  },
+  {
+    "section": "accessibility",
+    "icon": "fa-tty",
+    "font": "&#xf1e4;"
+  },
+  {
+    "section": "accessibility",
+    "icon": "fa-universal-access",
+    "font": "&#xf29a;"
+  },
+  {
+    "section": "accessibility",
+    "icon": "fa-volume-control-phone",
+    "font": "&#xf2a0;"
+  },
+  {
+    "section": "accessibility",
+    "icon": "fa-wheelchair",
+    "font": "&#xf193;"
+  },
+  {
+    "section": "accessibility",
+    "icon": "fa-wheelchair-alt",
+    "font": "&#xf29b;"
+  },
+  {
+    "section": "hand",
+    "icon": "fa-hand-grab-o",
+    "font": "&#xf255;"
+  },
+  {
+    "section": "hand",
+    "icon": "fa-hand-lizard-o",
+    "font": "&#xf258;"
+  },
+  {
+    "section": "hand",
+    "icon": "fa-hand-o-down",
+    "font": "&#xf0a7;"
+  },
+  {
+    "section": "hand",
+    "icon": "fa-hand-o-left",
+    "font": "&#xf0a5;"
+  },
+  {
+    "section": "hand",
+    "icon": "fa-hand-o-right",
+    "font": "&#xf0a4;"
+  },
+  {
+    "section": "hand",
+    "icon": "fa-hand-o-up",
+    "font": "&#xf0a6;"
+  },
+  {
+    "section": "hand",
+    "icon": "fa-hand-paper-o",
+    "font": "&#xf256;"
+  },
+  {
+    "section": "hand",
+    "icon": "fa-hand-peace-o",
+    "font": "&#xf25b;"
+  },
+  {
+    "section": "hand",
+    "icon": "fa-hand-pointer-o",
+    "font": "&#xf25a;"
+  },
+  {
+    "section": "hand",
+    "icon": "fa-hand-rock-o",
+    "font": "&#xf255;"
+  },
+  {
+    "section": "hand",
+    "icon": "fa-hand-scissors-o",
+    "font": "&#xf257;"
+  },
+  {
+    "section": "hand",
+    "icon": "fa-hand-spock-o",
+    "font": "&#xf259;"
+  },
+  {
+    "section": "hand",
+    "icon": "fa-hand-stop-o",
+    "font": "&#xf256;"
+  },
+  {
+    "section": "hand",
+    "icon": "fa-thumbs-down",
+    "font": "&#xf165;"
+  },
+  {
+    "section": "hand",
+    "icon": "fa-thumbs-o-down",
+    "font": "&#xf088;"
+  },
+  {
+    "section": "hand",
+    "icon": "fa-thumbs-o-up",
+    "font": "&#xf087;"
+  },
+  {
+    "section": "hand",
+    "icon": "fa-thumbs-up",
+    "font": "&#xf164;"
+  },
+  {
+    "section": "transportation",
+    "icon": "fa-ambulance",
+    "font": "&#xf0f9;"
+  },
+  {
+    "section": "transportation",
+    "icon": "fa-automobile",
+    "font": "&#xf1b9;"
+  },
+  {
+    "section": "transportation",
+    "icon": "fa-bicycle",
+    "font": "&#xf206;"
+  },
+  {
+    "section": "transportation",
+    "icon": "fa-bus",
+    "font": "&#xf207;"
+  },
+  {
+    "section": "transportation",
+    "icon": "fa-cab",
+    "font": "&#xf1ba;"
+  },
+  {
+    "section": "transportation",
+    "icon": "fa-car",
+    "font": "&#xf1b9;"
+  },
+  {
+    "section": "transportation",
+    "icon": "fa-fighter-jet",
+    "font": "&#xf0fb;"
+  },
+  {
+    "section": "transportation",
+    "icon": "fa-motorcycle",
+    "font": "&#xf21c;"
+  },
+  {
+    "section": "transportation",
+    "icon": "fa-plane",
+    "font": "&#xf072;"
+  },
+  {
+    "section": "transportation",
+    "icon": "fa-rocket",
+    "font": "&#xf135;"
+  },
+  {
+    "section": "transportation",
+    "icon": "fa-ship",
+    "font": "&#xf21a;"
+  },
+  {
+    "section": "transportation",
+    "icon": "fa-space-shuttle",
+    "font": "&#xf197;"
+  },
+  {
+    "section": "transportation",
+    "icon": "fa-subway",
+    "font": "&#xf239;"
+  },
+  {
+    "section": "transportation",
+    "icon": "fa-taxi",
+    "font": "&#xf1ba;"
+  },
+  {
+    "section": "transportation",
+    "icon": "fa-train",
+    "font": "&#xf238;"
+  },
+  {
+    "section": "transportation",
+    "icon": "fa-truck",
+    "font": "&#xf0d1;"
+  },
+  {
+    "section": "transportation",
+    "icon": "fa-wheelchair",
+    "font": "&#xf193;"
+  },
+  {
+    "section": "transportation",
+    "icon": "fa-wheelchair-alt",
+    "font": "&#xf29b;"
+  },
+  {
+    "section": "gender",
+    "icon": "fa-genderless",
+    "font": "&#xf22d;"
+  },
+  {
+    "section": "gender",
+    "icon": "fa-intersex",
+    "font": "&#xf224;"
+  },
+  {
+    "section": "gender",
+    "icon": "fa-mars",
+    "font": "&#xf222;"
+  },
+  {
+    "section": "gender",
+    "icon": "fa-mars-double",
+    "font": "&#xf227;"
+  },
+  {
+    "section": "gender",
+    "icon": "fa-mars-stroke",
+    "font": "&#xf229;"
+  },
+  {
+    "section": "gender",
+    "icon": "fa-mars-stroke-h",
+    "font": "&#xf22b;"
+  },
+  {
+    "section": "gender",
+    "icon": "fa-mars-stroke-v",
+    "font": "&#xf22a;"
+  },
+  {
+    "section": "gender",
+    "icon": "fa-mercury",
+    "font": "&#xf223;"
+  },
+  {
+    "section": "gender",
+    "icon": "fa-neuter",
+    "font": "&#xf22c;"
+  },
+  {
+    "section": "gender",
+    "icon": "fa-transgender",
+    "font": "&#xf224;"
+  },
+  {
+    "section": "gender",
+    "icon": "fa-transgender-alt",
+    "font": "&#xf225;"
+  },
+  {
+    "section": "gender",
+    "icon": "fa-venus",
+    "font": "&#xf221;"
+  },
+  {
+    "section": "gender",
+    "icon": "fa-venus-double",
+    "font": "&#xf226;"
+  },
+  {
+    "section": "gender",
+    "icon": "fa-venus-mars",
+    "font": "&#xf228;"
+  },
+  {
+    "section": "file-type",
+    "icon": "fa-file",
+    "font": "&#xf15b;"
+  },
+  {
+    "section": "file-type",
+    "icon": "fa-file-archive-o",
+    "font": "&#xf1c6;"
+  },
+  {
+    "section": "file-type",
+    "icon": "fa-file-audio-o",
+    "font": "&#xf1c7;"
+  },
+  {
+    "section": "file-type",
+    "icon": "fa-file-code-o",
+    "font": "&#xf1c9;"
+  },
+  {
+    "section": "file-type",
+    "icon": "fa-file-excel-o",
+    "font": "&#xf1c3;"
+  },
+  {
+    "section": "file-type",
+    "icon": "fa-file-image-o",
+    "font": "&#xf1c5;"
+  },
+  {
+    "section": "file-type",
+    "icon": "fa-file-movie-o",
+    "font": "&#xf1c8;"
+  },
+  {
+    "section": "file-type",
+    "icon": "fa-file-o",
+    "font": "&#xf016;"
+  },
+  {
+    "section": "file-type",
+    "icon": "fa-file-pdf-o",
+    "font": "&#xf1c1;"
+  },
+  {
+    "section": "file-type",
+    "icon": "fa-file-photo-o",
+    "font": "&#xf1c5;"
+  },
+  {
+    "section": "file-type",
+    "icon": "fa-file-picture-o",
+    "font": "&#xf1c5;"
+  },
+  {
+    "section": "file-type",
+    "icon": "fa-file-powerpoint-o",
+    "font": "&#xf1c4;"
+  },
+  {
+    "section": "file-type",
+    "icon": "fa-file-sound-o",
+    "font": "&#xf1c7;"
+  },
+  {
+    "section": "file-type",
+    "icon": "fa-file-text",
+    "font": "&#xf15c;"
+  },
+  {
+    "section": "file-type",
+    "icon": "fa-file-text-o",
+    "font": "&#xf0f6;"
+  },
+  {
+    "section": "file-type",
+    "icon": "fa-file-video-o",
+    "font": "&#xf1c8;"
+  },
+  {
+    "section": "file-type",
+    "icon": "fa-file-word-o",
+    "font": "&#xf1c2;"
+  },
+  {
+    "section": "file-type",
+    "icon": "fa-file-zip-o",
+    "font": "&#xf1c6;"
+  },
+  {
+    "section": "spinner",
+    "icon": "fa-circle-o-notch",
+    "font": "&#xf1ce;"
+  },
+  {
+    "section": "spinner",
+    "icon": "fa-cog",
+    "font": "&#xf013;"
+  },
+  {
+    "section": "spinner",
+    "icon": "fa-gear",
+    "font": "&#xf013;"
+  },
+  {
+    "section": "spinner",
+    "icon": "fa-refresh",
+    "font": "&#xf021;"
+  },
+  {
+    "section": "spinner",
+    "icon": "fa-spinner",
+    "font": "&#xf110;"
+  },
+  {
+    "section": "form-control",
+    "icon": "fa-check-square",
+    "font": "&#xf14a;"
+  },
+  {
+    "section": "form-control",
+    "icon": "fa-check-square-o",
+    "font": "&#xf046;"
+  },
+  {
+    "section": "form-control",
+    "icon": "fa-circle",
+    "font": "&#xf111;"
+  },
+  {
+    "section": "form-control",
+    "icon": "fa-circle-o",
+    "font": "&#xf10c;"
+  },
+  {
+    "section": "form-control",
+    "icon": "fa-dot-circle-o",
+    "font": "&#xf192;"
+  },
+  {
+    "section": "form-control",
+    "icon": "fa-minus-square",
+    "font": "&#xf146;"
+  },
+  {
+    "section": "form-control",
+    "icon": "fa-minus-square-o",
+    "font": "&#xf147;"
+  },
+  {
+    "section": "form-control",
+    "icon": "fa-plus-square",
+    "font": "&#xf0fe;"
+  },
+  {
+    "section": "form-control",
+    "icon": "fa-plus-square-o",
+    "font": "&#xf196;"
+  },
+  {
+    "section": "form-control",
+    "icon": "fa-square",
+    "font": "&#xf0c8;"
+  },
+  {
+    "section": "form-control",
+    "icon": "fa-square-o",
+    "font": "&#xf096;"
+  },
+  {
+    "section": "payment",
+    "icon": "fa-cc-amex",
+    "font": "&#xf1f3;"
+  },
+  {
+    "section": "payment",
+    "icon": "fa-cc-diners-club",
+    "font": "&#xf24c;"
+  },
+  {
+    "section": "payment",
+    "icon": "fa-cc-discover",
+    "font": "&#xf1f2;"
+  },
+  {
+    "section": "payment",
+    "icon": "fa-cc-jcb",
+    "font": "&#xf24b;"
+  },
+  {
+    "section": "payment",
+    "icon": "fa-cc-mastercard",
+    "font": "&#xf1f1;"
+  },
+  {
+    "section": "payment",
+    "icon": "fa-cc-paypal",
+    "font": "&#xf1f4;"
+  },
+  {
+    "section": "payment",
+    "icon": "fa-cc-stripe",
+    "font": "&#xf1f5;"
+  },
+  {
+    "section": "payment",
+    "icon": "fa-cc-visa",
+    "font": "&#xf1f0;"
+  },
+  {
+    "section": "payment",
+    "icon": "fa-credit-card",
+    "font": "&#xf09d;"
+  },
+  {
+    "section": "payment",
+    "icon": "fa-credit-card-alt",
+    "font": "&#xf283;"
+  },
+  {
+    "section": "payment",
+    "icon": "fa-google-wallet",
+    "font": "&#xf1ee;"
+  },
+  {
+    "section": "payment",
+    "icon": "fa-paypal",
+    "font": "&#xf1ed;"
+  },
+  {
+    "section": "chart",
+    "icon": "fa-area-chart",
+    "font": "&#xf1fe;"
+  },
+  {
+    "section": "chart",
+    "icon": "fa-bar-chart",
+    "font": "&#xf080;"
+  },
+  {
+    "section": "chart",
+    "icon": "fa-bar-chart-o",
+    "font": "&#xf080;"
+  },
+  {
+    "section": "chart",
+    "icon": "fa-line-chart",
+    "font": "&#xf201;"
+  },
+  {
+    "section": "chart",
+    "icon": "fa-pie-chart",
+    "font": "&#xf200;"
+  },
+  {
+    "section": "currency",
+    "icon": "fa-bitcoin",
+    "font": "&#xf15a;"
+  },
+  {
+    "section": "currency",
+    "icon": "fa-btc",
+    "font": "&#xf15a;"
+  },
+  {
+    "section": "currency",
+    "icon": "fa-cny",
+    "font": "&#xf157;"
+  },
+  {
+    "section": "currency",
+    "icon": "fa-dollar",
+    "font": "&#xf155;"
+  },
+  {
+    "section": "currency",
+    "icon": "fa-eur",
+    "font": "&#xf153;"
+  },
+  {
+    "section": "currency",
+    "icon": "fa-euro",
+    "font": "&#xf153;"
+  },
+  {
+    "section": "currency",
+    "icon": "fa-gbp",
+    "font": "&#xf154;"
+  },
+  {
+    "section": "currency",
+    "icon": "fa-gg",
+    "font": "&#xf260;"
+  },
+  {
+    "section": "currency",
+    "icon": "fa-gg-circle",
+    "font": "&#xf261;"
+  },
+  {
+    "section": "currency",
+    "icon": "fa-ils",
+    "font": "&#xf20b;"
+  },
+  {
+    "section": "currency",
+    "icon": "fa-inr",
+    "font": "&#xf156;"
+  },
+  {
+    "section": "currency",
+    "icon": "fa-jpy",
+    "font": "&#xf157;"
+  },
+  {
+    "section": "currency",
+    "icon": "fa-krw",
+    "font": "&#xf159;"
+  },
+  {
+    "section": "currency",
+    "icon": "fa-money",
+    "font": "&#xf0d6;"
+  },
+  {
+    "section": "currency",
+    "icon": "fa-rmb",
+    "font": "&#xf157;"
+  },
+  {
+    "section": "currency",
+    "icon": "fa-rouble",
+    "font": "&#xf158;"
+  },
+  {
+    "section": "currency",
+    "icon": "fa-rub",
+    "font": "&#xf158;"
+  },
+  {
+    "section": "currency",
+    "icon": "fa-ruble",
+    "font": "&#xf158;"
+  },
+  {
+    "section": "currency",
+    "icon": "fa-rupee",
+    "font": "&#xf156;"
+  },
+  {
+    "section": "currency",
+    "icon": "fa-shekel",
+    "font": "&#xf20b;"
+  },
+  {
+    "section": "currency",
+    "icon": "fa-sheqel",
+    "font": "&#xf20b;"
+  },
+  {
+    "section": "currency",
+    "icon": "fa-try",
+    "font": "&#xf195;"
+  },
+  {
+    "section": "currency",
+    "icon": "fa-turkish-lira",
+    "font": "&#xf195;"
+  },
+  {
+    "section": "currency",
+    "icon": "fa-usd",
+    "font": "&#xf155;"
+  },
+  {
+    "section": "currency",
+    "icon": "fa-won",
+    "font": "&#xf159;"
+  },
+  {
+    "section": "currency",
+    "icon": "fa-yen",
+    "font": "&#xf157;"
+  },
+  {
+    "section": "text-editor",
+    "icon": "fa-align-center",
+    "font": "&#xf037;"
+  },
+  {
+    "section": "text-editor",
+    "icon": "fa-align-justify",
+    "font": "&#xf039;"
+  },
+  {
+    "section": "text-editor",
+    "icon": "fa-align-left",
+    "font": "&#xf036;"
+  },
+  {
+    "section": "text-editor",
+    "icon": "fa-align-right",
+    "font": "&#xf038;"
+  },
+  {
+    "section": "text-editor",
+    "icon": "fa-bold",
+    "font": "&#xf032;"
+  },
+  {
+    "section": "text-editor",
+    "icon": "fa-chain",
+    "font": "&#xf0c1;"
+  },
+  {
+    "section": "text-editor",
+    "icon": "fa-chain-broken",
+    "font": "&#xf127;"
+  },
+  {
+    "section": "text-editor",
+    "icon": "fa-clipboard",
+    "font": "&#xf0ea;"
+  },
+  {
+    "section": "text-editor",
+    "icon": "fa-columns",
+    "font": "&#xf0db;"
+  },
+  {
+    "section": "text-editor",
+    "icon": "fa-copy",
+    "font": "&#xf0c5;"
+  },
+  {
+    "section": "text-editor",
+    "icon": "fa-cut",
+    "font": "&#xf0c4;"
+  },
+  {
+    "section": "text-editor",
+    "icon": "fa-dedent",
+    "font": "&#xf03b;"
+  },
+  {
+    "section": "text-editor",
+    "icon": "fa-eraser",
+    "font": "&#xf12d;"
+  },
+  {
+    "section": "text-editor",
+    "icon": "fa-file",
+    "font": "&#xf15b;"
+  },
+  {
+    "section": "text-editor",
+    "icon": "fa-file-o",
+    "font": "&#xf016;"
+  },
+  {
+    "section": "text-editor",
+    "icon": "fa-file-text",
+    "font": "&#xf15c;"
+  },
+  {
+    "section": "text-editor",
+    "icon": "fa-file-text-o",
+    "font": "&#xf0f6;"
+  },
+  {
+    "section": "text-editor",
+    "icon": "fa-files-o",
+    "font": "&#xf0c5;"
+  },
+  {
+    "section": "text-editor",
+    "icon": "fa-floppy-o",
+    "font": "&#xf0c7;"
+  },
+  {
+    "section": "text-editor",
+    "icon": "fa-font",
+    "font": "&#xf031;"
+  },
+  {
+    "section": "text-editor",
+    "icon": "fa-header",
+    "font": "&#xf1dc;"
+  },
+  {
+    "section": "text-editor",
+    "icon": "fa-indent",
+    "font": "&#xf03c;"
+  },
+  {
+    "section": "text-editor",
+    "icon": "fa-italic",
+    "font": "&#xf033;"
+  },
+  {
+    "section": "text-editor",
+    "icon": "fa-link",
+    "font": "&#xf0c1;"
+  },
+  {
+    "section": "text-editor",
+    "icon": "fa-list",
+    "font": "&#xf03a;"
+  },
+  {
+    "section": "text-editor",
+    "icon": "fa-list-alt",
+    "font": "&#xf022;"
+  },
+  {
+    "section": "text-editor",
+    "icon": "fa-list-ol",
+    "font": "&#xf0cb;"
+  },
+  {
+    "section": "text-editor",
+    "icon": "fa-list-ul",
+    "font": "&#xf0ca;"
+  },
+  {
+    "section": "text-editor",
+    "icon": "fa-outdent",
+    "font": "&#xf03b;"
+  },
+  {
+    "section": "text-editor",
+    "icon": "fa-paperclip",
+    "font": "&#xf0c6;"
+  },
+  {
+    "section": "text-editor",
+    "icon": "fa-paragraph",
+    "font": "&#xf1dd;"
+  },
+  {
+    "section": "text-editor",
+    "icon": "fa-paste",
+    "font": "&#xf0ea;"
+  },
+  {
+    "section": "text-editor",
+    "icon": "fa-repeat",
+    "font": "&#xf01e;"
+  },
+  {
+    "section": "text-editor",
+    "icon": "fa-rotate-left",
+    "font": "&#xf0e2;"
+  },
+  {
+    "section": "text-editor",
+    "icon": "fa-rotate-right",
+    "font": "&#xf01e;"
+  },
+  {
+    "section": "text-editor",
+    "icon": "fa-save",
+    "font": "&#xf0c7;"
+  },
+  {
+    "section": "text-editor",
+    "icon": "fa-scissors",
+    "font": "&#xf0c4;"
+  },
+  {
+    "section": "text-editor",
+    "icon": "fa-strikethrough",
+    "font": "&#xf0cc;"
+  },
+  {
+    "section": "text-editor",
+    "icon": "fa-subscript",
+    "font": "&#xf12c;"
+  },
+  {
+    "section": "text-editor",
+    "icon": "fa-superscript",
+    "font": "&#xf12b;"
+  },
+  {
+    "section": "text-editor",
+    "icon": "fa-table",
+    "font": "&#xf0ce;"
+  },
+  {
+    "section": "text-editor",
+    "icon": "fa-text-height",
+    "font": "&#xf034;"
+  },
+  {
+    "section": "text-editor",
+    "icon": "fa-text-width",
+    "font": "&#xf035;"
+  },
+  {
+    "section": "text-editor",
+    "icon": "fa-th",
+    "font": "&#xf00a;"
+  },
+  {
+    "section": "text-editor",
+    "icon": "fa-th-large",
+    "font": "&#xf009;"
+  },
+  {
+    "section": "text-editor",
+    "icon": "fa-th-list",
+    "font": "&#xf00b;"
+  },
+  {
+    "section": "text-editor",
+    "icon": "fa-underline",
+    "font": "&#xf0cd;"
+  },
+  {
+    "section": "text-editor",
+    "icon": "fa-undo",
+    "font": "&#xf0e2;"
+  },
+  {
+    "section": "text-editor",
+    "icon": "fa-unlink",
+    "font": "&#xf127;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-angle-double-down",
+    "font": "&#xf103;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-angle-double-left",
+    "font": "&#xf100;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-angle-double-right",
+    "font": "&#xf101;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-angle-double-up",
+    "font": "&#xf102;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-angle-down",
+    "font": "&#xf107;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-angle-left",
+    "font": "&#xf104;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-angle-right",
+    "font": "&#xf105;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-angle-up",
+    "font": "&#xf106;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-arrow-circle-down",
+    "font": "&#xf0ab;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-arrow-circle-left",
+    "font": "&#xf0a8;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-arrow-circle-o-down",
+    "font": "&#xf01a;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-arrow-circle-o-left",
+    "font": "&#xf190;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-arrow-circle-o-right",
+    "font": "&#xf18e;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-arrow-circle-o-up",
+    "font": "&#xf01b;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-arrow-circle-right",
+    "font": "&#xf0a9;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-arrow-circle-up",
+    "font": "&#xf0aa;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-arrow-down",
+    "font": "&#xf063;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-arrow-left",
+    "font": "&#xf060;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-arrow-right",
+    "font": "&#xf061;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-arrow-up",
+    "font": "&#xf062;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-arrows",
+    "font": "&#xf047;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-arrows-alt",
+    "font": "&#xf0b2;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-arrows-h",
+    "font": "&#xf07e;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-arrows-v",
+    "font": "&#xf07d;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-caret-down",
+    "font": "&#xf0d7;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-caret-left",
+    "font": "&#xf0d9;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-caret-right",
+    "font": "&#xf0da;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-caret-square-o-down",
+    "font": "&#xf150;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-caret-square-o-left",
+    "font": "&#xf191;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-caret-square-o-right",
+    "font": "&#xf152;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-caret-square-o-up",
+    "font": "&#xf151;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-caret-up",
+    "font": "&#xf0d8;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-chevron-circle-down",
+    "font": "&#xf13a;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-chevron-circle-left",
+    "font": "&#xf137;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-chevron-circle-right",
+    "font": "&#xf138;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-chevron-circle-up",
+    "font": "&#xf139;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-chevron-down",
+    "font": "&#xf078;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-chevron-left",
+    "font": "&#xf053;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-chevron-right",
+    "font": "&#xf054;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-chevron-up",
+    "font": "&#xf077;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-exchange",
+    "font": "&#xf0ec;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-hand-o-down",
+    "font": "&#xf0a7;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-hand-o-left",
+    "font": "&#xf0a5;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-hand-o-right",
+    "font": "&#xf0a4;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-hand-o-up",
+    "font": "&#xf0a6;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-long-arrow-down",
+    "font": "&#xf175;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-long-arrow-left",
+    "font": "&#xf177;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-long-arrow-right",
+    "font": "&#xf178;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-long-arrow-up",
+    "font": "&#xf176;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-toggle-down",
+    "font": "&#xf150;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-toggle-left",
+    "font": "&#xf191;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-toggle-right",
+    "font": "&#xf152;"
+  },
+  {
+    "section": "directional",
+    "icon": "fa-toggle-up",
+    "font": "&#xf151;"
+  },
+  {
+    "section": "video-player",
+    "icon": "fa-arrows-alt",
+    "font": "&#xf0b2;"
+  },
+  {
+    "section": "video-player",
+    "icon": "fa-backward",
+    "font": "&#xf04a;"
+  },
+  {
+    "section": "video-player",
+    "icon": "fa-compress",
+    "font": "&#xf066;"
+  },
+  {
+    "section": "video-player",
+    "icon": "fa-eject",
+    "font": "&#xf052;"
+  },
+  {
+    "section": "video-player",
+    "icon": "fa-expand",
+    "font": "&#xf065;"
+  },
+  {
+    "section": "video-player",
+    "icon": "fa-fast-backward",
+    "font": "&#xf049;"
+  },
+  {
+    "section": "video-player",
+    "icon": "fa-fast-forward",
+    "font": "&#xf050;"
+  },
+  {
+    "section": "video-player",
+    "icon": "fa-forward",
+    "font": "&#xf04e;"
+  },
+  {
+    "section": "video-player",
+    "icon": "fa-pause",
+    "font": "&#xf04c;"
+  },
+  {
+    "section": "video-player",
+    "icon": "fa-pause-circle",
+    "font": "&#xf28b;"
+  },
+  {
+    "section": "video-player",
+    "icon": "fa-pause-circle-o",
+    "font": "&#xf28c;"
+  },
+  {
+    "section": "video-player",
+    "icon": "fa-play",
+    "font": "&#xf04b;"
+  },
+  {
+    "section": "video-player",
+    "icon": "fa-play-circle",
+    "font": "&#xf144;"
+  },
+  {
+    "section": "video-player",
+    "icon": "fa-play-circle-o",
+    "font": "&#xf01d;"
+  },
+  {
+    "section": "video-player",
+    "icon": "fa-random",
+    "font": "&#xf074;"
+  },
+  {
+    "section": "video-player",
+    "icon": "fa-step-backward",
+    "font": "&#xf048;"
+  },
+  {
+    "section": "video-player",
+    "icon": "fa-step-forward",
+    "font": "&#xf051;"
+  },
+  {
+    "section": "video-player",
+    "icon": "fa-stop",
+    "font": "&#xf04d;"
+  },
+  {
+    "section": "video-player",
+    "icon": "fa-stop-circle",
+    "font": "&#xf28d;"
+  },
+  {
+    "section": "video-player",
+    "icon": "fa-stop-circle-o",
+    "font": "&#xf28e;"
+  },
+  {
+    "section": "video-player",
+    "icon": "fa-youtube-play",
+    "font": "&#xf16a;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-500px",
+    "font": "&#xf26e;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-adn",
+    "font": "&#xf170;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-amazon",
+    "font": "&#xf270;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-android",
+    "font": "&#xf17b;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-angellist",
+    "font": "&#xf209;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-apple",
+    "font": "&#xf179;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-behance",
+    "font": "&#xf1b4;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-behance-square",
+    "font": "&#xf1b5;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-bitbucket",
+    "font": "&#xf171;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-bitbucket-square",
+    "font": "&#xf172;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-bitcoin",
+    "font": "&#xf15a;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-black-tie",
+    "font": "&#xf27e;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-bluetooth",
+    "font": "&#xf293;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-bluetooth-b",
+    "font": "&#xf294;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-btc",
+    "font": "&#xf15a;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-buysellads",
+    "font": "&#xf20d;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-cc-amex",
+    "font": "&#xf1f3;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-cc-diners-club",
+    "font": "&#xf24c;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-cc-discover",
+    "font": "&#xf1f2;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-cc-jcb",
+    "font": "&#xf24b;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-cc-mastercard",
+    "font": "&#xf1f1;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-cc-paypal",
+    "font": "&#xf1f4;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-cc-stripe",
+    "font": "&#xf1f5;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-cc-visa",
+    "font": "&#xf1f0;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-chrome",
+    "font": "&#xf268;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-codepen",
+    "font": "&#xf1cb;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-codiepie",
+    "font": "&#xf284;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-connectdevelop",
+    "font": "&#xf20e;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-contao",
+    "font": "&#xf26d;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-css3",
+    "font": "&#xf13c;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-dashcube",
+    "font": "&#xf210;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-delicious",
+    "font": "&#xf1a5;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-deviantart",
+    "font": "&#xf1bd;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-digg",
+    "font": "&#xf1a6;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-dribbble",
+    "font": "&#xf17d;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-dropbox",
+    "font": "&#xf16b;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-drupal",
+    "font": "&#xf1a9;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-edge",
+    "font": "&#xf282;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-empire",
+    "font": "&#xf1d1;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-envira",
+    "font": "&#xf299;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-expeditedssl",
+    "font": "&#xf23e;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-fa",
+    "font": "&#xf2b4;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-facebook",
+    "font": "&#xf09a;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-facebook-f",
+    "font": "&#xf09a;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-facebook-official",
+    "font": "&#xf230;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-facebook-square",
+    "font": "&#xf082;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-firefox",
+    "font": "&#xf269;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-first-order",
+    "font": "&#xf2b0;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-flickr",
+    "font": "&#xf16e;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-font-awesome",
+    "font": "&#xf2b4;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-fonticons",
+    "font": "&#xf280;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-fort-awesome",
+    "font": "&#xf286;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-forumbee",
+    "font": "&#xf211;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-foursquare",
+    "font": "&#xf180;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-ge",
+    "font": "&#xf1d1;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-get-pocket",
+    "font": "&#xf265;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-gg",
+    "font": "&#xf260;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-gg-circle",
+    "font": "&#xf261;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-git",
+    "font": "&#xf1d3;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-git-square",
+    "font": "&#xf1d2;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-github",
+    "font": "&#xf09b;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-github-alt",
+    "font": "&#xf113;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-github-square",
+    "font": "&#xf092;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-gitlab",
+    "font": "&#xf296;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-gittip",
+    "font": "&#xf184;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-glide",
+    "font": "&#xf2a5;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-glide-g",
+    "font": "&#xf2a6;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-google",
+    "font": "&#xf1a0;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-google-plus",
+    "font": "&#xf0d5;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-google-plus-circle",
+    "font": "&#xf2b3;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-google-plus-official",
+    "font": "&#xf2b3;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-google-plus-square",
+    "font": "&#xf0d4;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-google-wallet",
+    "font": "&#xf1ee;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-gratipay",
+    "font": "&#xf184;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-hacker-news",
+    "font": "&#xf1d4;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-houzz",
+    "font": "&#xf27c;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-html5",
+    "font": "&#xf13b;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-instagram",
+    "font": "&#xf16d;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-internet-explorer",
+    "font": "&#xf26b;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-ioxhost",
+    "font": "&#xf208;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-joomla",
+    "font": "&#xf1aa;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-jsfiddle",
+    "font": "&#xf1cc;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-lastfm",
+    "font": "&#xf202;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-lastfm-square",
+    "font": "&#xf203;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-leanpub",
+    "font": "&#xf212;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-linkedin",
+    "font": "&#xf0e1;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-linkedin-square",
+    "font": "&#xf08c;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-linux",
+    "font": "&#xf17c;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-maxcdn",
+    "font": "&#xf136;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-meanpath",
+    "font": "&#xf20c;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-medium",
+    "font": "&#xf23a;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-mixcloud",
+    "font": "&#xf289;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-modx",
+    "font": "&#xf285;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-odnoklassniki",
+    "font": "&#xf263;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-odnoklassniki-square",
+    "font": "&#xf264;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-opencart",
+    "font": "&#xf23d;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-openid",
+    "font": "&#xf19b;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-opera",
+    "font": "&#xf26a;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-optin-monster",
+    "font": "&#xf23c;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-pagelines",
+    "font": "&#xf18c;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-paypal",
+    "font": "&#xf1ed;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-pied-piper",
+    "font": "&#xf2ae;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-pied-piper-alt",
+    "font": "&#xf1a8;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-pied-piper-pp",
+    "font": "&#xf1a7;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-pinterest",
+    "font": "&#xf0d2;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-pinterest-p",
+    "font": "&#xf231;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-pinterest-square",
+    "font": "&#xf0d3;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-product-hunt",
+    "font": "&#xf288;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-qq",
+    "font": "&#xf1d6;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-ra",
+    "font": "&#xf1d0;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-rebel",
+    "font": "&#xf1d0;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-reddit",
+    "font": "&#xf1a1;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-reddit-alien",
+    "font": "&#xf281;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-reddit-square",
+    "font": "&#xf1a2;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-renren",
+    "font": "&#xf18b;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-resistance",
+    "font": "&#xf1d0;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-safari",
+    "font": "&#xf267;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-scribd",
+    "font": "&#xf28a;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-sellsy",
+    "font": "&#xf213;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-share-alt",
+    "font": "&#xf1e0;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-share-alt-square",
+    "font": "&#xf1e1;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-shirtsinbulk",
+    "font": "&#xf214;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-simplybuilt",
+    "font": "&#xf215;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-skyatlas",
+    "font": "&#xf216;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-skype",
+    "font": "&#xf17e;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-slack",
+    "font": "&#xf198;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-slideshare",
+    "font": "&#xf1e7;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-snapchat",
+    "font": "&#xf2ab;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-snapchat-ghost",
+    "font": "&#xf2ac;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-snapchat-square",
+    "font": "&#xf2ad;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-soundcloud",
+    "font": "&#xf1be;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-spotify",
+    "font": "&#xf1bc;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-stack-exchange",
+    "font": "&#xf18d;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-stack-overflow",
+    "font": "&#xf16c;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-steam",
+    "font": "&#xf1b6;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-steam-square",
+    "font": "&#xf1b7;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-stumbleupon",
+    "font": "&#xf1a4;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-stumbleupon-circle",
+    "font": "&#xf1a3;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-tencent-weibo",
+    "font": "&#xf1d5;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-themeisle",
+    "font": "&#xf2b2;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-trello",
+    "font": "&#xf181;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-tripadvisor",
+    "font": "&#xf262;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-tumblr",
+    "font": "&#xf173;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-tumblr-square",
+    "font": "&#xf174;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-twitch",
+    "font": "&#xf1e8;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-twitter",
+    "font": "&#xf099;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-twitter-square",
+    "font": "&#xf081;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-usb",
+    "font": "&#xf287;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-viacoin",
+    "font": "&#xf237;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-viadeo",
+    "font": "&#xf2a9;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-viadeo-square",
+    "font": "&#xf2aa;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-vimeo",
+    "font": "&#xf27d;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-vimeo-square",
+    "font": "&#xf194;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-vine",
+    "font": "&#xf1ca;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-vk",
+    "font": "&#xf189;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-wechat",
+    "font": "&#xf1d7;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-weibo",
+    "font": "&#xf18a;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-weixin",
+    "font": "&#xf1d7;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-whatsapp",
+    "font": "&#xf232;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-wikipedia-w",
+    "font": "&#xf266;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-windows",
+    "font": "&#xf17a;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-wordpress",
+    "font": "&#xf19a;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-wpbeginner",
+    "font": "&#xf297;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-wpforms",
+    "font": "&#xf298;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-xing",
+    "font": "&#xf168;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-xing-square",
+    "font": "&#xf169;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-y-combinator",
+    "font": "&#xf23b;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-y-combinator-square",
+    "font": "&#xf1d4;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-yahoo",
+    "font": "&#xf19e;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-yc",
+    "font": "&#xf23b;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-yc-square",
+    "font": "&#xf1d4;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-yelp",
+    "font": "&#xf1e9;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-yoast",
+    "font": "&#xf2b1;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-youtube",
+    "font": "&#xf167;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-youtube-play",
+    "font": "&#xf16a;"
+  },
+  {
+    "section": "brand",
+    "icon": "fa-youtube-square",
+    "font": "&#xf166;"
+  },
+  {
+    "section": "medical",
+    "icon": "fa-ambulance",
+    "font": "&#xf0f9;"
+  },
+  {
+    "section": "medical",
+    "icon": "fa-h-square",
+    "font": "&#xf0fd;"
+  },
+  {
+    "section": "medical",
+    "icon": "fa-heart",
+    "font": "&#xf004;"
+  },
+  {
+    "section": "medical",
+    "icon": "fa-heart-o",
+    "font": "&#xf08a;"
+  },
+  {
+    "section": "medical",
+    "icon": "fa-heartbeat",
+    "font": "&#xf21e;"
+  },
+  {
+    "section": "medical",
+    "icon": "fa-hospital-o",
+    "font": "&#xf0f8;"
+  },
+  {
+    "section": "medical",
+    "icon": "fa-medkit",
+    "font": "&#xf0fa;"
+  },
+  {
+    "section": "medical",
+    "icon": "fa-plus-square",
+    "font": "&#xf0fe;"
+  },
+  {
+    "section": "medical",
+    "icon": "fa-stethoscope",
+    "font": "&#xf0f1;"
+  },
+  {
+    "section": "medical",
+    "icon": "fa-user-md",
+    "font": "&#xf0f0;"
+  },
+  {
+    "section": "medical",
+    "icon": "fa-wheelchair",
+    "font": "&#xf193;"
+  },
+  {
+    "section": "medical",
+    "icon": "fa-wheelchair-alt",
+    "font": "&#xf29b;"
+  },
+  {
+    "icon": "fa-address-book",
+    "font": "&#xf2b9;"
+  },
+  {
+    "icon": "fa-address-book-o",
+    "font": "&#xf2ba;"
+  },
+  {
+    "icon": "fa-address-card",
+    "font": "&#xf2bb;"
+  },
+  {
+    "icon": "fa-address-card-o",
+    "font": "&#xf2bc;"
+  },
+  {
+    "icon": "fa-bandcamp",
+    "font": "&#xf2d5;"
+  },
+  {
+    "icon": "fa-bath",
+    "font": "&#xf2cd;"
+  },
+  {
+    "icon": "fa-bathtub",
+    "font": "&#xf2cd;"
+  },
+  {
+    "icon": "fa-battery",
+    "font": "&#xf240;"
+  },
+  {
+    "icon": "fa-drivers-license",
+    "font": "&#xf2c2;"
+  },
+  {
+    "icon": "fa-drivers-license-o",
+    "font": "&#xf2c3;"
+  },
+  {
+    "icon": "fa-eercast",
+    "font": "&#xf2da;"
+  },
+  {
+    "icon": "fa-envelope-open",
+    "font": "&#xf2b6;"
+  },
+  {
+    "icon": "fa-envelope-open-o",
+    "font": "&#xf2b7;"
+  },
+  {
+    "icon": "fa-etsy",
+    "font": "&#xf2d7;"
+  },
+  {
+    "icon": "fa-free-code-camp",
+    "font": "&#xf2c5;"
+  },
+  {
+    "icon": "fa-grav",
+    "font": "&#xf2d6;"
+  },
+  {
+    "icon": "fa-handshake-o",
+    "font": "&#xf2b5;"
+  },
+  {
+    "icon": "fa-id-badge",
+    "font": "&#xf2c1;"
+  },
+  {
+    "icon": "fa-id-card",
+    "font": "&#xf2c2;"
+  },
+  {
+    "icon": "fa-id-card-o",
+    "font": "&#xf2c3;"
+  },
+  {
+    "icon": "fa-imdb",
+    "font": "&#xf2d8;"
+  },
+  {
+    "icon": "fa-linode",
+    "font": "&#xf2b8;"
+  },
+  {
+    "icon": "fa-meetup",
+    "font": "&#xf2e0;"
+  },
+  {
+    "icon": "fa-microchip",
+    "font": "&#xf2db;"
+  },
+  {
+    "icon": "fa-podcast",
+    "font": "&#xf2ce;"
+  },
+  {
+    "icon": "fa-quora",
+    "font": "&#xf2c4;"
+  },
+  {
+    "icon": "fa-ravelry",
+    "font": "&#xf2d9;"
+  },
+  {
+    "icon": "fa-s15",
+    "font": "&#xf2cd;"
+  },
+  {
+    "icon": "fa-shower",
+    "font": "&#xf2cc;"
+  },
+  {
+    "icon": "fa-snowflake-o",
+    "font": "&#xf2dc;"
+  },
+  {
+    "icon": "fa-superpowers",
+    "font": "&#xf2dd;"
+  },
+  {
+    "icon": "fa-telegram",
+    "font": "&#xf2c6;"
+  },
+  {
+    "icon": "fa-thermometer",
+    "font": "&#xf2c7;"
+  },
+  {
+    "icon": "fa-thermometer-0",
+    "font": "&#xf2cb;"
+  },
+  {
+    "icon": "fa-thermometer-1",
+    "font": "&#xf2ca;"
+  },
+  {
+    "icon": "fa-thermometer-2",
+    "font": "&#xf2c9;"
+  },
+  {
+    "icon": "fa-thermometer-3",
+    "font": "&#xf2c8;"
+  },
+  {
+    "icon": "fa-thermometer-4",
+    "font": "&#xf2c7;"
+  },
+  {
+    "icon": "fa-thermometer-empty",
+    "font": "&#xf2cb;"
+  },
+  {
+    "icon": "fa-thermometer-full",
+    "font": "&#xf2c7;"
+  },
+  {
+    "icon": "fa-thermometer-half",
+    "font": "&#xf2c9;"
+  },
+  {
+    "icon": "fa-thermometer-quarter",
+    "font": "&#xf2ca;"
+  },
+  {
+    "icon": "fa-thermometer-three-quarters",
+    "font": "&#xf2c8;"
+  },
+  {
+    "icon": "fa-times-rectangle",
+    "font": "&#xf2d3;"
+  },
+  {
+    "icon": "fa-times-rectangle-o",
+    "font": "&#xf2d4;"
+  },
+  {
+    "icon": "fa-user-circle",
+    "font": "&#xf2bd;"
+  },
+  {
+    "icon": "fa-user-circle-o",
+    "font": "&#xf2be;"
+  },
+  {
+    "icon": "fa-user-o",
+    "font": "&#xf2c0;"
+  },
+  {
+    "icon": "fa-vcard",
+    "font": "&#xf2bb;"
+  },
+  {
+    "icon": "fa-vcard-o",
+    "font": "&#xf2bc;"
+  },
+  {
+    "icon": "fa-window-close",
+    "font": "&#xf2d3;"
+  },
+  {
+    "icon": "fa-window-close-o",
+    "font": "&#xf2d4;"
+  },
+  {
+    "icon": "fa-window-maximize",
+    "font": "&#xf2d0;"
+  },
+  {
+    "icon": "fa-window-minimize",
+    "font": "&#xf2d1;"
+  },
+  {
+    "icon": "fa-window-restore",
+    "font": "&#xf2d2;"
+  },
+  {
+    "icon": "fa-wpexplorer",
+    "font": "&#xf2de;"
+  }
+]
+
+/*
+  //*********** this is for scrapping awosome font from its web page
+
+  var arr=[];$(".col-md-4.col-sm-6.col-lg-3.col-print-4").each(function(i,k){
+var set={};
+$(k).contents().filter(function() {
+    return this.nodeType == 3
+}).each(function(){
+
+if(this.textContent.indexOf('fa')>-1){
+    set.icon=this.textContent.trim();
+}
+});
+set.font=$(k).find("span").text().substring(1,9);
+arr.push(set);
+
+});
+
+*/
