@@ -22,7 +22,7 @@ app.engine('html', require('ejs').renderFile);
 const config = require('./config');
 console.log(config.currentsetting.datasrc)
 //var mongoDB='mongodb://yknam:ykn9080@ds135399.mlab.com:35399/imcdb';
-mongoose.connect(config.currentsetting.datasrc);
+mongoose.connect(config.mongodb.mlab);
 // Get Mongoose to use the global promise library
 mongoose.Promise = global.Promise;
 //Get the default connection
