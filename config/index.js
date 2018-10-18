@@ -23,7 +23,7 @@ const config = {
 
 };
 const currentsetting={
-  datasrc:config.mongodb.local
+  datasrc:config.mongodb.mlab
 
 }
 module.exports = {config,currentsetting};
