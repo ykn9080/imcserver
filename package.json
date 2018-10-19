@@ -27,6 +27,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "engine": {
+    "node": "*",
+    "npm": "*"
+  },
   "repository": {
     "type": "git",
     "url": "http://github.com/ykn9080/imcserver.git"
