@@ -21,16 +21,16 @@ app.engine('html', require('ejs').renderFile);
 //Set up default mongoose connection
 const config = require('./config');
 console.log(config.currentsetting.datasrc)
-//var mongoDB='mongodb://yknam:ykn9080@ds135399.mlab.com:35399/imcdb';
-mongoose.connect(config.currentsetting.datasrc);
-// Get Mongoose to use the global promise library
-mongoose.Promise = global.Promise;
-//Get the default connection
-var db = mongoose.connection;
-
-//Bind connection to error event (to get notification of connection errors)
-db.on('error', console.error.bind(console, 'MongoDB connection error:'));
-
+// //var mongoDB='mongodb://yknam:ykn9080@ds135399.mlab.com:35399/imcdb';
+// mongoose.connect(config.currentsetting.datasrc);
+// // Get Mongoose to use the global promise library
+// mongoose.Promise = global.Promise;
+// //Get the default connection
+// var db = mongoose.connection;
+//
+// //Bind connection to error event (to get notification of connection errors)
+// db.on('error', console.error.bind(console, 'MongoDB connection error:'));
+//
 
 var expressSession = require('express-session');
 app.use(expressSession({
