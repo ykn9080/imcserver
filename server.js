@@ -56,18 +56,18 @@ app.use(flash());
 
 require('./router/index.js')(app,passport);
 
-app.set('port', process.env.PORT || 3001);
-var server=app.listen(app.get('port'), function(){
-  console.log('Server is running on Port: ',server.address().port);
-});
+// app.set('port', process.env.PORT || 3001);
+// var server=app.listen(app.get('port'), function(){
+//   console.log('Server is running on Port: ',server.address().port);
+// });
 
 //this is for openshift
-// var server_port = process.env.OPENSHIFT_NODEJS_PORT || 8080
-// var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1'
-//
-// server.listen(server_port, server_ip_address, function () {
-//   console.log( "Listening on " + server_ip_address + ", port " + server_port )
-// });
+var server_port = process.env.OPENSHIFT_NODEJS_PORT || 8080
+var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1'
+
+server.listen(server_port, server_ip_address, function () {
+  console.log( "Listening on " + server_ip_address + ", port " + server_port )
+});
 
 
 
