@@ -2,6 +2,7 @@ var func = require('../function/api');
 
 exports.readDataMy = (req, res) => {
   try {
+    console.log('req.body:',req.body)
 
     var p = makeparam(req);
     var dt = func.readData(p.path, p.dataname, p.keycode, p.keyvalue);

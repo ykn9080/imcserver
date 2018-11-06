@@ -17,7 +17,7 @@ const config = {
   jwtSecret:"hellohello"
   //,datasrc:'json'//json,mongodb,mssql
   ,datasrc:'mongodb'
-  ,username:'id'//_id,username,email
+  ,username:'username'//_id,username,email
   ,password:'password'
 }
 

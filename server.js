@@ -21,16 +21,16 @@ app.engine('html', require('ejs').renderFile);
 //Set up default mongoose connection
 const config = require('./config');
 console.log(config.currentsetting.datasrc)
-// //var mongoDB='mongodb://yknam:ykn9080@ds135399.mlab.com:35399/imcdb';
-// mongoose.connect(config.currentsetting.datasrc);
-// // Get Mongoose to use the global promise library
-// mongoose.Promise = global.Promise;
-// //Get the default connection
-// var db = mongoose.connection;
-//
-// //Bind connection to error event (to get notification of connection errors)
-// db.on('error', console.error.bind(console, 'MongoDB connection error:'));
-//
+//var mongoDB='mongodb://yknam:ykn9080@ds135399.mlab.com:35399/imcdb';
+mongoose.connect(config.currentsetting.datasrc);
+// Get Mongoose to use the global promise library
+mongoose.Promise = global.Promise;
+//Get the default connection
+var db = mongoose.connection;
+
+//Bind connection to error event (to get notification of connection errors)
+db.on('error', console.error.bind(console, 'MongoDB connection error:'));
+
 
 var expressSession = require('express-session');
 app.use(expressSession({
@@ -56,23 +56,15 @@ app.use(flash());
 
 require('./router/index.js')(app,passport);
 
-// app.set('port', process.env.PORT || 3001);
-// var server=app.listen(app.get('port'), function(){
-//   console.log('Server is running on Port: ',server.address().port);
-// });
-
-//this is for openshift
-var server_port = process.env.OPENSHIFT_NODEJS_PORT || 8080
-var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1'
-
-app.listen(server_port, server_ip_address, function () {
-  console.log( "Listening on " + server_ip_address + ", port " + server_port )
+app.set('port', process.env.PORT || 3001);
+var server=app.listen(app.get('port'), function(){
+  console.log('Server is running on Port: ',server.address().port);
 });
 
-
-
-
-
-// var server = app.listen(3001, function(){
-//     console.log("Express server has started on port 3001")
+// //this is for openshift
+// var server_port = process.env.OPENSHIFT_NODEJS_PORT || 8080
+// var server_ip_address = process.env.OPENSHIFT_NODEJS_IP || '127.0.0.1'
+//
+// app.listen(server_port, server_ip_address, function () {
+//   console.log( "Listening on " + server_ip_address + ", port " + server_port )
 // });

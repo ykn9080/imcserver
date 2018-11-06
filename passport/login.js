@@ -4,24 +4,25 @@ var User = require('../model/user');
 var JsonUser = require('../data/json/imcregister.json');
 var bCrypt = require('bcrypt-nodejs');
 const config = require('../config/');
-
+const username_field=config.config.passport.username;
+const password_field=config.config.passport.password;
 // load up the users json data
 //  var User  ={'email':'youngkinam@kebi.com','password':'good'}
 module.exports = function(passport) {
 
   passport.use('login', new LocalStrategy({
     // local 전략을 세움
-    usernameField:'id',
-    passwordField: 'password',
+    usernameField:username_field,
+    passwordField: password_field,
     //session: true, // 세션에 저장 여부
     passReqToCallback: true
   }, function(req, username, password, done) {
     // check in mongo if a user with username exists or not
-    console.log(req.body,username,password)
+    console.log(req.body,username,password,config.config.passport.datasrc)
     switch (config.config.passport.datasrc) {
       case "mongodb":
         User.findOne({
-          'local.id': username
+          'username': username
         }, function(err, user) {
           // In case of any error, return using the done method
           if (err)
@@ -29,7 +30,7 @@ module.exports = function(passport) {
 
           // Username does not exist, log the error and redirect back
           if (!user) {
-            console.log('User Not Found with email ' + username);
+            console.log('User Not Found with username ' + username);
             return done(null, false, {'message': 'User Not found.'});
           }
           //User exists but wrong password, log the error
@@ -60,7 +61,8 @@ module.exports = function(passport) {
 
   var isValidPassword = function(user, password) {
     //return ((password==user.password) ? true:false);
-    return bCrypt.compareSync(password, user.local.password);
+    //return bCrypt.compareSync(password, user.local.password);
+    return bCrypt.compareSync(password, user.password);
   }
 
   //

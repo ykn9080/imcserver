@@ -8,7 +8,7 @@ module.exports = function(passport) {
 
   passport.use('signup', new LocalStrategy({
     // local 전략을 세움
-    usernameField: 'id',
+    usernameField: 'username',
     passwordField: 'password',
     session: false, // 세션에 저장 여부
     passReqToCallback: true // allows us to pass back the entire request to the callback
@@ -19,7 +19,7 @@ module.exports = function(passport) {
         findOrCreateUser = function() {
           // find a user in Mongo with provided username
           User.findOne({
-            'local.id': username
+            'username': username
           }, function(err, user) {
             // In case of any error, return using the done method
             if (err) {
@@ -35,15 +35,16 @@ module.exports = function(passport) {
               // if there is no user with that email
               // create the user
               var newUser = new User({
-                local: {
-                  id: username,
-                  password: createHash(password),
-                  name:req.body.name,
-                  comp:req.body.comp,
-                  group:req.body.group,
-                  email:req.body.email
-                }
-
+                // local: {
+                //   id: username,
+                //   password: createHash(password),
+                //   name:req.body.name,
+                //   comp:req.body.comp,
+                //   group:req.body.group,
+                //   email:req.body.email
+                // }
+                username: username,
+                password: createHash(password),
               });
 
               // set the user's local credentials

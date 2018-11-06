@@ -100,7 +100,7 @@ exports.makedirfile=(dir,name)=>{
 
 exports.readData=(pth,dataname,keycode,keyvalue)=>{
   var dt = JSON.parse(fs.readFileSync(pth, 'utf8'));
-
+  console.log('readdata:',pth,dataname,keycode,keyvalue);
     if (dataname!="")
     dt = dt[dataname];
 
