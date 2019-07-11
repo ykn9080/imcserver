@@ -8,51 +8,6 @@
         "field": []
       },
       "external": [],
-      "setup": {
-        "tab": "none",
-        "wrap": "none",
-        "wrapname": "",
-        "height": "200px",
-        "dispnum": "1",
-        "pagenum": "10"
-      },
-      "setting": {
-        "gridstack": [
-          {
-            "tabid": "001ar170805123535",
-            "id": "gs170805123537",
-            "type": "text",
-            "x": 0,
-            "y": 0,
-            "width": 12,
-            "height": 2,
-            "content": {
-              "savetype": "html",
-              "text": "<p>asdfasdfasdfasdfa</p>"
-            }
-          }
-        ],
-        "tab": [
-          {
-            "href": "001ar170805123535",
-            "html": "FirstTab"
-          }
-        ]
-      },
-      "ctrtype": "content",
-      "comp": "170721165259",
-      "code": "ar170805123535",
-      "name": "testt",
-      "desc": "ssss"
-    },
-    {
-      "type": "content",
-      "data": {
-        "datacode": "",
-        "filter": [],
-        "field": []
-      },
-      "external": [],
       "setting": {
         "gridstack": [
           {
@@ -90,6 +45,51 @@
       "code": "ar16060619634",
       "name": "sorry",
       "desc": ""
+    },
+    {
+      "type": "content",
+      "data": {
+        "datacode": "",
+        "filter": [],
+        "field": []
+      },
+      "external": [],
+      "setup": {
+        "tab": "none",
+        "wrap": "none",
+        "wrapname": "",
+        "height": "200px",
+        "dispnum": "1",
+        "pagenum": "10"
+      },
+      "setting": {
+        "gridstack": [
+          {
+            "tabid": "001ar170805123535",
+            "id": "gs170805123537",
+            "type": "text",
+            "x": 0,
+            "y": 0,
+            "width": 12,
+            "height": 2,
+            "content": {
+              "savetype": "html",
+              "text": "<p>asdfasdfasdfasdfasdddd</p>"
+            }
+          }
+        ],
+        "tab": [
+          {
+            "href": "001ar170805123535",
+            "html": "FirstTab"
+          }
+        ]
+      },
+      "ctrtype": "content",
+      "comp": "1",
+      "code": "ar170805123535",
+      "name": "testt",
+      "desc": "ssss"
     }
   ],
   "map": [
@@ -2569,44 +2569,6 @@
   ],
   "statistics": [
     {
-      "code": "st161116182226",
-      "group": "analysis",
-      "column": "1",
-      "name": "plot",
-      "desc": "plotting diagram",
-      "model": "",
-      "varlist": [
-        [
-          "single",
-          "@x",
-          ""
-        ]
-      ],
-      "outlist": [
-        [
-          "1",
-          "t568",
-          "graph",
-          "1",
-          "boxplot",
-          "box plot the graph",
-          "Boxplot(@x,data=data,id.n=5)",
-          ""
-        ],
-        [
-          "2",
-          "t109",
-          "graph",
-          "1",
-          "qqplot",
-          "qq ploting this chart",
-          "qqPlot(@x,labels=row.names(data),id.n=5)",
-          ""
-        ]
-      ],
-      "lastupdate": "2016-12-02T23:56:45.581Z"
-    },
-    {
       "code": "regression",
       "group": "analysis",
       "column": "2",
@@ -2746,6 +2708,396 @@
           ""
         ]
       ]
+    },
+    {
+      "code": "st161116182226",
+      "library": "",
+      "group": "analysis",
+      "column": "1",
+      "name": "plott",
+      "desc": "plotting diagram123",
+      "model": "",
+      "predict": false,
+      "varlist": [
+        [
+          "dependent",
+          "@x",
+          ""
+        ]
+      ],
+      "outlist": [
+        [
+          "1",
+          "t568",
+          "graph",
+          "1",
+          "boxplot",
+          "box plot the graph",
+          "Boxplot(@x,data=data,id.n=5)",
+          ""
+        ],
+        [
+          "2",
+          "t109",
+          "graph",
+          "1",
+          "qqplot",
+          "qq ploting this chart",
+          "qqPlot(@x,labels=row.names(data),id.n=5)",
+          ""
+        ]
+      ]
+    },
+    {
+      "code": "st180206112046",
+      "group": "neuralnet",
+      "name": "neural1",
+      "desc": "neural net work example",
+      "library": "datasets;neuralnet",
+      "isjson": false,
+      "pridict": false,
+      "varlist": [
+        {
+          "select": false,
+          "field": "education",
+          "varname": "",
+          "vartype": "variable"
+        },
+        {
+          "select": true,
+          "field": "age",
+          "varname": "@a",
+          "vartype": "multivariable"
+        },
+        {
+          "select": true,
+          "field": "parity",
+          "varname": "@a",
+          "vartype": "multivariable"
+        },
+        {
+          "select": true,
+          "field": "induced",
+          "varname": "@a",
+          "vartype": "multivariable"
+        },
+        {
+          "select": true,
+          "field": "case",
+          "varname": "@x",
+          "vartype": "dependent"
+        },
+        {
+          "select": true,
+          "field": "spontaneous",
+          "varname": "@a",
+          "vartype": "multivariable"
+        },
+        {
+          "select": false,
+          "field": "stratum",
+          "varname": "",
+          "vartype": "variable"
+        },
+        {
+          "select": false,
+          "field": "pooled.stratum",
+          "varname": "",
+          "vartype": "variable"
+        }
+      ],
+      "outlist": [
+        {
+          "select": false,
+          "model": "#  ------------------------------------------------------------------\n#  |PROGRAM NAME: NEURALNET_PKG_R\n#  |DATE: 12/3/10\n#  |CREATED BY: MATT BOGARD\n#  |PROJECT FILE:   P:\\R  Code References\\Data Mining_R\n#  |----------------------------------------------------------------\n#  | PURPOSE: DEMO OF THE 'neuralnet' PACKAGE AND OUTPUT INTERPRETATION\n#  |\n#  |  ADAPTED FROM:  neuralnet: Training of Neural Networks\n#  |    by Frauke Günther and Stefan Fritsch The R Journal Vol. 2/1, June 2010\n#  |    ISSN 2073-4859  (LOCATED: P:\\TOOLS AND REFERENCES (Copy)\\R References\\Neural Networks\n#  |\n#  |\n#  |------------------------------------------------------------------\n#  |DATA USED: 'infert' FROM THE 'datasets' LIBRARY\n#  |------------------------------------------------------------------\n#  |CONTENTS:\n#  |\n#  |  PART 1: get the data\n#  |  PART 2: train the network\n#  |  PART 3:\n#  |  PART 4:\n#  |  PART 5:\n#  |------------------------------------------------------------------\n#  |COMMENTS:\n#  |\n#  |-----------------------------------------------------------------\n#  |UPDATES:\n#  |\n#  |\n#  |------------------------------------------------------------------\n\n#  *------------------------------------------------------------------*\n#  | get the data\n#  *------------------------------------------------------------------*",
+          "type": "remark",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "library(datasets)",
+          "type": "text",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "names(infert)",
+          "type": "text",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "#  *------------------------------------------------------------------*\n#  | train the network\n#  *------------------------------------------------------------------*\n# 추가로 하나더",
+          "type": "remark",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "library(neuralnet)",
+          "type": "text",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "nn <- neuralnet(\n@x~@a,\ndata=@dt, hidden=2, err.fct=\"ce\",\nlinear.output=FALSE)",
+          "script": "nn <- neuralnet(\ncase~age+parity+induced+spontaneous,\ndata=infert, hidden=2, err.fct=\"ce\",\nlinear.output=FALSE)",
+          "type": "text",
+          "outname": "nn ",
+          "multivarstyle": "@+"
+        },
+        {
+          "select": false,
+          "model": "#  *------------------------------------------------------------------*\n#  | output training results\n#  *------------------------------------------------------------------*\n\n# basic",
+          "type": "remark",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "nn",
+          "type": "text",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "# reults options",
+          "type": "remark",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "names(nn)",
+          "type": "text",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "# result matrix",
+          "type": "remark",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "nn$result.matrix",
+          "type": "text",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "# The given data is saved in nn$covariate and\n# nn$response as well as in nn$data for the whole data\n# set inclusive non-used variables. The output of the\n# neural network, i.e. the fitted values o(x), is provided\n# by nn$net.result:",
+          "type": "remark",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "out <- cbind(nn$covariate,nn$net.result[[1]])",
+          "type": "text",
+          "outname": "out ",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "dimnames(out) <- list(NULL, c(@a))",
+          "script": "dimnames(out) <- list(NULL, c(\"age,parity,induced,spontaneous\"))",
+          "type": "text",
+          "outname": "dimnames(out) ",
+          "multivarstyle": "\"@a\","
+        },
+        {
+          "select": false,
+          "model": "head(out)",
+          "type": "text",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "# generalized weights\n\n# The generalized weight expresses the effect of each\n# ovariate xi and thus has an analogous interpretation\n# as the ith regression parameter in regression models.\n# However, the generalized weight depends on all\n# other covariates. Its distribution indicates whether\n# the effect of the covariate is linear since a small variance\n# suggests a linear effect\n\n# The columns refer to the four covariates age (j =\n# 1), parity (j = 2), induced (j = 3), and spontaneous (j=4)",
+          "type": "remark",
+          "outname": "# generalized weights# The generalized weight expresses the effect of each# ovariate xi and thus has an analogous interpretation# as the ith regression parameter in regression models.# However, the generalized weight depends on all# other covariates. Its distribution indicates whether# the effect of the covariate is linear since a small variance# suggests a linear effect# The columns refer to the four covariates age (j ",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "head(nn$generalized.weights[[1]])",
+          "type": "text",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "# visualization",
+          "type": "remark",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": true,
+          "model": "plot(nn,rep=\"best\")",
+          "type": "graphic",
+          "outname": "1",
+          "multivarstyle": ""
+        }
+      ],
+      "modelrun": [
+        {
+          "select": false,
+          "model": "#  ------------------------------------------------------------------\n#  |PROGRAM NAME: NEURALNET_PKG_R\n#  |DATE: 12/3/10\n#  |CREATED BY: MATT BOGARD\n#  |PROJECT FILE:   P:\\R  Code References\\Data Mining_R\n#  |----------------------------------------------------------------\n#  | PURPOSE: DEMO OF THE 'neuralnet' PACKAGE AND OUTPUT INTERPRETATION\n#  |\n#  |  ADAPTED FROM:  neuralnet: Training of Neural Networks\n#  |    by Frauke Günther and Stefan Fritsch The R Journal Vol. 2/1, June 2010\n#  |    ISSN 2073-4859  (LOCATED: P:\\TOOLS AND REFERENCES (Copy)\\R References\\Neural Networks\n#  |\n#  |\n#  |------------------------------------------------------------------\n#  |DATA USED: 'infert' FROM THE 'datasets' LIBRARY\n#  |------------------------------------------------------------------\n#  |CONTENTS:\n#  |\n#  |  PART 1: get the data\n#  |  PART 2: train the network\n#  |  PART 3:\n#  |  PART 4:\n#  |  PART 5:\n#  |------------------------------------------------------------------\n#  |COMMENTS:\n#  |\n#  |-----------------------------------------------------------------\n#  |UPDATES:\n#  |\n#  |\n#  |------------------------------------------------------------------\n\n#  *------------------------------------------------------------------*\n#  | get the data\n#  *------------------------------------------------------------------*",
+          "type": "remark",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "library(datasets)",
+          "type": "text",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "names(infert)",
+          "type": "text",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "#  *------------------------------------------------------------------*\n#  | train the network\n#  *------------------------------------------------------------------*\n# 추가로 하나더",
+          "type": "remark",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "library(neuralnet)",
+          "type": "text",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "nn <- neuralnet(\n@x~@a,\ndata=@dt, hidden=2, err.fct=\"ce\",\nlinear.output=FALSE)",
+          "script": "nn <- neuralnet(\ncase~age+parity+induced+spontaneous,\ndata=infert, hidden=2, err.fct=\"ce\",\nlinear.output=FALSE)",
+          "type": "text",
+          "outname": "nn ",
+          "multivarstyle": "@+"
+        },
+        {
+          "select": false,
+          "model": "#  *------------------------------------------------------------------*\n#  | output training results\n#  *------------------------------------------------------------------*\n\n# basic",
+          "type": "remark",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "nn",
+          "type": "text",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "# reults options",
+          "type": "remark",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "names(nn)",
+          "type": "text",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "# result matrix",
+          "type": "remark",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "nn$result.matrix",
+          "type": "text",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "# The given data is saved in nn$covariate and\n# nn$response as well as in nn$data for the whole data\n# set inclusive non-used variables. The output of the\n# neural network, i.e. the fitted values o(x), is provided\n# by nn$net.result:",
+          "type": "remark",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "out <- cbind(nn$covariate,nn$net.result[[1]])",
+          "type": "text",
+          "outname": "out ",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "dimnames(out) <- list(NULL, c(@a))",
+          "script": "dimnames(out) <- list(NULL, c(\"age,parity,induced,spontaneous\"))",
+          "type": "text",
+          "outname": "dimnames(out) ",
+          "multivarstyle": "\"@a\","
+        },
+        {
+          "select": false,
+          "model": "head(out)",
+          "type": "text",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "# generalized weights\n\n# The generalized weight expresses the effect of each\n# ovariate xi and thus has an analogous interpretation\n# as the ith regression parameter in regression models.\n# However, the generalized weight depends on all\n# other covariates. Its distribution indicates whether\n# the effect of the covariate is linear since a small variance\n# suggests a linear effect\n\n# The columns refer to the four covariates age (j =\n# 1), parity (j = 2), induced (j = 3), and spontaneous (j=4)",
+          "type": "remark",
+          "outname": "# generalized weights# The generalized weight expresses the effect of each# ovariate xi and thus has an analogous interpretation# as the ith regression parameter in regression models.# However, the generalized weight depends on all# other covariates. Its distribution indicates whether# the effect of the covariate is linear since a small variance# suggests a linear effect# The columns refer to the four covariates age (j ",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "head(nn$generalized.weights[[1]])",
+          "type": "text",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": false,
+          "model": "# visualization",
+          "type": "remark",
+          "outname": "",
+          "multivarstyle": ""
+        },
+        {
+          "select": true,
+          "model": "plot(nn,rep=\"best\")",
+          "type": "graphic",
+          "outname": "1",
+          "multivarstyle": ""
+        }
+      ],
+      "dataset": "datasets;infert",
+      "sessiondate": "Tue Feb 06 2018 11:29:50 GMT+0900 (Japan Standard Time)",
+      "sessiondata": "/ocpu/tmp/x0098082d64/R/identity\n/ocpu/tmp/x0098082d64/R/nn\n/ocpu/tmp/x0098082d64/R/out\n/ocpu/tmp/x0098082d64/R/.val\n/ocpu/tmp/x0098082d64/graphics/1\n/ocpu/tmp/x0098082d64/source\n/ocpu/tmp/x0098082d64/console\n/ocpu/tmp/x0098082d64/info\n/ocpu/tmp/x0098082d64/files/DESCRIPTION\n",
+      "batchscript": "#  ------------------------------------------------------------------\n#  |PROGRAM NAME: NEURALNET_PKG_R\n#  |DATE: 12/3/10\n#  |CREATED BY: MATT BOGARD \n#  |PROJECT FILE:   P:\\R  Code References\\Data Mining_R           \n#  |----------------------------------------------------------------\n#  | PURPOSE: DEMO OF THE 'neuralnet' PACKAGE AND OUTPUT INTERPRETATION              \n#  | \n#  |  ADAPTED FROM:  neuralnet: Training of Neural Networks\n#  |    by Frauke Günther and Stefan Fritsch The R Journal Vol. 2/1, June 2010 \n#  |    ISSN 2073-4859  (LOCATED: P:\\TOOLS AND REFERENCES (Copy)\\R References\\Neural Networks\n#  | \n#  | \n#  |------------------------------------------------------------------\n#  |DATA USED: 'infert' FROM THE 'datasets' LIBRARY              \n#  |------------------------------------------------------------------\n#  |CONTENTS:               \n#  |\n#  |  PART 1: get the data \n#  |  PART 2: train the network\n#  |  PART 3: \n#  |  PART 4: \n#  |  PART 5: \n#  |------------------------------------------------------------------\n#  |COMMENTS:               \n#  |\n#  |-----------------------------------------------------------------\n#  |UPDATES:               \n#  |\n#  |\n#  |------------------------------------------------------------------\n \n#  *------------------------------------------------------------------*\n#  | get the data\n#  *------------------------------------------------------------------* \n \nlibrary(datasets)\n \nnames(infert)\n \n#  *------------------------------------------------------------------*\n#  | train the network\n#  *------------------------------------------------------------------* \n \nlibrary(neuralnet)\n \nnn <- neuralnet(\n case~age+parity+induced+spontaneous,\n data=infert, hidden=2, err.fct=\"ce\",\n linear.output=FALSE)\n \n#  *------------------------------------------------------------------*\n#  | output training results\n#  *------------------------------------------------------------------*  \n \n# basic\nnn\n \n# reults options\nnames(nn)\n \n \n# result matrix\n \nnn$result.matrix\n \n# The given data is saved in nn$covariate and\n# nn$response as well as in nn$data for the whole data\n# set inclusive non-used variables. The output of the\n# neural network, i.e. the fitted values o(x), is provided\n# by nn$net.result:\n \nout <- cbind(nn$covariate,nn$net.result[[1]])\n \ndimnames(out) <- list(NULL, c(\"age\", \"parity\",\"induced\",\"spontaneous\",\"nn-output\"))\n \nhead(out)\n \n# generalized weights\n \n# The generalized weight expresses the effect of each\n# ovariate xi and thus has an analogous interpretation\n# as the ith regression parameter in regression models.\n# However, the generalized weight depends on all\n# other covariates. Its distribution indicates whether\n# the effect of the covariate is linear since a small variance\n# suggests a linear effect\n \n# The columns refer to the four covariates age (j =\n# 1), parity (j = 2), induced (j = 3), and spontaneous (j=4)\n \nhead(nn$generalized.weights[[1]])\n \n# visualization\n \nplot(nn,rep=\"best\")"
     }
   ],
   "lastupdate": "2017-08-28T05:57:48.399Z",

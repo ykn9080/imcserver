@@ -4725,22 +4725,4 @@
   }
 ]
 
-/*
-  //*********** this is for scrapping awosome font from its web page
 
-  var arr=[];$(".col-md-4.col-sm-6.col-lg-3.col-print-4").each(function(i,k){
-var set={};
-$(k).contents().filter(function() {
-    return this.nodeType == 3
-}).each(function(){
-
-if(this.textContent.indexOf('fa')>-1){
-    set.icon=this.textContent.trim();
-}
-});
-set.font=$(k).find("span").text().substring(1,9);
-arr.push(set);
-
-});
-
-*/

@@ -1,4 +1,5 @@
 const auth=require('../passport/auth');
+const filefunc = require('../function/filefunc');
 
 module.exports = (app, passport) => {
 
@@ -6,8 +7,9 @@ module.exports = (app, passport) => {
   require('./auth.js')(app, passport);
   require('./signup.js')(app, passport);
   require('./localuser.js')(app,passport);
-  require('./mssql.js')(app);
-  require('./api.js')(app);
+  //require('./mssql.js')(app); //smartasp 디비복구후 재생!!!!!!!!!!!!
+  require('./api.js')(app,passport);
+    require('./file.js')(app);
 
 
   // Define the home page route
@@ -34,6 +36,22 @@ console.log(user)
   app.get('/about', function(req, res) {
     res.render('about.html');
   });
+
+
+  app.post('/findpath', function(req, res) {
+       var rtn=filefunc.findpathread(req.body.relpath, req.body.myinfo);
+       res.send(rtn);
+  });
+  app.post('/makepath', function(req, res) {
+
+       var rtn=filefunc.makedirfile(req.body.dir, req.body.name);
+       console.log('rtn',rtn)
+      filefunc.makeDirectory(rtn);
+      filefunc.writeFile(rtn,"good morning")
+  });
+
+
+
   // =====================================
   // LOGOUT ==============================
   // =====================================

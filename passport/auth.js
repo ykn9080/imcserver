@@ -7,7 +7,7 @@ const config = require('../config');
 const passport = require('passport');
 var opts = {
   //secret we used to sign our JWT
-  secretOrKey: config.config.passport.jwtSecret,
+  secretOrKey: config.basic.passport.jwtSecret,
   //we expect the user to send the token as a query paramater with the name 'secret_token'
   jwtFromRequest: ExtractJWT.fromAuthHeaderAsBearerToken()
 }
@@ -29,15 +29,16 @@ module.exports = function() {
   };
 }
 function authfind(token, done) {
-  switch (config.passport.datasrc) {
-    case "mongodb":
+  switch (config.basic.passport.datasrc) {
+    default: //case "mongodb": 
+    
       MongoUser.findOne({
         _id: token._id
       }, function(err, user) {
         if (err)
           return done(err, false);
         else if (user) {
-          console.log('passing thru auth!!!')
+         
           return done(null, user);
         } else
           return done(null, false);

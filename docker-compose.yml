@@ -1,0 +1,23 @@
+version: "2"
+volumes:
+        mongodbdata:
+            external: true
+services:
+  app:
+    container_name: imc1
+    environment:
+      - MONGO_URI=mongodb://imcmongo:27017/local
+    restart: always
+    build: .
+    ports:
+      - "3001:3001"
+    links:
+      - imcmongo
+  imcmongo:
+    container_name: imcmongo1
+    image: mongo
+    volumes:
+      #- ../Program\ Files/MongoDB/Server/4.0/data:/data/db
+      - mongodbdata:/data/db
+    ports:
+      - "8001:27017"

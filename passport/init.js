@@ -12,7 +12,7 @@ module.exports = function(passport){
     passport.serializeUser(function(user, done) {
         console.log('serializing user: ');console.log(user);
         var uuid;
-        switch(config.config.passport.datasrc){
+        switch(config.basic.passport.datasrc){
           case 'mongodb':
             uuid=user._id;
           break;

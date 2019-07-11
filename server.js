@@ -11,18 +11,19 @@ app.use(cors())
 //app.set('router', __dirname + '/router/main');
 app.set('views', __dirname + '/views');
 app.use(express.static(__dirname+ '/public'));
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(morgan());
+
+app.use(bodyParser.json({limit: '50mb', extended: true}))
+app.use(bodyParser.urlencoded({limit: '50mb', extended: true}))
+
+app.use(morgan("combined"));
 
 app.set('view engine', 'ejs');
 app.engine('html', require('ejs').renderFile);
 
 //Set up default mongoose connection
 const config = require('./config');
-console.log(config.currentsetting.datasrc)
 //var mongoDB='mongodb://yknam:ykn9080@ds135399.mlab.com:35399/imcdb';
-mongoose.connect(config.currentsetting.datasrc);
+mongoose.connect(config.currentsetting.datasrc,{ useNewUrlParser: true });
 // Get Mongoose to use the global promise library
 mongoose.Promise = global.Promise;
 //Get the default connection
@@ -30,6 +31,9 @@ var db = mongoose.connection;
 
 //Bind connection to error event (to get notification of connection errors)
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
+
+
+require('./database/mssql.js');
 
 
 var expressSession = require('express-session');
@@ -53,8 +57,10 @@ initPassport(passport);
 // and displaying in templates
 var flash = require('connect-flash');
 app.use(flash());
+require('./api/googleapis');
 
 require('./router/index.js')(app,passport);
+
 
 app.set('port', process.env.PORT || 3001);
 var server=app.listen(app.get('port'), function(){

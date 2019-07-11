@@ -3,7 +3,7 @@ var config = require("../config").config.mssql.smarterasp;
 const pool = new sql.ConnectionPool(config);
 var path = require("path");
 var fs = require("fs");
-  var func = require("../function/api");
+  var func = require("../function/file");
 pool.connect();
 
 module.exports = (app) => {
@@ -12,7 +12,6 @@ module.exports = (app) => {
 
     var req = new sql.Request(pool);
     req.query(query).then(function(recordset) {
-      console.log(recordset);
       sql.close();
     }).catch(function(err) {
       console.log(err);
@@ -85,7 +84,9 @@ module.exports = (app) => {
 
   //PUT API
   app.put("/api/:table/:id", function(req, res) {
-    console.log(req.body)
+
+
+
     var query = "UPDATE " + req.params.table + " SET compname='" + req.body.name + "'  WHERE compcode= '" + req.params.id + "'";
     executeQuery3(res, query);
   });

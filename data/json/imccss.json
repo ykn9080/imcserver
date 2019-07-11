@@ -1,0 +1,1222 @@
+"csslist": [
+    {
+        "code": "cs160710112527",
+        "name": "form-style-5",
+        "desc": "fieldset support",
+        "domtype": "form",
+        "cssscript": ".form-style-5{\n    max-width: 500px;\n    padding: 10px 20px;\n    background: #f4f7f8;\n    margin: 10px auto;\n    border-radius: 8px;\n    font-family: Georgia, \"Times New Roman\", Times, serif;\n}\n.form-style-5 fieldset{\n    border: none;\n}\n.form-style-5 legend {\n    font-size: 1.4em;\n    margin-bottom: 10px;\n}\n.form-style-5 label {\n    display: block;\n    margin-bottom: 8px;\n}\n.form-style-5 input[type=\"text\"],\n.form-style-5 input[type=\"date\"],\n.form-style-5 input[type=\"datetime\"],\n.form-style-5 input[type=\"email\"],\n.form-style-5 input[type=\"number\"],\n.form-style-5 input[type=\"search\"],\n.form-style-5 input[type=\"time\"],\n.form-style-5 input[type=\"url\"],\n.form-style-5 textarea,\n.form-style-5 select {\n    font-family: Georgia, \"Times New Roman\", Times, serif;\n    background: rgba(255,255,255,.1);\n    border: none;\n    border-radius: 4px;\n    font-size: 16px;\n    margin: 0;\n    outline: 0;\n    padding: 7px;\n    width: 100%;\n    box-sizing: border-box; \n    -webkit-box-sizing: border-box;\n    -moz-box-sizing: border-box; \n    background-color: #e8eeef;\n    color:#8a97a0;\n    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;\n    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;\n    margin-bottom: 30px;\n    \n}\n.form-style-5 input[type=\"text\"]:focus,\n.form-style-5 input[type=\"date\"]:focus,\n.form-style-5 input[type=\"datetime\"]:focus,\n.form-style-5 input[type=\"email\"]:focus,\n.form-style-5 input[type=\"number\"]:focus,\n.form-style-5 input[type=\"search\"]:focus,\n.form-style-5 input[type=\"time\"]:focus,\n.form-style-5 input[type=\"url\"]:focus,\n.form-style-5 textarea:focus,\n.form-style-5 select:focus{\n    background: #d2d9dd;\n}\n.form-style-5 select{\n    -webkit-appearance: menulist-button;\n    height:35px;\n}\n.form-style-5 .number {\n    background: #1abc9c;\n    color: #fff;\n    height: 30px;\n    width: 30px;\n    display: inline-block;\n    font-size: 0.8em;\n    margin-right: 4px;\n    line-height: 30px;\n    text-align: center;\n    text-shadow: 0 1px 0 rgba(255,255,255,0.2);\n    border-radius: 15px 15px 15px 0px;\n}\n\n.form-style-5 input[type=\"submit\"],\n.form-style-5 input[type=\"button\"]\n{\n    position: relative;\n    display: block;\n    padding: 19px 39px 18px 39px;\n    color: #FFF;\n    margin: 0 auto;\n    background: #1abc9c;\n    font-size: 18px;\n    text-align: center;\n    font-style: normal;\n    width: 100%;\n    border: 1px solid #16a085;\n    border-width: 1px 1px 3px;\n    margin-bottom: 10px;\n}\n.form-style-5 input[type=\"submit\"]:hover,\n.form-style-5 input[type=\"button\"]:hover\n{\n    background: #109177;\n}",
+        "stylelist": [
+        {
+            "sname": ".form-style-5",
+            "style": "max-width:500px;padding:10px 20px;background:#f4f7f8;margin:10px auto;border-radius:8px;font-family:Georgia, \"Times New Roman\", Times, serif;"
+        },
+        {
+            "sname": ".form-style-5 fieldset",
+            "style": "border:none;"
+        },
+        {
+            "sname": ".form-style-5 legend",
+            "style": "font-size:1.4em;margin-bottom:10px;"
+        },
+        {
+            "sname": ".form-style-5 label",
+            "style": "display:block;margin-bottom:8px;"
+        },
+        {
+            "sname": ".form-style-5 input[type=\"text\"],\n.form-style-5 input[type=\"date\"],\n.form-style-5 input[type=\"datetime\"],\n.form-style-5 input[type=\"email\"],\n.form-style-5 input[type=\"number\"],\n.form-style-5 input[type=\"search\"],\n.form-style-5 input[type=\"time\"],\n.form-style-5 input[type=\"url\"],\n.form-style-5 textarea,\n.form-style-5 select",
+            "style": "font-family:Georgia, \"Times New Roman\", Times, serif;background:rgba(255,255,255,.1);border:none;border-radius:4px;font-size:16px;margin:0;outline:0;padding:7px;width:100%;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;background-color:#e8eeef;color:#8a97a0;-webkit-box-shadow:0 1px 0 rgba(0,0,0,0.03) inset;box-shadow:0 1px 0 rgba(0,0,0,0.03) inset;margin-bottom:30px;"
+        },
+        {
+            "sname": ".form-style-5 input[type=\"text\"]:focus,\n.form-style-5 input[type=\"date\"]:focus,\n.form-style-5 input[type=\"datetime\"]:focus,\n.form-style-5 input[type=\"email\"]:focus,\n.form-style-5 input[type=\"number\"]:focus,\n.form-style-5 input[type=\"search\"]:focus,\n.form-style-5 input[type=\"time\"]:focus,\n.form-style-5 input[type=\"url\"]:focus,\n.form-style-5 textarea:focus,\n.form-style-5 select:focus",
+            "style": "background:#d2d9dd;"
+        },
+        {
+            "sname": ".form-style-5 select",
+            "style": "-webkit-appearance:menulist-button;height:35px;"
+        },
+        {
+            "sname": ".form-style-5 .number",
+            "style": "background:#1abc9c;color:#fff;height:30px;width:30px;display:inline-block;font-size:0.8em;margin-right:4px;line-height:30px;text-align:center;text-shadow:0 1px 0 rgba(255,255,255,0.2);border-radius:15px 15px 15px 0px;"
+        },
+        {
+            "sname": ".form-style-5 input[type=\"submit\"],\n.form-style-5 input[type=\"button\"]",
+            "style": "position:relative;display:block;padding:19px 39px 18px 39px;color:#FFF;margin:0 auto;background:#1abc9c;font-size:18px;text-align:center;font-style:normal;width:100%;border:1px solid #16a085;border-width:1px 1px 3px;margin-bottom:10px;"
+        },
+        {
+            "sname": ".form-style-5 input[type=\"submit\"]:hover,\n.form-style-5 input[type=\"button\"]:hover",
+            "style": "background:#109177;"
+        }],
+        "domdetail": "<input/>",
+        "cssurl": "",
+        "lastupdate": "2016-07-12T05:23:24.42Z",
+        "htmlsample": "<div class=\"form-style-5\">\n<form>\n<fieldset>\n<legend><span class=\"number\">1</span> Candidate Info</legend>\n<input type=\"text\" name=\"field1\" placeholder=\"Your Name *\">\n<input type=\"email\" name=\"field2\" placeholder=\"Your Email *\">\n<textarea name=\"field3\" placeholder=\"About yourself\"></textarea>\n<label for=\"job\">Interests:</label>\n<select id=\"job\" name=\"field4\">\n<optgroup label=\"Indoors\">\n  <option value=\"fishkeeping\">Fishkeeping</option>\n  <option value=\"reading\">Reading</option>\n  <option value=\"boxing\">Boxing</option>\n  <option value=\"debate\">Debate</option>\n  <option value=\"gaming\">Gaming</option>\n  <option value=\"snooker\">Snooker</option>\n  <option value=\"other_indoor\">Other</option>\n</optgroup>\n<optgroup label=\"Outdoors\">\n  <option value=\"football\">Football</option>\n  <option value=\"swimming\">Swimming</option>\n  <option value=\"fishing\">Fishing</option>\n  <option value=\"climbing\">Climbing</option>\n  <option value=\"cycling\">Cycling</option>\n  <option value=\"other_outdoor\">Other</option>\n</optgroup>\n</select>      \n</fieldset>\n<fieldset>\n<legend><span class=\"number\">2</span> Additional Info</legend>\n<textarea name=\"field3\" placeholder=\"About Your School\"></textarea>\n</fieldset>\n<input type=\"submit\" value=\"Apply\" />\n</form>\n</div>"
+    },
+    {
+        "code": "cs160710111937",
+        "name": "form-style-2",
+        "desc": "",
+        "domtype": "form",
+        "cssscript": ".form-style-2{\n    max-width: 500px;\n    padding: 20px 12px 10px 20px;\n    font: 13px Arial, Helvetica, sans-serif;\n}\n.form-style-2 h1\n.form-style-2 h2{\n    border-bottom: 2px solid #ddd;\n    margin-bottom: 20px;\n    padding-bottom: 3px;\n}\n.form-style-2 label{\n    display: block;\n    margin: 0px 0px 15px 0px;\n}\n.form-style-2 label > span{\n    width: 100px;\n    font-weight: bold;\n    float: left;\n    padding-top: 8px;\n    padding-right: 5px;\n}\n.form-style-2 span.required{\n    color:red;\n}\n.form-style-2 .tel-number-field{\n    width: 40px;\n    text-align: center;\n}\n.form-style-2 input{\n    width: 100%;\n    \n}\n\n.form-style-2 input, \n.form-style-2 .tel-number-field, \n.form-style-2 textarea, \n .form-style-2 select{\n    box-sizing: border-box;\n    -webkit-box-sizing: border-box;\n    -moz-box-sizing: border-box;\n    border: 1px solid #C2C2C2;\n    box-shadow: 1px 1px 4px #EBEBEB;\n    -moz-box-shadow: 1px 1px 4px #EBEBEB;\n    -webkit-box-shadow: 1px 1px 4px #EBEBEB;\n    border-radius: 3px;\n    -webkit-border-radius: 3px;\n    -moz-border-radius: 3px;\n    padding: 7px;\n    outline: none;\n}\n.form-style-2 input:focus, \n.form-style-2 .tel-number-field:focus, \n.form-style-2 textarea:focus,  \n.form-style-2 select:focus{\n    border: 1px solid #0C0;\n}\n.form-style-2 textarea{\n    height:100px;\n    width: 100%;\n}\n.form-style-2 input[type=submit],\n.form-style-2 input[type=button]{\n    border: none;\n    padding: 8px 15px 8px 15px;\n    background: #FF8500;\n    color: #fff;\n    box-shadow: 1px 1px 4px #DADADA;\n    -moz-box-shadow: 1px 1px 4px #DADADA;\n    -webkit-box-shadow: 1px 1px 4px #DADADA;\n    border-radius: 3px;\n    -webkit-border-radius: 3px;\n    -moz-border-radius: 3px;\n}\n.form-style-2 input[type=submit]:hover,\n.form-style-2 input[type=button]:hover{\n    background: #EA7B00;\n    color: #fff;\n}",
+        "stylelist": [
+        {
+            "sname": ".form-style-2",
+            "style": "max-width:500px;padding:20px 12px 10px 20px;font:13px Arial, Helvetica, sans-serif;"
+        },
+        {
+            "sname": ".form-style-2 h1\n.form-style-2 h2",
+            "style": "border-bottom:2px solid #ddd;margin-bottom:20px;padding-bottom:3px;"
+        },
+        {
+            "sname": ".form-style-2 label",
+            "style": "display:block;margin:0px 0px 15px 0px;"
+        },
+        {
+            "sname": ".form-style-2 label > span",
+            "style": "width:100px;font-weight:bold;float:left;padding-top:8px;padding-right:5px;"
+        },
+        {
+            "sname": ".form-style-2 span.required",
+            "style": "color:red;"
+        },
+        {
+            "sname": ".form-style-2 .tel-number-field",
+            "style": "width:40px;text-align:center;"
+        },
+        {
+            "sname": ".form-style-2 input",
+            "style": "width:100%;"
+        },
+        {
+            "sname": ".form-style-2 input, \n.form-style-2 .tel-number-field, \n.form-style-2 textarea, \n .form-style-2 select",
+            "style": "box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;border:1px solid #C2C2C2;box-shadow:1px 1px 4px #EBEBEB;-moz-box-shadow:1px 1px 4px #EBEBEB;-webkit-box-shadow:1px 1px 4px #EBEBEB;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;padding:7px;outline:none;"
+        },
+        {
+            "sname": ".form-style-2 input:focus, \n.form-style-2 .tel-number-field:focus, \n.form-style-2 textarea:focus,  \n.form-style-2 select:focus",
+            "style": "border:1px solid #0C0;"
+        },
+        {
+            "sname": ".form-style-2 .textarea",
+            "style": "height:100px;width:55%;"
+        },
+        {
+            "sname": ".form-style-2 input[type=submit],\n.form-style-2 input[type=button]",
+            "style": "border:none;padding:8px 15px 8px 15px;background:#FF8500;color:#fff;box-shadow:1px 1px 4px #DADADA;-moz-box-shadow:1px 1px 4px #DADADA;-webkit-box-shadow:1px 1px 4px #DADADA;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;"
+        },
+        {
+            "sname": ".form-style-2 input[type=submit]:hover,\n.form-style-2 input[type=button]:hover",
+            "style": "background:#EA7B00;color:#fff;"
+        }],
+        "domdetail": "<label><span/><input/></label>",
+        "cssurl": "",
+        "lastupdate": "2016-07-12T07:33:30.327Z",
+        "htmlsample": "<div class=\"form-style-2\">\n<h2>Provide your information</h2>\n<form action=\"\" method=\"post\">\n<label for=\"field1\"><span>Name <span class=\"required\">*</span></span><input type=\"text\" class=\"input-field\" name=\"field1\" value=\"\" /></label>\n<label for=\"field2\"><span>Email <span class=\"required\">*</span></span><input type=\"text\" class=\"input-field\" name=\"field2\" value=\"\" /></label>\n<label><span>Telephone</span><input type=\"text\" class=\"tel-number-field\" name=\"tel_no_1\" value=\"\" maxlength=\"4\" />-<input type=\"text\" class=\"tel-number-field\" name=\"tel_no_2\" value=\"\" maxlength=\"4\"  />-<input type=\"text\" class=\"tel-number-field\" name=\"tel_no_3\" value=\"\" maxlength=\"10\"  /></label>\n<label for=\"field4\"><span>Regarding</span><select name=\"field4\" class=\"select-field\">\n<option value=\"General Question\">General</option>\n<option value=\"Advertise\">Advertisement</option>\n<option value=\"Partnership\">Partnership</option>\n</select></label>\n<label for=\"field5\"><span>Message <span class=\"required\">*</span></span><textarea name=\"field5\" class=\"textarea-field\"></textarea></label>\n\n<label><span>&nbsp;</span><input type=\"submit\" value=\"Submit\" /></label>\n</form>\n</div>"
+    },
+    {
+        "code": "cs160710113020",
+        "name": "form-style-8",
+        "desc": "",
+        "domtype": "form",
+        "cssscript": ".form-style-8{\n    font-family: 'Open Sans Condensed', arial, sans;\n    width: 500px;\n    padding: 30px;\n    background: #FFFFFF;\n    margin: 50px auto;\n    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);\n    -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);\n    -webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22);\n\n}\n.form-style-8 h1\n.form-style-8 h2{\n    background: #4D4D4D;\n    text-transform: uppercase;\n    font-family: 'Open Sans Condensed', sans-serif;\n    color: #797979;\n    font-size: 18px;\n    font-weight: 100;\n    padding: 20px;\n    margin: -30px -30px 30px -30px;\n}\n.form-style-8 input[type=\"text\"],\n.form-style-8 input[type=\"date\"],\n.form-style-8 input[type=\"datetime\"],\n.form-style-8 input[type=\"email\"],\n.form-style-8 input[type=\"number\"],\n.form-style-8 input[type=\"search\"],\n.form-style-8 input[type=\"time\"],\n.form-style-8 input[type=\"url\"],\n.form-style-8 input[type=\"password\"],\n.form-style-8 textarea,\n.form-style-8 select \n{\n    box-sizing: border-box;\n    -webkit-box-sizing: border-box;\n    -moz-box-sizing: border-box;\n    outline: none;\n    display: block;\n    width: 100%;\n    padding: 7px;\n    border: none;\n    border-bottom: 1px solid #ddd;\n    background: transparent;\n    margin-bottom: 10px;\n    font: 16px Arial, Helvetica, sans-serif;\n    height: 45px;\n}\n.form-style-8 textarea{\n    resize:none;\n    overflow: hidden;\n}\n.form-style-8 input[type=\"button\"], \n.form-style-8 input[type=\"submit\"]{\n    -moz-box-shadow: inset 0px 1px 0px 0px #45D6D6;\n    -webkit-box-shadow: inset 0px 1px 0px 0px #45D6D6;\n    box-shadow: inset 0px 1px 0px 0px #45D6D6;\n    background-color: #2CBBBB;\n    border: 1px solid #27A0A0;\n    display: inline-block;\n    cursor: pointer;\n    color: #FFFFFF;\n    font-family: 'Open Sans Condensed', sans-serif;\n    font-size: 14px;\n    padding: 8px 18px;\n    text-decoration: none;\n    text-transform: uppercase;\n}\n.form-style-8 input[type=\"button\"]:hover, \n.form-style-8 input[type=\"submit\"]:hover {\n    background:linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);\n    background-color:#34CACA;\n}",
+        "stylelist": [
+        {
+            "sname": ".form-style-8",
+            "style": "font-family:'Open Sans Condensed', arial, sans;width:500px;padding:30px;background:#FFFFFF;margin:50px auto;box-shadow:0px 0px 15px rgba(0, 0, 0, 0.22);-moz-box-shadow:0px 0px 15px rgba(0, 0, 0, 0.22);-webkit-box-shadow:0px 0px 15px rgba(0, 0, 0, 0.22);"
+        },
+        {
+            "sname": ".form-style-8 h1\n.form-style-8 h2",
+            "style": "background:#4D4D4D;text-transform:uppercase;font-family:'Open Sans Condensed', sans-serif;color:#797979;font-size:18px;font-weight:100;padding:20px;margin:-30px -30px 30px -30px;"
+        },
+        {
+            "sname": ".form-style-8 input[type=\"text\"],\n.form-style-8 input[type=\"date\"],\n.form-style-8 input[type=\"datetime\"],\n.form-style-8 input[type=\"email\"],\n.form-style-8 input[type=\"number\"],\n.form-style-8 input[type=\"search\"],\n.form-style-8 input[type=\"time\"],\n.form-style-8 input[type=\"url\"],\n.form-style-8 input[type=\"password\"],\n.form-style-8 textarea,\n.form-style-8 select",
+            "style": "box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;outline:none;display:block;width:100%;padding:7px;border:none;border-bottom:1px solid #ddd;background:transparent;margin-bottom:10px;font:16px Arial, Helvetica, sans-serif;height:45px;"
+        },
+        {
+            "sname": ".form-style-8 textarea",
+            "style": "resize:none;overflow:hidden;"
+        },
+        {
+            "sname": ".form-style-8 input[type=\"button\"], \n.form-style-8 input[type=\"submit\"]",
+            "style": "-moz-box-shadow:inset 0px 1px 0px 0px #45D6D6;-webkit-box-shadow:inset 0px 1px 0px 0px #45D6D6;box-shadow:inset 0px 1px 0px 0px #45D6D6;background-color:#2CBBBB;border:1px solid #27A0A0;display:inline-block;cursor:pointer;color:#FFFFFF;font-family:'Open Sans Condensed', sans-serif;font-size:14px;padding:8px 18px;text-decoration:none;text-transform:uppercase;"
+        },
+        {
+            "sname": ".form-style-8 input[type=\"button\"]:hover, \n.form-style-8 input[type=\"submit\"]:hover",
+            "style": "background:linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);background-color:#34CACA;"
+        }],
+        "domdetail": "<input/>",
+        "cssurl": "",
+        "lastupdate": "2016-07-12T07:39:39.569Z",
+        "htmlsample": "<div class=\"form-style-8\">\n  <h2>Login to your account</h2>\n  <form>\n    <input type=\"text\" name=\"field1\" placeholder=\"Full Name\" />\n    <input type=\"email\" name=\"field2\" placeholder=\"Email\" />\n    <input type=\"url\" name=\"field3\" placeholder=\"Website\" />\n    <textarea placeholder=\"Message\" onkeyup=\"adjust_textarea(this)\"></textarea>\n    <input type=\"button\" value=\"Send Message\" />\n  </form>\n</div>"
+    },
+    {
+        "code": "cs16052616563",
+        "name": "purecss",
+        "desc": "",
+        "domtype": "form",
+        "cssscript": ".purecss {\n\tfont-size: 16px;\n\tfont-family: Arial;\n\tbackground-color: #fff;\n\tmargin: 2em auto;\n\tpadding: 5%;\n\tline-height: 1.6em;\n\t-webkit-box-shadow: 0 0 0.5em rgba(0,0,0,0.2);\n\tbox-shadow: 0 0 0.5em rgba(0,0,0,0.2);\n\tcolor: #444;\n}\na {\n\tcolor: #0181bc;\n}\np {\n\tmargin: 0 0 1em;\n}\nh1 {\n\tline-height: 1.25em;\n}\nh2, h3 {\n\tmargin: 0 0 0.5em;\n\tfont-size: 1.2em;\n}\npre, code {\n\tfont-size: 0.7em;\n\tbackground-color: #eee;\n\tcolor: #000;\n\tfont-family: verdana, monospace;\n}\npre {\n\tpadding: 1em;\n\twhite-space: pre-line;\n}\n.small {\n\tfont-size: 0.75em;\n\tline-height: 1.5em;\n}\nhr {\n\tborder: none;\n\theight: 0;\n\tborder-top: solid 1px #ccc;\n\tmargin: 1.5em 0;\n}\ninput, select, textarea {\n\tmargin: 0;\n\tpadding: 0;\n\tfont-size: 0.85em;\n\toutline: none;\n\tfont-family: inherit;\n\t-moz-box-sizing: border-box;\n\t/* Firefox */\n\t\t-webkit-box-sizing: border-box;\n\t/* Safari */\n\t\tbox-sizing: border-box;\n}\ninput[type=\"text\"], textarea, select, div.styled, input[type=\"file\"] {\n\twidth: 12em;\n\tborder-radius: 2px;\n\tborder: solid 1px #ccc;\n\tpadding: 0.4em;\n}\ndiv.styled, select, input[type=\"submit\"], input[type=\"button\"], \n\tinput[type=\"file\"]:after {\n\tbackground: white url(formelements-select.png) no-repeat center right;\n\t-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.2);\n\tbox-shadow: 0 1px 3px rgba(0,0,0,0.2);\n}\ninput[type=\"text\"], textarea, input[type=\"file\"] {\n\tbackground-color: #f5f5f5;\n\t-webkit-box-shadow: inset 0 2px 3px rgba(0,0,0,0.2);\n\tbox-shadow: inset 0 2px 3px rgba(0,0,0,0.2);\n}\n.ie9 input[type=\"text\"] {\n\tline-height: normal;\n}\ntextarea {\n\twidth: 100%;\n\theight: 10em;\n}\ndiv.styled {\n\toverflow: hidden;\n\tpadding: 0;\n\tmargin: 0;\n}\n.ie7 div.styled {\n\tborder: none;\n}\ndiv.styled select {\n\twidth: 115%;\n\tbackground-color: transparent;\n\tbackground-image: none;\n\t-webkit-appearance: none;\n\tborder: none;\n\tbox-shadow: none;\n}\n.ie7 div.styled select {\n\twidth: 100%;\n\tbackground-color: #fff;\n\tborder: solid 1px #ccc;\n\tpadding: 0.3em 0.5em;\n}\ninput[type=\"file\"] {\n\tposition: relative;\n\t-webkit-appearance: none;\n\t-webkit-box-sizing: border-box;\n\tbox-sizing: border-box;\n\twidth: 40%;\n\tpadding: 0;\n}\ninput[type=file]::-webkit-file-upload-button {\n\twidth: 0;\n\tpadding: 0;\n\tmargin: 0;\n\t-webkit-appearance: none;\n\tborder: none;\n}\ninput[type=\"file\"]:after {\n\tcontent: 'Upload File';\n\tmargin: 0 0 0 0.5em;\n\tdisplay: inline-block;\n\tleft: 100%;\n\tposition: relative;\n\tbackground: white url(formelements-select.png) no-repeat center left;\n\tpadding: 0.3em 0.5em;\n\tborder: solid 1px #ccc !important;\n\t-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.2);\n\tbox-shadow: 0 1px 3px rgba(0,0,0,0.2);\n\tborder-radius: 4px;\n}\ninput[type=\"file\"]:active:after {\n\tbox-shadow: none;\n}\ninput[type=\"radio\"], \n\tinput[type=\"checkbox\"] {\n\tposition: absolute;\n\tleft: -999em;\n}\nlabel:before {\n\tdisplay: inline-block;\n\tposition: relative;\n\ttop: 0.25em;\n\tleft: -2px;\n\tcontent: '';\n\twidth: 25px;\n\theight: 25px;\n\tbackground-image: url(formelements.png);\n}\ninput[type=\"checkbox\"] + label:before {\n\tbackground-position: 0 -25px;\n}\ninput[type=\"checkbox\"]:checked + label:before {\n\tbackground-position: 0 0;\n}\ninput[type=\"radio\"] + label:before {\n\tbackground-position: -25px -25px;\n}\ninput[type=\"radio\"]:checked + label:before {\n\tbackground-position: -25px 0;\n}\n.ie8 label:before {\n\tdisplay: none;\n\tcontent: none;\n}\n.ie8 input[type=\"checkbox\"],\n\t\t.ie8 input[type=\"radio\"],\n\t\t.ie7 input[type=\"checkbox\"],\n\t\t.ie7 input[type=\"radio\"] {\n\tposition: static;\n\tleft: 0;\n}\n.ie8 input[type=\"checkbox\"],\n\t\t.ie8 input[type=\"radio\"] {\n\tposition: relative;\n\ttop: 5px;\n\tmargin-right: 0.5em;\n}\ninput[type=\"text\"]:focus, textarea:focus {\n\tborder-color: #000;\n}\ninput[type=\"submit\"], \n\tinput[type=\"button\"] {\n\tpadding: 0.5em 1em;\n\tline-height: 1em;\n\tcursor: pointer;\n\tborder-radius: 4px;\n\tcolor: #000;\n\tfont-weight: bold;\n\tfont-size: inherit;\n\tborder: solid 1px #ccc;\n\tbox-shadow: 0 1px 5px rgba(0,0,0,0.2);\n\tbackground-position: center bottom;\n}\ninput[type=\"submit\"]:active, \n\tinput[type=\"button\"]:active {\n\t-webkit-box-shadow: none;\n\tbox-shadow: none;\n}\n",
+        "stylelist": [
+        {
+            "sname": ".purecss",
+            "style": "font-size:16px;font-family:Arial;background-color:#fff;margin:2em auto;padding:5%;line-height:1.6em;-webkit-box-shadow:0 0 0.5em rgba(0,0,0,0.2);box-shadow:0 0 0.5em rgba(0,0,0,0.2);color:#444;"
+        },
+        {
+            "sname": "a",
+            "style": "color:#0181bc;"
+        },
+        {
+            "sname": "p",
+            "style": "margin:0 0 1em;"
+        },
+        {
+            "sname": "h1",
+            "style": "line-height:1.25em;"
+        },
+        {
+            "sname": "h2, h3",
+            "style": "margin:0 0 0.5em;font-size:1.2em;"
+        },
+        {
+            "sname": "pre, code",
+            "style": "font-size:0.7em;background-color:#eee;color:#000;font-family:verdana, monospace;"
+        },
+        {
+            "sname": "pre",
+            "style": "padding:1em;white-space:pre-line;"
+        },
+        {
+            "sname": ".small",
+            "style": "font-size:0.75em;line-height:1.5em;"
+        },
+        {
+            "sname": "hr",
+            "style": "border:none;height:0;border-top:solid 1px #ccc;margin:1.5em 0;"
+        },
+        {
+            "sname": "input, select, textarea",
+            "style": "margin:0;padding:0;font-size:0.85em;outline:none;font-family:inherit;-moz-box-sizing:border-box;/* Firefox */\n\t\t-webkit-box-sizing:border-box;/* Safari */\n\t\tbox-sizing:border-box;"
+        },
+        {
+            "sname": "input[type=\"text\"], textarea, select, div.styled, input[type=\"file\"]",
+            "style": "width:12em;border-radius:2px;border:solid 1px #ccc;padding:0.4em;"
+        },
+        {
+            "sname": "div.styled, select, input[type=\"submit\"], input[type=\"button\"], \n\tinput[type=\"file\"]:after",
+            "style": "background:white url(formelements-select.png) no-repeat center right;-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.2);box-shadow:0 1px 3px rgba(0,0,0,0.2);"
+        },
+        {
+            "sname": "input[type=\"text\"], textarea, input[type=\"file\"]",
+            "style": "background-color:#f5f5f5;-webkit-box-shadow:inset 0 2px 3px rgba(0,0,0,0.2);box-shadow:inset 0 2px 3px rgba(0,0,0,0.2);"
+        },
+        {
+            "sname": ".ie9 input[type=\"text\"]",
+            "style": "line-height:normal;"
+        },
+        {
+            "sname": "textarea",
+            "style": "width:100%;height:10em;"
+        },
+        {
+            "sname": "div.styled",
+            "style": "overflow:hidden;padding:0;margin:0;"
+        },
+        {
+            "sname": ".ie7 div.styled",
+            "style": "border:none;"
+        },
+        {
+            "sname": "div.styled select",
+            "style": "width:115%;background-color:transparent;background-image:none;-webkit-appearance:none;border:none;box-shadow:none;"
+        },
+        {
+            "sname": ".ie7 div.styled select",
+            "style": "width:100%;background-color:#fff;border:solid 1px #ccc;padding:0.3em 0.5em;"
+        },
+        {
+            "sname": "input[type=\"file\"]",
+            "style": "position:relative;-webkit-appearance:none;-webkit-box-sizing:border-box;box-sizing:border-box;width:40%;padding:0;"
+        },
+        {
+            "sname": "input[type=file]::-webkit-file-upload-button",
+            "style": "width:0;padding:0;margin:0;-webkit-appearance:none;border:none;"
+        },
+        {
+            "sname": "input[type=\"file\"]:after",
+            "style": "content:'Upload File';margin:0 0 0 0.5em;display:inline-block;left:100%;position:relative;background:white url(formelements-select.png) no-repeat center left;padding:0.3em 0.5em;border:solid 1px #ccc !important;-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.2);box-shadow:0 1px 3px rgba(0,0,0,0.2);border-radius:4px;"
+        },
+        {
+            "sname": "input[type=\"file\"]:active:after",
+            "style": "box-shadow:none;"
+        },
+        {
+            "sname": "input[type=\"radio\"], \n\tinput[type=\"checkbox\"]",
+            "style": "position:absolute;left:-999em;"
+        },
+        {
+            "sname": "label:before",
+            "style": "display:inline-block;position:relative;top:0.25em;left:-2px;content:'';width:25px;height:25px;background-image:url(formelements.png);"
+        },
+        {
+            "sname": "input[type=\"checkbox\"] + label:before",
+            "style": "background-position:0 -25px;"
+        },
+        {
+            "sname": "input[type=\"checkbox\"]:checked + label:before",
+            "style": "background-position:0 0;"
+        },
+        {
+            "sname": "input[type=\"radio\"] + label:before",
+            "style": "background-position:-25px -25px;"
+        },
+        {
+            "sname": "input[type=\"radio\"]:checked + label:before",
+            "style": "background-position:-25px 0;"
+        },
+        {
+            "sname": ".ie8 label:before",
+            "style": "display:none;content:none;"
+        },
+        {
+            "sname": ".ie8 input[type=\"checkbox\"],\n\t\t.ie8 input[type=\"radio\"],\n\t\t.ie7 input[type=\"checkbox\"],\n\t\t.ie7 input[type=\"radio\"]",
+            "style": "position:static;left:0;"
+        },
+        {
+            "sname": ".ie8 input[type=\"checkbox\"],\n\t\t.ie8 input[type=\"radio\"]",
+            "style": "position:relative;top:5px;margin-right:0.5em;"
+        },
+        {
+            "sname": "input[type=\"text\"]:focus, textarea:focus",
+            "style": "border-color:#000;"
+        },
+        {
+            "sname": "input[type=\"submit\"], \n\tinput[type=\"button\"]",
+            "style": "padding:0.5em 1em;line-height:1em;cursor:pointer;border-radius:4px;color:#000;font-weight:bold;font-size:inherit;border:solid 1px #ccc;box-shadow:0 1px 5px rgba(0,0,0,0.2);background-position:center bottom;"
+        },
+        {
+            "sname": "input[type=\"submit\"]:active, \n\tinput[type=\"button\"]:active",
+            "style": "-webkit-box-shadow:none;box-shadow:none;"
+        }],
+        "cssurl": "",
+        "lastupdate": "2016-07-12T23:33:09.932Z",
+        "domdetail": "<input/>"
+    },
+    {
+        "code": "cs16052616917",
+        "name": "contact",
+        "desc": "",
+        "domtype": "form",
+        "cssscript": ".contact{\n\tbackground:#F9F9F9;\n\tpadding:25px;\n\tmargin:50px 0;\n}\ninput[type=\"text\"], input[type=\"email\"], input[type=\"tel\"], input[type=\"url\"], textarea, button[type=\"submit\"] { font:400 12px/16px \"Open Sans\", Helvetica, Arial, sans-serif; }\nh3,h1,h2 {\n\tcolor: #F96;\n\tdisplay: block;\n\tfont-size: 30px;\n\tfont-weight: 400;\n}\n\nh4 {\n\tmargin:5px 0 15px;\n\tdisplay:block;\n\tfont-size:13px;\n}\n\nfieldset {\n\tborder: medium none !important;\n\tmargin: 0 0 10px;\n\tmin-width: 100%;\n\tpadding: 0;\n\twidth: 100%;\n}\n\ninput[type=\"text\"], input[type=\"email\"], input[type=\"tel\"], input[type=\"url\"], textarea {\n\twidth:100%;\n\tborder:1px solid #CCC;\n\tbackground:#FFF;\n\tmargin:0 0 5px;\n\tpadding:10px;\n}\n\ninput[type=\"text\"]:hover, input[type=\"email\"]:hover, input[type=\"tel\"]:hover, input[type=\"url\"]:hover, textarea:hover,select:hover {\n\t-webkit-transition:border-color 0.3s ease-in-out;\n\t-moz-transition:border-color 0.3s ease-in-out;\n\ttransition:border-color 0.3s ease-in-out;\n\tborder:1px solid #AAA;\n}\n\ntextarea {\n\theight:100px;\n\tmax-width:100%;\n  resize:none;\n}\n\nselect {\nbackground: #FFF url('/images/down-arrow.png') no-repeat right;\n   appearance:none;\n    -webkit-appearance:none; \n   -moz-appearance: none;\n    text-indent: 0.01px;\n    text-overflow: '';\n    border:1px solid #CCC;\n\tbackground:#FFF;\n    width: 100%;\nmargin: 0 0 5px 0;\n\tpadding:10px;\nheight:35px;\n}\nbutton[type=\"submit\"],input[type=\"submit\"],input[type=\"button\"] {\n\tcursor:pointer;\n\twidth:100%;\n\tborder:none;\n\tbackground:#0CF;\n\tcolor:#FFF;\n\tmargin:0 0 5px;\n\tpadding:10px;\n\tfont-size:15px;\n}\n\nbutton[type=\"submit\"]:hover,input[type=\"submit\"]:hover,input[type=\"button\"]:hover  {\n\tbackground:#09C;\n\t-webkit-transition:background 0.3s ease-in-out;\n\t-moz-transition:background 0.3s ease-in-out;\n\ttransition:background-color 0.3s ease-in-out;\n}\n\nbutton[type=\"submit\"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }\n\ninput:focus, textarea:focus {\n\toutline:0;\n\tborder:1px solid #999;\n}\n::-webkit-input-placeholder {\n color:#888;\n}\n:-moz-placeholder {\n color:#888;\n}\n::-moz-placeholder {\n color:#888;\n}\n:-ms-input-placeholder {\n color:#888;\n}\n",
+        "stylelist": [
+        {
+            "sname": ".contact",
+            "style": "background:#F9F9F9;padding:25px;margin:50px 0;"
+        },
+        {
+            "sname": "input[type=\"text\"], input[type=\"email\"], input[type=\"tel\"], input[type=\"url\"], textarea, button[type=\"submit\"]",
+            "style": "font:400 12px/16px \"Open Sans\", Helvetica, Arial, sans-serif;"
+        },
+        {
+            "sname": "h3",
+            "style": "color:#F96;display:block;font-size:30px;font-weight:400;"
+        },
+        {
+            "sname": "h4",
+            "style": "margin:5px 0 15px;display:block;font-size:13px;"
+        },
+        {
+            "sname": "fieldset",
+            "style": "border:medium none !important;margin:0 0 10px;min-width:100%;padding:0;width:100%;"
+        },
+        {
+            "sname": "input[type=\"text\"], input[type=\"email\"], input[type=\"tel\"], input[type=\"url\"], textarea",
+            "style": "width:100%;border:1px solid #CCC;background:#FFF;margin:0 0 5px;padding:10px;"
+        },
+        {
+            "sname": "input[type=\"text\"]:hover, input[type=\"email\"]:hover, input[type=\"tel\"]:hover, input[type=\"url\"]:hover, textarea:hover,select:hover",
+            "style": "-webkit-transition:border-color 0.3s ease-in-out;-moz-transition:border-color 0.3s ease-in-out;transition:border-color 0.3s ease-in-out;border:1px solid #AAA;"
+        },
+        {
+            "sname": "textarea",
+            "style": "height:100px;max-width:100%;resize:none;"
+        },
+        {
+            "sname": "select",
+            "style": "background:#fbfbfb url('/images/down-arrow.png') no-repeat right,#FFF;appearance:none;-webkit-appearance:none;-moz-appearance:none;text-indent:0.01px;text-overflow:'';border:1px solid #CCC;width:100%;margin:5px 0 5px 0;padding:10px;height:25px;"
+        },
+        {
+            "sname": "button[type=\"submit\"],input[type=\"submit\"],input[type=\"button\"]",
+            "style": "cursor:pointer;width:100%;border:none;background:#0CF;color:#FFF;margin:0 0 5px;padding:10px;font-size:15px;"
+        },
+        {
+            "sname": "button[type=\"submit\"]:hover,input[type=\"submit\"]:hover,input[type=\"button\"]:hover",
+            "style": "background:#09C;-webkit-transition:background 0.3s ease-in-out;-moz-transition:background 0.3s ease-in-out;transition:background-color 0.3s ease-in-out;"
+        },
+        {
+            "sname": "button[type=\"submit\"]:active",
+            "style": "box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5);"
+        },
+        {
+            "sname": "input:focus, textarea:focus",
+            "style": "outline:0;border:1px solid #999;"
+        },
+        {
+            "sname": "::-webkit-input-placeholder",
+            "style": "color:#888;"
+        },
+        {
+            "sname": ":-moz-placeholder",
+            "style": "color:#888;"
+        },
+        {
+            "sname": "::-moz-placeholder",
+            "style": "color:#888;"
+        },
+        {
+            "sname": ":-ms-input-placeholder",
+            "style": "color:#888;"
+        }],
+        "cssurl": "",
+        "lastupdate": "2016-07-13T00:53:51.346Z",
+        "domdetail": "<input/>"
+    },
+    {
+        "code": "cs160713102558",
+        "name": "gridtable",
+        "desc": "",
+        "domtype": "table",
+        "cssscript": "<!-- CSS goes in the document HEAD or added to your external stylesheet -->\ntable.gridtable {\n\tfont-family: verdana,arial,sans-serif;\n\tfont-size:11px;\n\tcolor:#333333;\n\tborder-width: 1px;\n\tborder-color: #666666;\n\tborder-collapse: collapse;\n}\ntable.gridtable th {\n\tborder-width: 1px;\n\tpadding: 8px;\n\tborder-style: solid;\n\tborder-color: #666666;\n\tbackground-color: #dedede;\n}\ntable.gridtable td {\n\tborder-width: 1px;\n\tpadding: 8px;\n\tborder-style: solid;\n\tborder-color: #666666;\n\tbackground-color: #ffffff;\n}\n\n",
+        "stylelist": [
+        {
+            "sname": "<!-- CSS goes in the document HEAD or added to your external stylesheet -->\ntable.gridtable",
+            "style": "font-family:verdana,arial,sans-serif;font-size:11px;color:#333333;border-width:1px;border-color:#666666;border-collapse:collapse;"
+        },
+        {
+            "sname": "table.gridtable th",
+            "style": "border-width:1px;padding:8px;border-style:solid;border-color:#666666;background-color:#dedede;"
+        },
+        {
+            "sname": "table.gridtable td",
+            "style": "border-width:1px;padding:8px;border-style:solid;border-color:#666666;background-color:#ffffff;"
+        }],
+        "domdetail": "",
+        "cssurl": "",
+        "htmlsample": "<!-- Table goes in the document BODY -->\n<table class=\"gridtable\">\n<tr>\n\t<th>Info Header 1</th><th>Info Header 2</th><th>Info Header 3</th>\n</tr>\n<tr>\n\t<td>Text 1A</td><td>Text 1B</td><td>Text 1C</td>\n</tr>\n<tr>\n\t<td>Text 2A</td><td>Text 2B</td><td>Text 2C</td>\n</tr>\n</table>\n",
+        "lastupdate": "2016-07-13T01:25:58.081Z"
+    },
+    {
+        "code": "cs160713103123",
+        "name": "imagetable",
+        "desc": "",
+        "domtype": "table",
+        "cssscript": "<!-- CSS goes in the document HEAD or added to your external stylesheet -->\ntable.imagetable {\n\tfont-family: verdana,arial,sans-serif;\n\tfont-size:11px;\n\tcolor:#333333;\n\tborder-width: 1px;\n\tborder-color: #999999;\n\tborder-collapse: collapse;\n}\ntable.imagetable th {\n\tbackground:#b5cfd2 url('/images/cell-blue.jpg');\n\tborder-width: 1px;\n\tpadding: 8px;\n\tborder-style: solid;\n\tborder-color: #999999;\n}\ntable.imagetable td {\n\tbackground:#dcddc0 url('/images/cell-grey.jpg');\n\tborder-width: 1px;\n\tpadding: 8px;\n\tborder-style: solid;\n\tborder-color: #999999;\n}\n",
+        "stylelist": [
+        {
+            "sname": "<!-- CSS goes in the document HEAD or added to your external stylesheet -->\ntable.imagetable",
+            "style": "font-family:verdana,arial,sans-serif;font-size:11px;color:#333333;border-width:1px;border-color:#999999;border-collapse:collapse;"
+        },
+        {
+            "sname": "table.imagetable th",
+            "style": "background:#b5cfd2 url('/images/cell-blue.jpg');border-width:1px;padding:8px;border-style:solid;border-color:#999999;"
+        },
+        {
+            "sname": "table.imagetable td",
+            "style": "background:#dcddc0 url('/images/cell-grey.jpg');border-width:1px;padding:8px;border-style:solid;border-color:#999999;"
+        }],
+        "domdetail": "",
+        "cssurl": "",
+        "htmlsample": "<!-- Table goes in the document BODY -->\n<table class=\"imagetable\">\n<tr>\n\t<th>Info Header 1</th><th>Info Header 2</th><th>Info Header 3</th>\n</tr>\n<tr>\n\t<td>Text 1A</td><td>Text 1B</td><td>Text 1C</td>\n</tr>\n<tr>\n\t<td>Text 2A</td><td>Text 2B</td><td>Text 2C</td>\n</tr>\n</table>\n",
+        "lastupdate": "2016-07-13T01:31:23.749Z"
+    },
+    {
+        "code": "cs16071314916",
+        "name": "hor-minimalist-a",
+        "desc": "",
+        "domtype": "table",
+        "domdetail": "",
+        "cssscript": "",
+        "cssurl": "/App_Themes/express-css-table-design/style.css",
+        "htmlsample": "<table summary=\"Employee Pay Sheet\">\n    <thead>\n    \t<tr>\n        \t<th scope=\"col\">Employee</th>\n            <th scope=\"col\">Salary</th>\n            <th scope=\"col\">Bonus</th>\n            <th scope=\"col\">Supervisor</th>\n        </tr>\n    </thead>\n    <tbody>\n    \t<tr>\n        \t<td>Stephen C. Cox</td>\n            <td>$300</td>\n            <td>$50</td>\n            <td>Bob</td>\n        </tr>\n        <tr>\n        \t<td>Josephin Tan</td>\n            <td>$150</td>\n            <td>-</td>\n            <td>Annie</td>\n        </tr>\n        <tr>\n        \t<td>Joyce Ming</td>\n            <td>$200</td>\n            <td>$35</td>\n            <td>Andy</td>\n        </tr>\n        <tr>\n        \t<td>James A. Pentel</td>\n            <td>$175</td>\n            <td>$25</td>\n            <td>Annie</td>\n        </tr>\n    </tbody>\n</table>",
+        "lastupdate": "2016-07-13T05:09:16.607Z"
+    },
+    {
+        "code": "cs16071314917",
+        "name": "hor-minimalist-b",
+        "desc": "",
+        "domtype": "table",
+        "domdetail": "",
+        "cssscript": "",
+        "cssurl": "/App_Themes/express-css-table-design/style.css",
+        "htmlsample": "<table summary=\"Employee Pay Sheet\">\n    <thead>\n    \t<tr>\n        \t<th scope=\"col\">Employee</th>\n            <th scope=\"col\">Salary</th>\n            <th scope=\"col\">Bonus</th>\n            <th scope=\"col\">Supervisor</th>\n        </tr>\n    </thead>\n    <tbody>\n    \t<tr>\n        \t<td>Stephen C. Cox</td>\n            <td>$300</td>\n            <td>$50</td>\n            <td>Bob</td>\n        </tr>\n        <tr>\n        \t<td>Josephin Tan</td>\n            <td>$150</td>\n            <td>-</td>\n            <td>Annie</td>\n        </tr>\n        <tr>\n        \t<td>Joyce Ming</td>\n            <td>$200</td>\n            <td>$35</td>\n            <td>Andy</td>\n        </tr>\n        <tr>\n        \t<td>James A. Pentel</td>\n            <td>$175</td>\n            <td>$25</td>\n            <td>Annie</td>\n        </tr>\n    </tbody>\n</table>",
+        "lastupdate": "2016-07-13T05:09:16.607Z"
+    },
+    {
+        "code": "cs16071314918",
+        "name": "ver-minimalist",
+        "desc": "",
+        "domtype": "table",
+        "domdetail": "",
+        "cssscript": "",
+        "cssurl": "/App_Themes/express-css-table-design/style.css",
+        "htmlsample": "<table summary=\"Employee Pay Sheet\">\n    <thead>\n    \t<tr>\n        \t<th scope=\"col\">Employee</th>\n            <th scope=\"col\">Salary</th>\n            <th scope=\"col\">Bonus</th>\n            <th scope=\"col\">Supervisor</th>\n        </tr>\n    </thead>\n    <tbody>\n    \t<tr>\n        \t<td>Stephen C. Cox</td>\n            <td>$300</td>\n            <td>$50</td>\n            <td>Bob</td>\n        </tr>\n        <tr>\n        \t<td>Josephin Tan</td>\n            <td>$150</td>\n            <td>-</td>\n            <td>Annie</td>\n        </tr>\n        <tr>\n        \t<td>Joyce Ming</td>\n            <td>$200</td>\n            <td>$35</td>\n            <td>Andy</td>\n        </tr>\n        <tr>\n        \t<td>James A. Pentel</td>\n            <td>$175</td>\n            <td>$25</td>\n            <td>Annie</td>\n        </tr>\n    </tbody>\n</table>",
+        "lastupdate": "2016-07-13T05:09:16.607Z"
+    },
+    {
+        "code": "cs16071314919",
+        "name": "box-table-a",
+        "desc": "",
+        "domtype": "table",
+        "domdetail": "",
+        "cssscript": "",
+        "cssurl": "/App_Themes/express-css-table-design/style.css",
+        "htmlsample": "<table summary=\"Employee Pay Sheet\">\n    <thead>\n    \t<tr>\n        \t<th scope=\"col\">Employee</th>\n            <th scope=\"col\">Salary</th>\n            <th scope=\"col\">Bonus</th>\n            <th scope=\"col\">Supervisor</th>\n        </tr>\n    </thead>\n    <tbody>\n    \t<tr>\n        \t<td>Stephen C. Cox</td>\n            <td>$300</td>\n            <td>$50</td>\n            <td>Bob</td>\n        </tr>\n        <tr>\n        \t<td>Josephin Tan</td>\n            <td>$150</td>\n            <td>-</td>\n            <td>Annie</td>\n        </tr>\n        <tr>\n        \t<td>Joyce Ming</td>\n            <td>$200</td>\n            <td>$35</td>\n            <td>Andy</td>\n        </tr>\n        <tr>\n        \t<td>James A. Pentel</td>\n            <td>$175</td>\n            <td>$25</td>\n            <td>Annie</td>\n        </tr>\n    </tbody>\n</table>",
+        "lastupdate": "2016-07-13T05:09:16.607Z"
+    },
+    {
+        "code": "cs16071314920",
+        "name": "box-table-b",
+        "desc": "",
+        "domtype": "table",
+        "domdetail": "",
+        "cssscript": "",
+        "cssurl": "/App_Themes/express-css-table-design/style.css",
+        "htmlsample": "<table summary=\"Employee Pay Sheet\">\n    <thead>\n    \t<tr>\n        \t<th scope=\"col\">Employee</th>\n            <th scope=\"col\">Salary</th>\n            <th scope=\"col\">Bonus</th>\n            <th scope=\"col\">Supervisor</th>\n        </tr>\n    </thead>\n    <tbody>\n    \t<tr>\n        \t<td>Stephen C. Cox</td>\n            <td>$300</td>\n            <td>$50</td>\n            <td>Bob</td>\n        </tr>\n        <tr>\n        \t<td>Josephin Tan</td>\n            <td>$150</td>\n            <td>-</td>\n            <td>Annie</td>\n        </tr>\n        <tr>\n        \t<td>Joyce Ming</td>\n            <td>$200</td>\n            <td>$35</td>\n            <td>Andy</td>\n        </tr>\n        <tr>\n        \t<td>James A. Pentel</td>\n            <td>$175</td>\n            <td>$25</td>\n            <td>Annie</td>\n        </tr>\n    </tbody>\n</table>",
+        "lastupdate": "2016-07-13T05:09:16.607Z"
+    },
+    {
+        "code": "cs16071314921",
+        "name": "hor-zebra",
+        "desc": "",
+        "domtype": "table",
+        "domdetail": "",
+        "cssscript": "",
+        "cssurl": "/App_Themes/express-css-table-design/style.css",
+        "htmlsample": "<table summary=\"Employee Pay Sheet\">\n    <thead>\n    \t<tr>\n        \t<th scope=\"col\">Employee</th>\n            <th scope=\"col\">Salary</th>\n            <th scope=\"col\">Bonus</th>\n            <th scope=\"col\">Supervisor</th>\n        </tr>\n    </thead>\n    <tbody>\n    \t<tr>\n        \t<td>Stephen C. Cox</td>\n            <td>$300</td>\n            <td>$50</td>\n            <td>Bob</td>\n        </tr>\n        <tr>\n        \t<td>Josephin Tan</td>\n            <td>$150</td>\n            <td>-</td>\n            <td>Annie</td>\n        </tr>\n        <tr>\n        \t<td>Joyce Ming</td>\n            <td>$200</td>\n            <td>$35</td>\n            <td>Andy</td>\n        </tr>\n        <tr>\n        \t<td>James A. Pentel</td>\n            <td>$175</td>\n            <td>$25</td>\n            <td>Annie</td>\n        </tr>\n    </tbody>\n</table>",
+        "lastupdate": "2016-07-13T05:09:16.607Z"
+    },
+    {
+        "code": "cs16071314922",
+        "name": "ver-zebra",
+        "desc": "",
+        "domtype": "table",
+        "domdetail": "",
+        "cssscript": "",
+        "cssurl": "/App_Themes/express-css-table-design/style.css",
+        "htmlsample": "<table summary=\"Employee Pay Sheet\">\n    <thead>\n    \t<tr>\n        \t<th scope=\"col\">Employee</th>\n            <th scope=\"col\">Salary</th>\n            <th scope=\"col\">Bonus</th>\n            <th scope=\"col\">Supervisor</th>\n        </tr>\n    </thead>\n    <tbody>\n    \t<tr>\n        \t<td>Stephen C. Cox</td>\n            <td>$300</td>\n            <td>$50</td>\n            <td>Bob</td>\n        </tr>\n        <tr>\n        \t<td>Josephin Tan</td>\n            <td>$150</td>\n            <td>-</td>\n            <td>Annie</td>\n        </tr>\n        <tr>\n        \t<td>Joyce Ming</td>\n            <td>$200</td>\n            <td>$35</td>\n            <td>Andy</td>\n        </tr>\n        <tr>\n        \t<td>James A. Pentel</td>\n            <td>$175</td>\n            <td>$25</td>\n            <td>Annie</td>\n        </tr>\n    </tbody>\n</table>",
+        "lastupdate": "2016-07-13T05:09:16.607Z"
+    },
+    {
+        "code": "cs16071314923",
+        "name": "one-column-emphasis",
+        "desc": "",
+        "domtype": "table",
+        "domdetail": "",
+        "cssscript": "",
+        "cssurl": "/App_Themes/express-css-table-design/style.css",
+        "htmlsample": "<table summary=\"Employee Pay Sheet\">\n    <thead>\n    \t<tr>\n        \t<th scope=\"col\">Employee</th>\n            <th scope=\"col\">Salary</th>\n            <th scope=\"col\">Bonus</th>\n            <th scope=\"col\">Supervisor</th>\n        </tr>\n    </thead>\n    <tbody>\n    \t<tr>\n        \t<td>Stephen C. Cox</td>\n            <td>$300</td>\n            <td>$50</td>\n            <td>Bob</td>\n        </tr>\n        <tr>\n        \t<td>Josephin Tan</td>\n            <td>$150</td>\n            <td>-</td>\n            <td>Annie</td>\n        </tr>\n        <tr>\n        \t<td>Joyce Ming</td>\n            <td>$200</td>\n            <td>$35</td>\n            <td>Andy</td>\n        </tr>\n        <tr>\n        \t<td>James A. Pentel</td>\n            <td>$175</td>\n            <td>$25</td>\n            <td>Annie</td>\n        </tr>\n    </tbody>\n</table>",
+        "lastupdate": "2016-07-13T05:09:16.607Z"
+    },
+    {
+        "code": "cs16071314924",
+        "name": "newspaper-a",
+        "desc": "",
+        "domtype": "table",
+        "domdetail": "",
+        "cssscript": "",
+        "cssurl": "/App_Themes/express-css-table-design/style.css",
+        "htmlsample": "<table summary=\"Employee Pay Sheet\">\n    <thead>\n    \t<tr>\n        \t<th scope=\"col\">Employee</th>\n            <th scope=\"col\">Salary</th>\n            <th scope=\"col\">Bonus</th>\n            <th scope=\"col\">Supervisor</th>\n        </tr>\n    </thead>\n    <tbody>\n    \t<tr>\n        \t<td>Stephen C. Cox</td>\n            <td>$300</td>\n            <td>$50</td>\n            <td>Bob</td>\n        </tr>\n        <tr>\n        \t<td>Josephin Tan</td>\n            <td>$150</td>\n            <td>-</td>\n            <td>Annie</td>\n        </tr>\n        <tr>\n        \t<td>Joyce Ming</td>\n            <td>$200</td>\n            <td>$35</td>\n            <td>Andy</td>\n        </tr>\n        <tr>\n        \t<td>James A. Pentel</td>\n            <td>$175</td>\n            <td>$25</td>\n            <td>Annie</td>\n        </tr>\n    </tbody>\n</table>",
+        "lastupdate": "2016-07-13T05:09:16.607Z"
+    },
+    {
+        "code": "cs16071314925",
+        "name": "newspaper-b",
+        "desc": "",
+        "domtype": "table",
+        "domdetail": "",
+        "cssscript": "",
+        "cssurl": "/App_Themes/express-css-table-design/style.css",
+        "htmlsample": "<table summary=\"Employee Pay Sheet\">\n    <thead>\n    \t<tr>\n        \t<th scope=\"col\">Employee</th>\n            <th scope=\"col\">Salary</th>\n            <th scope=\"col\">Bonus</th>\n            <th scope=\"col\">Supervisor</th>\n        </tr>\n    </thead>\n    <tbody>\n    \t<tr>\n        \t<td>Stephen C. Cox</td>\n            <td>$300</td>\n            <td>$50</td>\n            <td>Bob</td>\n        </tr>\n        <tr>\n        \t<td>Josephin Tan</td>\n            <td>$150</td>\n            <td>-</td>\n            <td>Annie</td>\n        </tr>\n        <tr>\n        \t<td>Joyce Ming</td>\n            <td>$200</td>\n            <td>$35</td>\n            <td>Andy</td>\n        </tr>\n        <tr>\n        \t<td>James A. Pentel</td>\n            <td>$175</td>\n            <td>$25</td>\n            <td>Annie</td>\n        </tr>\n    </tbody>\n</table>",
+        "lastupdate": "2016-07-13T05:09:16.607Z"
+    },
+    {
+        "code": "cs16071314927",
+        "name": "rounded-corner",
+        "desc": "",
+        "domtype": "table",
+        "domdetail": "",
+        "cssscript": "",
+        "cssurl": "/App_Themes/express-css-table-design/style.css",
+        "htmlsample": "<table summary=\"Employee Pay Sheet\">\n    <thead>\n    \t<tr>\n        \t<th scope=\"col\">Employee</th>\n            <th scope=\"col\">Salary</th>\n            <th scope=\"col\">Bonus</th>\n            <th scope=\"col\">Supervisor</th>\n        </tr>\n    </thead>\n    <tbody>\n    \t<tr>\n        \t<td>Stephen C. Cox</td>\n            <td>$300</td>\n            <td>$50</td>\n            <td>Bob</td>\n        </tr>\n        <tr>\n        \t<td>Josephin Tan</td>\n            <td>$150</td>\n            <td>-</td>\n            <td>Annie</td>\n        </tr>\n        <tr>\n        \t<td>Joyce Ming</td>\n            <td>$200</td>\n            <td>$35</td>\n            <td>Andy</td>\n        </tr>\n        <tr>\n        \t<td>James A. Pentel</td>\n            <td>$175</td>\n            <td>$25</td>\n            <td>Annie</td>\n        </tr>\n    </tbody>\n</table>",
+        "lastupdate": "2016-07-13T05:09:16.607Z"
+    },
+    {
+        "code": "cs16071314928",
+        "name": "background-image",
+        "desc": "",
+        "domtype": "table",
+        "domdetail": "",
+        "cssscript": "",
+        "cssurl": "/App_Themes/express-css-table-design/style.css",
+        "htmlsample": "<table summary=\"Employee Pay Sheet\">\n    <thead>\n    \t<tr>\n        \t<th scope=\"col\">Employee</th>\n            <th scope=\"col\">Salary</th>\n            <th scope=\"col\">Bonus</th>\n            <th scope=\"col\">Supervisor</th>\n        </tr>\n    </thead>\n    <tbody>\n    \t<tr>\n        \t<td>Stephen C. Cox</td>\n            <td>$300</td>\n            <td>$50</td>\n            <td>Bob</td>\n        </tr>\n        <tr>\n        \t<td>Josephin Tan</td>\n            <td>$150</td>\n            <td>-</td>\n            <td>Annie</td>\n        </tr>\n        <tr>\n        \t<td>Joyce Ming</td>\n            <td>$200</td>\n            <td>$35</td>\n            <td>Andy</td>\n        </tr>\n        <tr>\n        \t<td>James A. Pentel</td>\n            <td>$175</td>\n            <td>$25</td>\n            <td>Annie</td>\n        </tr>\n    </tbody>\n</table>",
+        "lastupdate": "2016-07-13T05:09:16.607Z"
+    },
+    {
+        "code": "cs16071314929",
+        "name": "gradient-style",
+        "desc": "",
+        "domtype": "table",
+        "domdetail": "",
+        "cssscript": "",
+        "cssurl": "/App_Themes/express-css-table-design/style.css",
+        "htmlsample": "<table summary=\"Employee Pay Sheet\">\n    <thead>\n    \t<tr>\n        \t<th scope=\"col\">Employee</th>\n            <th scope=\"col\">Salary</th>\n            <th scope=\"col\">Bonus</th>\n            <th scope=\"col\">Supervisor</th>\n        </tr>\n    </thead>\n    <tbody>\n    \t<tr>\n        \t<td>Stephen C. Cox</td>\n            <td>$300</td>\n            <td>$50</td>\n            <td>Bob</td>\n        </tr>\n        <tr>\n        \t<td>Josephin Tan</td>\n            <td>$150</td>\n            <td>-</td>\n            <td>Annie</td>\n        </tr>\n        <tr>\n        \t<td>Joyce Ming</td>\n            <td>$200</td>\n            <td>$35</td>\n            <td>Andy</td>\n        </tr>\n        <tr>\n        \t<td>James A. Pentel</td>\n            <td>$175</td>\n            <td>$25</td>\n            <td>Annie</td>\n        </tr>\n    </tbody>\n</table>",
+        "lastupdate": "2016-07-13T05:09:16.607Z"
+    },
+    {
+        "code": "cs16071314930",
+        "name": "pattern-style-a",
+        "desc": "",
+        "domtype": "table",
+        "domdetail": "",
+        "cssscript": "",
+        "cssurl": "/App_Themes/express-css-table-design/style.css",
+        "htmlsample": "<table summary=\"Employee Pay Sheet\">\n    <thead>\n    \t<tr>\n        \t<th scope=\"col\">Employee</th>\n            <th scope=\"col\">Salary</th>\n            <th scope=\"col\">Bonus</th>\n            <th scope=\"col\">Supervisor</th>\n        </tr>\n    </thead>\n    <tbody>\n    \t<tr>\n        \t<td>Stephen C. Cox</td>\n            <td>$300</td>\n            <td>$50</td>\n            <td>Bob</td>\n        </tr>\n        <tr>\n        \t<td>Josephin Tan</td>\n            <td>$150</td>\n            <td>-</td>\n            <td>Annie</td>\n        </tr>\n        <tr>\n        \t<td>Joyce Ming</td>\n            <td>$200</td>\n            <td>$35</td>\n            <td>Andy</td>\n        </tr>\n        <tr>\n        \t<td>James A. Pentel</td>\n            <td>$175</td>\n            <td>$25</td>\n            <td>Annie</td>\n        </tr>\n    </tbody>\n</table>",
+        "lastupdate": "2016-07-13T05:09:16.607Z"
+    },
+    {
+        "code": "cs16071314932",
+        "name": "pattern-style-b",
+        "desc": "",
+        "domtype": "table",
+        "domdetail": "",
+        "cssscript": "",
+        "cssurl": "/App_Themes/express-css-table-design/style.css",
+        "htmlsample": "<table summary=\"Employee Pay Sheet\">\n    <thead>\n    \t<tr>\n        \t<th scope=\"col\">Employee</th>\n            <th scope=\"col\">Salary</th>\n            <th scope=\"col\">Bonus</th>\n            <th scope=\"col\">Supervisor</th>\n        </tr>\n    </thead>\n    <tbody>\n    \t<tr>\n        \t<td>Stephen C. Cox</td>\n            <td>$300</td>\n            <td>$50</td>\n            <td>Bob</td>\n        </tr>\n        <tr>\n        \t<td>Josephin Tan</td>\n            <td>$150</td>\n            <td>-</td>\n            <td>Annie</td>\n        </tr>\n        <tr>\n        \t<td>Joyce Ming</td>\n            <td>$200</td>\n            <td>$35</td>\n            <td>Andy</td>\n        </tr>\n        <tr>\n        \t<td>James A. Pentel</td>\n            <td>$175</td>\n            <td>$25</td>\n            <td>Annie</td>\n        </tr>\n    </tbody>\n</table>",
+        "lastupdate": "2016-07-13T05:09:16.607Z"
+    },
+    {
+        "code": "cs160526164035",
+        "name": "demo",
+        "desc": "",
+        "domtype": "form",
+        "cssscript": "/* -------------------------------------------------  default style  ---------------------------------------------------  */\ninput, select, textarea {\n  margin:0; \n  padding:0; \t\n   font-family:Arial;\n  -moz-box-sizing:border-box; /* Firefox */\n  -webkit-box-sizing:border-box; /* Safari */\n  box-sizing:border-box;\n}\n/* -------------------------------------------------  input, textarea  ---------------------------------------------------  */\ninput[type=\"text\"], textarea { \n\tborder-radius:2px; \n\tborder: solid 1px #f3efac; \n\tpadding:0.4em; \n\tbackground-color: #eaeae3; \n\tbox-shadow: inset 0 2px 3px rgba(0,0,0,0.2); \n}\n/* ---------------------------------------------------- textarea ---------------------------------------------------------  */\ntextarea {\n\twidth:100%; \n\theight:10em; \n}\n\n/* ---------------------------------------------- input, textarea on focous ----------------------------------------------  */\ninput:focus, textarea:focus {\n      border-color:#e8e07f;\n}\n/* ----------------------------------------------- submit / reset buttons  -------------------------------------------------  */\ninput[type=\"submit\"], input[type=\"reset\"], .button { \n    padding:0.4em 0.7em; \n\tcolor:white;\n\t-webkit-border-radius: 5px;\n\t-moz-border-radius: 5px;\n\t-ms-border-radius: 5px;\n\t-o-border-radius: 5px;\n\tborder-radius: 5px;\n\t-webkit-transition: all 200ms linear;\t /*Safari and Chrome*/\n\t-moz-transition: all 200ms linear; \t     /*Firefox*/\n\t-o-transition: all 200ms linear;\t\t /*opera*/\n\t-ms-transition: all 200ms linear;\n\ttransition: all 200ms linear;\n\tbackground-color: #16a6b6;\n\tcursor: pointer;\n\ttext-align: center;\n}\n/* -------------------------------------------- submit / reset buttons on hover -----------------------------------------------  */\ninput[type=\"submit\"]:hover, input[type=\"reset\"]:hover  , .button:hover{\n\tbackground:#ee6557;\n}\n/* -------------------------------------------- submit / reset buttons on active -----------------------------------------------  */\ninput[type=\"submit\"]:active, input[type=\"reset\"]:active, .button:active{\n\tbackground:rgba(255,51,0,1);\n}\n/* -------------------------------------------------  Select list  ---------------------------------------------------  */\nselect { \n    background-image: url('data:image/png;base64,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') ; \n\tbackground-repeat:no-repeat;\n\tbackground-position:right;\n    -webkit-appearance: none /* this is required for Webkit browsers */; \n    -moz-appearance:    none;\n    appearance:         none;\n\tbackground-color:#e6e6e5;\n    min-width:12em; \n\t  box-shadow: 2px 1px 2px 1px rgba(0,0,0,0.1); \n    border: solid 1px #ccc; \n\tborder-radius:5px; \n}\n/* -------------------------------------------------  Upload Button  ---------------------------------------------------  */\ninput[type=\"file\"] { \n    margin:0 0 0 0.5em; \t\n}\ninput[type=file]::-webkit-file-upload-button { \n    background-color: #f5f5f5; \n    box-shadow: inset 0 2px 3px rgba(0,0,0,0.2); \n\tborder: solid 1px #ccc; \n    -webkit-appearance: none; \n    box-shadow: 0 1px 3px rgba(0,0,0,0.2); \n\t-webkit-border-radius: 5px;\n}\n/* -------------------------------------------------  radio buttons  ---------------------------------------------  */\n\ninput[type=\"radio\"] {\n\t-webkit-appearance: none;\n\tborder: 1px solid #cacece;\n\tbox-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0 -15px 10px -12px rgba(0,0,0,0.05);\n\tdisplay: inline-block;\n\tposition: relative;\n\ttop: 3px;\n\tmargin: 0 10px;\n\tpadding: 8px;\n\t-webkit-border-radius: 20px;\n\t-moz-border-radius: 20px;\n\t-ms-border-radius: 20px;\n\t-o-border-radius: 20px;\n\tborder-radius: 20px;\t\n}\n\ninput[type=\"radio\"]:checked{\n\tbackground-color: #ededed;\n\tborder: 1px solid #ccc;\n\tbox-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0 -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1), inset 0 0 10px rgba(0,0,0,0.1);\n}\n\n/* -------------------------------------------------  checkbox  ---------------------------------------------------  */\n\ninput[type=\"checkbox\"] {\n\t-webkit-appearance: none;\n\tborder: 1px solid #cacece;\n\tbox-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0 -15px 10px -12px rgba(0,0,0,0.05);\n\tdisplay: inline-block;\n\tposition: relative;\n\ttop: 3px;\n\tmargin: 0 10px;\n\tpadding: 8px;\n}\n\ninput[type=\"checkbox\"]:checked{\n\tbackground-color: #fff;\n\tborder: 1px solid #ccc;\n\tbox-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0 -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1), inset 0 0 10px rgba(0,0,0,0.1);\n\tbackground-position:center;\n\tbackground-image: url(data:image/png;base64,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);\n\n}\n\n\n\n",
+        "stylelist": [
+        {
+            "sname": "input, select, textarea",
+            "style": "margin:0;padding:0;font-family:Arial;-moz-box-sizing:border-box;/* Firefox */\n  -webkit-box-sizing:border-box;/* Safari */\n  box-sizing:border-box;"
+        },
+        {
+            "sname": "input[type=\"text\"], textarea",
+            "style": "border-radius:2px;border:solid 1px #f3efac;padding:0.4em;background-color:#eaeae3;box-shadow:inset 0 2px 3px rgba(0,0,0,0.2);"
+        },
+        {
+            "sname": "textarea",
+            "style": "width:100%;height:10em;"
+        },
+        {
+            "sname": "input:focus, textarea:focus",
+            "style": "border-color:#e8e07f;"
+        },
+        {
+            "sname": "input[type=\"submit\"], input[type=\"reset\"], .button",
+            "style": "padding:0.4em 0.7em;color:white;-webkit-border-radius:5px;-moz-border-radius:5px;-ms-border-radius:5px;-o-border-radius:5px;border-radius:5px;-webkit-transition:all 200ms linear;/*Safari and Chrome*/\n\t-moz-transition:all 200ms linear;/*Firefox*/\n\t-o-transition:all 200ms linear;/*opera*/\n\t-ms-transition:all 200ms linear;transition:all 200ms linear;background-color:#16a6b6;cursor:pointer;text-align:center;"
+        },
+        {
+            "sname": "input[type=\"submit\"]:hover, input[type=\"reset\"]:hover  , .button:hover",
+            "style": "background:#ee6557;"
+        },
+        {
+            "sname": "input[type=\"submit\"]:active, input[type=\"reset\"]:active, .button:active",
+            "style": "background:rgba(255,51,0,1);"
+        },
+        {
+            "sname": "select",
+            "style": "background-image:url('data:image/png;background-repeat:no-repeat;background-position:right;-webkit-appearance:none /* this is required for Webkit browsers */;-moz-appearance:none;appearance:none;background-color:#e6e6e5;min-width:12em;box-shadow:2px 1px 2px 1px rgba(0,0,0,0.1);border:solid 1px #ccc;border-radius:5px;"
+        },
+        {
+            "sname": "input[type=\"file\"]",
+            "style": "margin:0 0 0 0.5em;"
+        },
+        {
+            "sname": "input[type=file]::-webkit-file-upload-button",
+            "style": "background-color:#f5f5f5;box-shadow:inset 0 2px 3px rgba(0,0,0,0.2),0 1px 3px rgba(0,0,0,0.2);border:solid 1px #ccc;-webkit-appearance:none;-webkit-border-radius:5px;"
+        },
+        {
+            "sname": "input[type=\"radio\"]",
+            "style": "-webkit-appearance:none;border:1px solid #cacece;box-shadow:0 1px 2px rgba(0,0,0,0.05), inset 0 -15px 10px -12px rgba(0,0,0,0.05);display:inline-block;position:relative;top:3px;margin:0 10px;padding:8px;-webkit-border-radius:20px;-moz-border-radius:20px;-ms-border-radius:20px;-o-border-radius:20px;border-radius:20px;"
+        },
+        {
+            "sname": "input[type=\"radio\"]:checked",
+            "style": "background-color:#ededed;border:1px solid #ccc;box-shadow:0 1px 2px rgba(0,0,0,0.05), inset 0 -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1), inset 0 0 10px rgba(0,0,0,0.1);"
+        },
+        {
+            "sname": "input[type=\"checkbox\"]",
+            "style": "-webkit-appearance:none;border:1px solid #cacece;box-shadow:0 1px 2px rgba(0,0,0,0.05), inset 0 -15px 10px -12px rgba(0,0,0,0.05);display:inline-block;position:relative;top:3px;margin:0 10px;padding:8px;"
+        },
+        {
+            "sname": "input[type=\"checkbox\"]:checked",
+            "style": "background-color:#fff;border:1px solid #ccc;box-shadow:0 1px 2px rgba(0,0,0,0.05), inset 0 -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1), inset 0 0 10px rgba(0,0,0,0.1);background-position:center;background-image:url(data:image/png;"
+        }],
+        "cssurl": "",
+        "lastupdate": "2016-07-14T02:38:53.155Z",
+        "domdetail": "<input/>"
+    },
+    {
+        "code": "cs160710143320",
+        "name": "white-pink",
+        "desc": "",
+        "domtype": "form",
+        "cssscript": "/* ###### White / Pink #########*/\n.white-pink {\n    margin-left:auto;\n    margin-right:auto;\n\n    max-width: 500px;\n    background: #FFF;\n    padding: 30px 30px 20px 30px;\n    box-shadow: rgba(187, 187, 187, 1) 0 0px 20px -1px;\n    -webkit-box-shadow: rgba(187, 187, 187, 1) 0 0px 20px -1px;\n    font: 12px Arial, Helvetica, sans-serif;\n    color: #666;\n    border-radius: 10px;\n    -webkit-border-radius: 10px;\n}\n.white-pink h1 {\n    font: 24px \"Trebuchet MS\", Arial, Helvetica, sans-serif;\n    padding: 0px 0px 10px 40px;\n    display: block;\n    border-bottom: 1px solid #F5F5F5;\n    margin: -10px -30px 10px -30px;\n    color: #969696;\n}\n.white-pink h1>span {\n    display: block;\n    font-size: 11px;\n    color: #C4C2C2;\n}\n.white-pink label {\n    display: block;\n    margin: 0px 0px 5px;\n}\n.white-pink label>span {\n    float: left;\n    width: 23%;\n    text-align: right;\n    padding-right: 10px;\n    margin-top: 10px;\n    color: #969696;\n}\n.white-pink input[type=\"text\"], .white-pink input[type=\"email\"], .white-pink textarea,.white-pink select{\n    color: #555;\n    width: 75%;\n    padding: 3px 0px 3px 5px;\n    margin-top: 2px;\n    margin-right: 6px;\n    margin-bottom: 16px;\n    border: 1px solid #e5e5e5;\n    background: #fbfbfb;\n    height: 25px;\n    line-height:15px;\n    outline: 0;\n    -webkit-box-shadow: inset 1px 1px 2px rgba(200,200,200,0.2);\n    box-shadow: inset 1px 1px 2px rgba(200,200,200,0.2);\n}\n.white-pink textarea{\n    height:100px;\n    padding: 5px 0px 0px 5px;\n    width: 75%;\n}\n.white-pink .button {\n    -moz-box-shadow:inset 0px 1px 0px 0px #fbafe3;\n    -webkit-box-shadow:inset 0px 1px 0px 0px #fbafe3;\n    box-shadow:inset 0px 1px 0px 0px #fbafe3;\n    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ff5bb0), color-stop(1, #ef027d) );\n    background:-moz-linear-gradient( center top, #ff5bb0 5%, #ef027d 100% );\n    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bb0', endColorstr='#ef027d');\n    background-color:#ff5bb0;\n    border-radius:9px;\n    -webkit-border-radius:9px;\n    -moz-border-border-radius:9px;\n    border:1px solid #ee1eb5;\n    display:inline-block;\n    color:#ffffff;\n    font-family:Arial;\n    font-size:15px;\n    font-weight:bold;\n    font-style:normal;\n    height: 40px;\n    line-height: 30px;\n    width:100px;\n    text-decoration:none;\n    text-align:center;\n    text-shadow:1px 1px 0px #c70067;\n}\n.white-pink .button:hover {\n    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ef027d), color-stop(1, #ff5bb0) );\n    background:-moz-linear-gradient( center top, #ef027d 5%, #ff5bb0 100% );\n    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ef027d', endColorstr='#ff5bb0');\n    background-color:#ef027d;\n}\n.white-pink .button:active {\n    position:relative;\n    top:1px;\n}\n.white-pink select {\n    background: url('/images/down-arrow.png') no-repeat right, -moz-linear-gradient(top, #FBFBFB 0%, #E9E9E9 100%);\n    background: url('/images/down-arrow.png') no-repeat right, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FBFBFB), color-stop(100%,#E9E9E9));\n   appearance:none;\n    -webkit-appearance:none; \n   -moz-appearance: none;\n    text-indent: 0.01px;\n    text-overflow: '';\n    width: 75%;\n    line-height: 15px;\n    height: 30px;\n}",
+        "stylelist": [
+        {
+            "sname": ".white-pink",
+            "style": "margin-left:auto;margin-right:auto;max-width:500px;background:#FFF;padding:30px 30px 20px 30px;box-shadow:rgba(187, 187, 187, 1) 0 0px 20px -1px;-webkit-box-shadow:rgba(187, 187, 187, 1) 0 0px 20px -1px;font:12px Arial, Helvetica, sans-serif;color:#666;border-radius:10px;-webkit-border-radius:10px;"
+        },
+        {
+            "sname": ".white-pink h1",
+            "style": "font:24px \"Trebuchet MS\", Arial, Helvetica, sans-serif;padding:0px 0px 10px 40px;display:block;border-bottom:1px solid #F5F5F5;margin:-10px -30px 10px -30px;color:#969696;"
+        },
+        {
+            "sname": ".white-pink h1>span",
+            "style": "display:block;font-size:11px;color:#C4C2C2;"
+        },
+        {
+            "sname": ".white-pink label",
+            "style": "display:block;margin:0px 0px 5px;"
+        },
+        {
+            "sname": ".white-pink label>span",
+            "style": "float:left;width:20%;text-align:right;padding-right:10px;margin-top:10px;color:#969696;"
+        },
+        {
+            "sname": ".white-pink input[type=\"text\"], .white-pink input[type=\"email\"], .white-pink textarea,.white-pink select",
+            "style": "color:#555;width:70%;padding:3px 0px 3px 5px;margin-top:2px;margin-right:6px;margin-bottom:16px;border:1px solid #e5e5e5;background:#fbfbfb;height:25px;line-height:15px;outline:0;-webkit-box-shadow:inset 1px 1px 2px rgba(200,200,200,0.2);box-shadow:inset 1px 1px 2px rgba(200,200,200,0.2);"
+        },
+        {
+            "sname": ".white-pink textarea",
+            "style": "height:100px;padding:5px 0px 0px 5px;width:70%;"
+        },
+        {
+            "sname": ".white-pink .button",
+            "style": "-moz-box-shadow:inset 0px 1px 0px 0px #fbafe3;-webkit-box-shadow:inset 0px 1px 0px 0px #fbafe3;box-shadow:inset 0px 1px 0px 0px #fbafe3;background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ff5bb0), color-stop(1, #ef027d) ),-moz-linear-gradient( center top, #ff5bb0 5%, #ef027d 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bb0', endColorstr='#ef027d');background-color:#ff5bb0;border-radius:9px;-webkit-border-radius:9px;-moz-border-border-radius:9px;border:1px solid #ee1eb5;display:inline-block;color:#ffffff;font-family:Arial;font-size:15px;font-weight:bold;font-style:normal;height:40px;line-height:30px;width:100px;text-decoration:none;text-align:center;text-shadow:1px 1px 0px #c70067;"
+        },
+        {
+            "sname": ".white-pink .button:hover",
+            "style": "background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ef027d), color-stop(1, #ff5bb0) ),-moz-linear-gradient( center top, #ef027d 5%, #ff5bb0 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ef027d', endColorstr='#ff5bb0');background-color:#ef027d;"
+        },
+        {
+            "sname": ".white-pink .button:active",
+            "style": "position:relative;top:1px;"
+        },
+        {
+            "sname": ".white-pink select",
+            "style": "background:url('down-arrow.png') no-repeat right, -moz-linear-gradient(top, #FBFBFB 0%, #E9E9E9 100%),url('down-arrow.png') no-repeat right, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FBFBFB), color-stop(100%,#E9E9E9));appearance:none;-webkit-appearance:none;-moz-appearance:none;text-indent:0.01px;text-overflow:'';width:70%;line-height:15px;height:30px;"
+        }],
+        "domdetail": "<label><span/><input/></label>",
+        "cssurl": "",
+        "lastupdate": "2016-07-14T07:04:28.233Z",
+        "htmlurl": "/data/json/htmlsample.html"
+    },
+    {
+        "code": "cs16070922743",
+        "name": "dark-matter",
+        "desc": "",
+        "domtype": "form",
+        "cssscript": "/* #### Dark Matter #### */\n.dark-matter {\n    margin-left: auto;\n    margin-right: auto;\n    max-width: 500px;\n    background: #555;\n    padding: 20px 30px 20px 30px;\n    font: 12px \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n    color: #D3D3D3;\n    text-shadow: 1px 1px 1px #444;\n    border: none;\n    border-radius: 5px;\n    -webkit-border-radius: 5px;\n    -moz-border-radius: 5px;\n}\n.dark-matter h1 {\n    padding: 0px 0px 10px 40px;\n    display: block;\n    border-bottom: 1px solid #444;\n    margin: -10px -30px 30px -30px;\n}\n.dark-matter h1>span {\n    display: block;\n    font-size: 11px;\n}\n.dark-matter label {\n    display: block;\n    margin: 0px 0px 5px;\n}\n.dark-matter label>span {\n    float: left;\n    width: 25%;\n    text-align: right;\n    padding-right: 10px;\n    margin-top: 10px;\n    font-weight: bold;\n   color:white;\n}\n.dark-matter input[type=\"text\"], .dark-matter input[type=\"email\"], .dark-matter textarea, .dark-matter select {\n    border: none;\n    color: #525252;\n    height: 25px;\n    line-height:15px;\n    margin-bottom: 16px;\n    margin-right: 6px;\n    margin-top: 2px;\n    outline: 0 none;\n    padding: 5px 0px 5px 5px;\n    width: 73%;\n    border-radius: 2px;\n    -webkit-border-radius: 2px;\n    -moz-border-radius: 2px;\n    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);\n    background: #DFDFDF;\n}\n.dark-matter select {\n    background: #DFDFDF url('/images/down-arrow.png') no-repeat right;\n    background: #DFDFDF url('/imagesdown-arrow.png') no-repeat right;\n    appearance:none;\n    -webkit-appearance:none; \n    -moz-appearance: none;\n    text-indent: 0.01px;\n    text-overflow: '';\n    width: 73%;\n    height: 35px;\n    color: #525252;\n    line-height: 25px;\n}\n.dark-matter textarea{\n    height:100px;\n    padding: 5px 0px 0px 5px;\n    width: 73%;\n}\n.dark-matter button,\n.dark-matter input[type=\"button\"] {\n    background: #FFCC02;\n    border: none;\n    padding: 10px 25px 10px 25px;\n    color: #585858;\n    border-radius: 4px;\n    -moz-border-radius: 4px;\n    -webkit-border-radius: 4px;\n    text-shadow: 1px 1px 1px #FFE477;\n    font-weight: bold;\n    box-shadow: 1px 1px 1px #3D3D3D;\n    -webkit-box-shadow:1px 1px 1px #3D3D3D;\n    -moz-box-shadow:1px 1px 1px #3D3D3D;\n}\n\n.dark-matter button:hover,\n.dark-matter input[type=\"button\"]:hover {\n    color: #333;\n    background-color: #EBEBEB;\n}",
+        "stylelist": [
+        {
+            "sname": ".dark-matter",
+            "style": "margin-left:auto;margin-right:auto;max-width:500px;background:#555;padding:20px 30px 20px 30px;font:12px \"Helvetica Neue\", Helvetica, Arial, sans-serif;color:#D3D3D3;text-shadow:1px 1px 1px #444;border:none;border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px;"
+        },
+        {
+            "sname": ".dark-matter h1",
+            "style": "padding:0px 0px 10px 40px;display:block;border-bottom:1px solid #444;margin:-10px -30px 30px -30px;"
+        },
+        {
+            "sname": ".dark-matter h1>span",
+            "style": "display:block;font-size:11px;"
+        },
+        {
+            "sname": ".dark-matter label",
+            "style": "display:block;margin:0px 0px 5px;"
+        },
+        {
+            "sname": ".dark-matter label>span",
+            "style": "float:left;width:20%;text-align:right;padding-right:10px;margin-top:10px;font-weight:bold;"
+        },
+        {
+            "sname": ".dark-matter input[type=\"text\"], .dark-matter input[type=\"email\"], .dark-matter textarea, .dark-matter select",
+            "style": "border:none;color:#525252;height:25px;line-height:15px;margin-bottom:16px;margin-right:6px;margin-top:2px;outline:0 none;padding:5px 0px 5px 5px;width:70%;border-radius:2px;-webkit-border-radius:2px;-moz-border-radius:2px;-moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.075);background:#DFDFDF;"
+        },
+        {
+            "sname": ".dark-matter select",
+            "style": "background:#DFDFDF url('/images/down-arrow.png') no-repeat right,#DFDFDF url('/imagesdown-arrow.png') no-repeat right;appearance:none;-webkit-appearance:none;-moz-appearance:none;text-indent:0.01px;text-overflow:'';width:70%;height:35px;color:#525252;line-height:25px;"
+        },
+        {
+            "sname": ".dark-matter textarea",
+            "style": "height:100px;padding:5px 0px 0px 5px;width:70%;"
+        },
+        {
+            "sname": ".dark-matter .button",
+            "style": "background:#FFCC02;border:none;padding:10px 25px 10px 25px;color:#585858;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;text-shadow:1px 1px 1px #FFE477;font-weight:bold;box-shadow:1px 1px 1px #3D3D3D;-webkit-box-shadow:1px 1px 1px #3D3D3D;-moz-box-shadow:1px 1px 1px #3D3D3D;"
+        },
+        {
+            "sname": ".dark-matter .button:hover",
+            "style": "color:#333;background-color:#EBEBEB;"
+        }],
+        "cssurl": "",
+        "lastupdate": "2016-07-14T08:09:10.31Z",
+        "domdetail": "<label><span/><input/></label>",
+        "htmlurl": "/data/json/htmlsample.html"
+    },
+    {
+        "code": "cs160709204625",
+        "name": "elegant-aero",
+        "desc": "",
+        "domtype": "form",
+        "cssscript": "/* Elegant Aero */\n.elegant-aero {\n    margin-left:auto;\n    margin-right:auto;\n\n    max-width: 500px;\n    background: #D2E9FF;\n    padding: 20px 20px 20px 20px;\n    font: 12px Arial, Helvetica, sans-serif;\n    color: #666;\n}\n.elegant-aero h1 {\n    font: 24px \"Trebuchet MS\", Arial, Helvetica, sans-serif;\n    padding: 10px 10px 10px 20px;\n    display: block;\n    background: #C0E1FF;\n    border-bottom: 1px solid #B8DDFF;\n    margin: -20px -20px 15px;\n}\n.elegant-aero h1>span {\n    display: block;\n    font-size: 11px;\n}\n\n.elegant-aero label>span {\n    float: left;\n    margin-top: 10px;\n    color: #5E5E5E;\n}\n.elegant-aero label {\n    display: block;\n    margin: 0px 0px 5px;\n}\n.elegant-aero label>span {\n    float: left;\n    width: 25%;\n    text-align: right;\n    padding-right: 15px;\n    margin-top: 10px;\n    font-weight: bold;\n}\n.elegant-aero input[type=\"text\"], .elegant-aero input[type=\"email\"], .elegant-aero textarea, .elegant-aero select {\n    color: #888;\n    width: 73%;\n    padding: 0px 0px 0px 5px;\n    border: 1px solid #C5E2FF;\n    background: #FBFBFB;\n    outline: 0;\n    -webkit-box-shadow:inset 0px 1px 6px #ECF3F5;\n    box-shadow: inset 0px 1px 6px #ECF3F5;\n    font: 200 12px/25px Arial, Helvetica, sans-serif;\n    height: 30px;\n    line-height:15px;\n    margin: 2px 6px 16px 0px;\n}\n.elegant-aero textarea{\n    height:100px;\n    padding: 5px 0px 0px 5px;\n    width: 73%;\n}\n.elegant-aero select {\n    background: #fbfbfb url('down-arrow.png') no-repeat right;\n    background: #fbfbfb url('down-arrow.png') no-repeat right;\n   appearance:none;\n    -webkit-appearance:none; \n   -moz-appearance: none;\n    text-indent: 0.01px;\n    text-overflow: '';\n    width: 73%;\n}\n.elegant-aero button,\n.elegant-aero input[type=\"button\"]{\n    padding: 10px 30px 10px 30px;\n    background: #66C1E4;\n    border: none;\n    color: #FFF;\n    box-shadow: 1px 1px 1px #4C6E91;\n    -webkit-box-shadow: 1px 1px 1px #4C6E91;\n    -moz-box-shadow: 1px 1px 1px #4C6E91;\n    text-shadow: 1px 1px 1px #5079A3;\n    \n}\n.elegant-aero button:hover,\n.elegant-aero input[type=\"button\"]:hover{\n    background: #3EB1DD;\n}",
+        "stylelist": [
+        {
+            "sname": ".elegant-aero",
+            "style": "margin-left:auto;margin-right:auto;max-width:500px;background:#D2E9FF;padding:20px 20px 20px 20px;font:12px Arial, Helvetica, sans-serif;color:#666;"
+        },
+        {
+            "sname": ".elegant-aero h1",
+            "style": "font:24px \"Trebuchet MS\", Arial, Helvetica, sans-serif;padding:10px 10px 10px 20px;display:block;background:#C0E1FF;border-bottom:1px solid #B8DDFF;margin:-20px -20px 15px;"
+        },
+        {
+            "sname": ".elegant-aero h1>span",
+            "style": "display:block;font-size:11px;"
+        },
+        {
+            "sname": ".elegant-aero label>span",
+            "style": "float:left;margin-top:10px;color:#5E5E5E;width:20%;text-align:right;padding-right:15px;font-weight:bold;"
+        },
+        {
+            "sname": ".elegant-aero label",
+            "style": "display:block;margin:0px 0px 5px;"
+        },
+        {
+            "sname": ".elegant-aero input[type=\"text\"], .elegant-aero input[type=\"email\"], .elegant-aero textarea, .elegant-aero select",
+            "style": "color:#888;width:70%;padding:0px 0px 0px 5px;border:1px solid #C5E2FF;background:#FBFBFB;outline:0;-webkit-box-shadow:inset 0px 1px 6px #ECF3F5;box-shadow:inset 0px 1px 6px #ECF3F5;font:200 12px/25px Arial, Helvetica, sans-serif;height:30px;line-height:15px;margin:2px 6px 16px 0px;"
+        },
+        {
+            "sname": ".elegant-aero textarea",
+            "style": "height:100px;padding:5px 0px 0px 5px;width:70%;"
+        },
+        {
+            "sname": ".elegant-aero select",
+            "style": "background:#fbfbfb url('down-arrow.png') no-repeat right,#fbfbfb url('down-arrow.png') no-repeat right;appearance:none;-webkit-appearance:none;-moz-appearance:none;text-indent:0.01px;text-overflow:'';width:70%;"
+        },
+        {
+            "sname": ".elegant-aero .button",
+            "style": "padding:10px 30px 10px 30px;background:#66C1E4;border:none;color:#FFF;box-shadow:1px 1px 1px #4C6E91;-webkit-box-shadow:1px 1px 1px #4C6E91;-moz-box-shadow:1px 1px 1px #4C6E91;text-shadow:1px 1px 1px #5079A3;"
+        },
+        {
+            "sname": ".elegant-aero .button:hover",
+            "style": "background:#3EB1DD;"
+        }],
+        "cssurl": "",
+        "lastupdate": "2016-07-14T08:10:22.747Z",
+        "domdetail": "<label><span/><input/></label>",
+        "htmlurl": "/data/json/htmlsample.html"
+    },
+    {
+        "code": "cs16070920916",
+        "name": "basic-grey",
+        "desc": "",
+        "domtype": "form",
+        "cssscript": "/* Basic Grey */\n.basic-grey {\n    margin-left:auto;\n    margin-right:auto;\n    max-width: 500px;\n    background: #F7F7F7;\n    padding: 25px 15px 25px 10px;\n    font: 12px Georgia, \"Times New Roman\", Times, serif;\n    color: #888;\n    text-shadow: 1px 1px 1px #FFF;\n    border:1px solid #E4E4E4;\n}\n.basic-grey h1,\n.basic-grey h2 {\n    font-size: 25px;\n    padding: 0px 0px 10px 40px;\n    display: block;\n    border-bottom:1px solid #E4E4E4;\n    margin: -10px -15px 30px -10px;;\n    color: #888;\n}\n.basic-grey h1>span {\n    display: block;\n    font-size: 11px;\n}\n.basic-grey label {\n    display: block;\n    margin: 0px;\n}\n.basic-grey label>span {\n    float: left;\n    width: 25%;\n    text-align: right;\n    padding-right: 10px;\n    margin-top: 10px;\n    color: #888;\n}\n.basic-grey input[type=\"text\"], .basic-grey input[type=\"email\"], .basic-grey textarea, .basic-grey select {\n    border: 1px solid #DADADA;\n    color: #888;\n    height: 30px;\n    margin-bottom: 16px;\n    margin-right: 6px;\n    margin-top: 2px;\n    outline: 0 none;\n    padding: 3px 3px 3px 5px;\n    width: 73%;\n    font-size: 12px;\n    line-height:15px;\n    box-shadow: inset 0px 1px 4px #ECECEC;\n    -moz-box-shadow: inset 0px 1px 4px #ECECEC;\n    -webkit-box-shadow: inset 0px 1px 4px #ECECEC;\n}\n.basic-grey textarea{\n    padding: 5px 3px 3px 5px;\n}\n.basic-grey select {\n    background: #FFF url('/images/down-arrow.png') no-repeat right;\n    appearance:none;\n    -webkit-appearance:none; \n    -moz-appearance: none;\n    text-indent: 0.01px;\n    text-overflow: '';\n    width: 73%;\n    height: 35px;\n    line-height: 25px;\n}\n.basic-grey textarea{\n    height:100px;\n}\n.basic-grey button, .basic-grey input[type=\"button\"]  {\n    background: #E27575;\n    border: none;\n    padding: 10px 25px 10px 25px;\n    color: #FFF;\n    box-shadow: 1px 1px 5px #B6B6B6;\n    border-radius: 3px;\n    text-shadow: 1px 1px 1px #9E3F3F;\n    cursor: pointer;\n}\n.basic-grey button:hover, .basic-grey input[type=\"button\"]:hover {\n    background: #CF7A7A\n}",
+        "stylelist": [
+        {
+            "sname": ".basic-grey",
+            "style": "margin-left:auto;margin-right:auto;max-width:500px;background:#F7F7F7;padding:25px 15px 25px 10px;font:12px Georgia, \"Times New Roman\", Times, serif;color:#888;text-shadow:1px 1px 1px #FFF;border:1px solid #E4E4E4;"
+        },
+        {
+            "sname": ".basic-grey h1",
+            "style": "font-size:25px;padding:0px 0px 10px 40px;display:block;border-bottom:1px solid #E4E4E4;margin:-10px -15px 30px -10px;color:#888;"
+        },
+        {
+            "sname": ".basic-grey h1>span",
+            "style": "display:block;font-size:11px;"
+        },
+        {
+            "sname": ".basic-grey label",
+            "style": "display:block;margin:0px;"
+        },
+        {
+            "sname": ".basic-grey label>span",
+            "style": "float:left;width:20%;text-align:right;padding-right:10px;margin-top:10px;color:#888;"
+        },
+        {
+            "sname": ".basic-grey input[type=\"text\"], .basic-grey input[type=\"email\"], .basic-grey textarea, .basic-grey select",
+            "style": "border:1px solid #DADADA;color:#888;height:30px;margin-bottom:16px;margin-right:6px;margin-top:2px;outline:0 none;padding:3px 3px 3px 5px;width:70%;font-size:12px;line-height:15px;box-shadow:inset 0px 1px 4px #ECECEC;-moz-box-shadow:inset 0px 1px 4px #ECECEC;-webkit-box-shadow:inset 0px 1px 4px #ECECEC;"
+        },
+        {
+            "sname": ".basic-grey textarea",
+            "style": "padding:5px 3px 3px 5px;height:100px;"
+        },
+        {
+            "sname": ".basic-grey select",
+            "style": "background:#FFF url('/images/down-arrow.png') no-repeat right;appearance:none;-webkit-appearance:none;-moz-appearance:none;text-indent:0.01px;text-overflow:'';width:70%;height:35px;line-height:25px;"
+        },
+        {
+            "sname": ".basic-grey .button",
+            "style": "background:#E27575;border:none;padding:10px 25px 10px 25px;color:#FFF;box-shadow:1px 1px 5px #B6B6B6;border-radius:3px;text-shadow:1px 1px 1px #9E3F3F;cursor:pointer;"
+        },
+        {
+            "sname": ".basic-grey .button:hover",
+            "style": ""
+        }],
+        "cssurl": "",
+        "lastupdate": "2016-07-14T08:13:06.186Z",
+        "domdetail": "<label><span/><input/></label>",
+        "htmlurl": "/data/json/htmlsample.html"
+    },
+    {
+        "code": "cs160709204711",
+        "name": "smart-green",
+        "desc": "",
+        "domtype": "form",
+        "cssscript": "/*######## Smart Green ########*/\n.smart-green {\n    margin-left:auto;\n    margin-right:auto;\nwidth:100%;\n    max-width: 500px;\n    background: #F8F8F8;\n    padding: 30px 30px 20px 30px;\n    font: 12px Arial, Helvetica, sans-serif;\n    color: #666;\n    border-radius: 5px;\n    -webkit-border-radius: 5px;\n    -moz-border-radius: 5px;\n}\n.smart-green h1 {\n    font: 24px \"Trebuchet MS\", Arial, Helvetica, sans-serif;\n    padding: 20px 0px 20px 40px;\n    display: block;\n    margin: -30px -30px 10px -30px;\n    color: #FFF;\n    background: #9DC45F;\n    text-shadow: 1px 1px 1px #949494;\n    border-radius: 5px 5px 0px 0px;\n    -webkit-border-radius: 5px 5px 0px 0px;\n    -moz-border-radius: 5px 5px 0px 0px;\n    border-bottom:1px solid #89AF4C;\n\n}\n.smart-green h1>span {\n    display: block;\n    font-size: 11px;\n    color: #FFF;\n}\n\n.smart-green label {\n    display: block;\n    margin: 0px 0px 5px;\n}\n.smart-green label>span {\n    float: left;\n    margin-top: 10px;\n    color: #5E5E5E;\n}\n.smart-green input[type=\"text\"], .smart-green input[type=\"email\"], .smart-green textarea, .smart-green select {\n    color: #555;\n    height: 30px;\n    line-height:15px;\n    width: 100%;\n    padding: 0px 0px 0px 10px;\n    margin-top: 2px;\n    border: 1px solid #E5E5E5;\n    background: #FBFBFB;\n    outline: 0;\n    -webkit-box-shadow: inset 1px 1px 2px rgba(238, 238, 238, 0.2);\n    box-shadow: inset 1px 1px 2px rgba(238, 238, 238, 0.2);\n    font: normal 14px/14px Arial, Helvetica, sans-serif;\n}\n.smart-green textarea{\n    height:100px;\n    padding-top: 10px;\n}\n.smart-green select {\n    background: url('/images/down-arrow.png') no-repeat right, -moz-linear-gradient(top, #FBFBFB 0%, #E9E9E9 100%);\n    background: url('/images/down-arrow.png') no-repeat right, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FBFBFB), color-stop(100%,#E9E9E9));\n   appearance:none;\n    -webkit-appearance:none; \n   -moz-appearance: none;\n    text-indent: 0.01px;\n    text-overflow: '';\n    width:100%;\n    height:30px;\n}\n.smart-green button,\n.smart-green input[type=\"button\"] {\n    background-color: #9DC45F;\n    border-radius: 5px;\n    -webkit-border-radius: 5px;\n    -moz-border-border-radius: 5px;\n    border: none;\n    padding: 10px 25px 10px 25px;\n    color: #FFF;\n    text-shadow: 1px 1px 1px #949494;\n}\n.smart-green button:hover,\n.smart-green input[type=\"button\"]:hover {\n    background-color:#80A24A;\n}",
+        "stylelist": [
+        {
+            "sname": ".smart-green",
+            "style": "margin-left:auto;margin-right:auto;max-width:500px;background:#F8F8F8;padding:30px 30px 20px 30px;font:12px Arial, Helvetica, sans-serif;color:#666;border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px;"
+        },
+        {
+            "sname": ".smart-green h1",
+            "style": "font:24px \"Trebuchet MS\", Arial, Helvetica, sans-serif;padding:20px 0px 20px 40px;display:block;margin:-30px -30px 10px -30px;color:#FFF;background:#9DC45F;text-shadow:1px 1px 1px #949494;border-radius:5px 5px 0px 0px;-webkit-border-radius:5px 5px 0px 0px;-moz-border-radius:5px 5px 0px 0px;border-bottom:1px solid #89AF4C;"
+        },
+        {
+            "sname": ".smart-green h1>span",
+            "style": "display:block;font-size:11px;color:#FFF;"
+        },
+        {
+            "sname": ".smart-green label",
+            "style": "display:block;margin:0px 0px 5px;"
+        },
+        {
+            "sname": ".smart-green label>span",
+            "style": "float:left;margin-top:10px;color:#5E5E5E;"
+        },
+        {
+            "sname": ".smart-green input[type=\"text\"], .smart-green input[type=\"email\"], .smart-green textarea, .smart-green select",
+            "style": "color:#555;height:30px;line-height:15px;width:100%;padding:0px 0px 0px 10px;margin-top:2px;border:1px solid #E5E5E5;background:#FBFBFB;outline:0;-webkit-box-shadow:inset 1px 1px 2px rgba(238, 238, 238, 0.2);box-shadow:inset 1px 1px 2px rgba(238, 238, 238, 0.2);font:normal 14px/14px Arial, Helvetica, sans-serif;"
+        },
+        {
+            "sname": ".smart-green textarea",
+            "style": "height:100px;padding-top:10px;"
+        },
+        {
+            "sname": ".smart-green select",
+            "style": "background:url('down-arrow.png') no-repeat right, -moz-linear-gradient(top, #FBFBFB 0%, #E9E9E9 100%),url('down-arrow.png') no-repeat right, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FBFBFB), color-stop(100%,#E9E9E9));appearance:none;-webkit-appearance:none;-moz-appearance:none;text-indent:0.01px;text-overflow:'';width:100%;height:30px;"
+        },
+        {
+            "sname": ".smart-green .button",
+            "style": "background-color:#9DC45F;border-radius:5px;-webkit-border-radius:5px;-moz-border-border-radius:5px;border:none;padding:10px 25px 10px 25px;color:#FFF;text-shadow:1px 1px 1px #949494;"
+        },
+        {
+            "sname": ".smart-green .button:hover",
+            "style": "background-color:#80A24A;"
+        }],
+        "cssurl": "",
+        "lastupdate": "2016-07-14T13:51:18.895Z",
+        "domdetail": "<label><span/><input/></label>",
+        "htmlsample": "<form action=\"\" method=\"post\" class=\"STYLE-NAME\">\n    <h1>Contact Form \n        <span>Please fill all the texts in the fields.</span>\n    </h1>\n    <label>\n        <span>Your Name :</span>\n        <input id=\"name\" type=\"text\" name=\"name\" placeholder=\"Your Full Name\" />\n    </label>\n    \n    <label>\n        <span>Your Email :</span>\n        <input id=\"email\" type=\"email\" name=\"email\" placeholder=\"Valid Email Address\" />\n    </label>\n    \n    <label>\n        <span>Message :</span>\n        <textarea  name=\"message\" placeholder=\"Your Message to Us\"></textarea>\n    </label> \n     <label>\n        <span>Subject :</span><select name=\"selection\">\n        <option value=\"Job Inquiry\">Job Inquiry</option>\n        <option value=\"General Question\">General Question</option>\n        </select>\n    </label>    \n     <label>\n        <span>&nbsp;</span> \n        <input type=\"button\"  value=\"Send\" /> \n    </label>    \n</form>"
+    },
+    {
+        "code": "cs160709221025",
+        "name": "bootstrap-frm",
+        "desc": "",
+        "domtype": "form",
+        "cssscript": "/* #### bootstrap Form #### */\n.bootstrap-frm {\n    margin-left:auto;\n    margin-right:auto;\n    width:100%;\n    background: #FFF;\n    padding: 20px 30px 20px 30px;\n    font: 12px \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n    color: #888;\n    text-shadow: 1px 1px 1px #FFF;\n    border:1px solid #DDD;\n    border-radius: 5px;\n    -webkit-border-radius: 5px;\n    -moz-border-radius: 5px;\n}\n.bootstrap-frm h1 {\n    font: 25px \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n    padding: 0px 0px 10px 40px;\n    display: block;\n    border-bottom: 1px solid #DADADA;\n    margin: -10px -30px 30px -30px;\n    color: #888;\n}\n.bootstrap-frm h1>span {\n    display: block;\n    font-size: 11px;\n}\n.bootstrap-frm label {\n    display: block;\n    margin: 0px 0px 5px;\n}\n.bootstrap-frm label>span {\n    float: left;\n    width: 25%;\n    text-align: right;\n    padding-right: 10px;\n    margin-top: 10px;\n    color: #333;\n    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n    font-weight: bold;\n}\n.bootstrap-frm input[type=\"text\"], .bootstrap-frm input[type=\"email\"], .bootstrap-frm textarea, .bootstrap-frm select{\n    border: 1px solid #CCC;\n    color: #888;\n    height: 20px;\n    line-height:15px;\n    margin-bottom: 16px;\n    margin-right: 6px;\n    margin-top: 2px;\n    outline: 0 none;\n    padding: 5px 0px 5px 5px;\n    width: 73%;\n    border-radius: 4px;\n    -webkit-border-radius: 4px;\n    -moz-border-radius: 4px;    \n    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);\n    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);\n    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);\n}\n.bootstrap-frm select {\n    background: #FFF url('/images/down-arrow.png') no-repeat right;\n    background: #FFF url('/images/down-arrow.png') no-repeat right;\n    appearance:none;\n    -webkit-appearance:none; \n    -moz-appearance: none;\n    text-indent: 0.01px;\n    text-overflow: '';\n    width: 73%;\n    height: 35px;\n    line-height:15px;\n}\n.bootstrap-frm textarea{\n    height:100px;\n    padding: 5px 0px 0px 5px;\n    width: 70%;\n}\n.bootstrap-frm button,\n.bootstrap-frm input[type=\"button\"] {\n    background: #FFF;\n    border: 1px solid #CCC;\n    padding: 10px 25px 10px 25px;\n    color: #333;\n    border-radius: 4px;\n}\n.bootstrap-frm button:hover,\n.bootstrap-frm input[type=\"button\"]:hover {\n    color: #333;\n    background-color: #EBEBEB;\n    border-color: #ADADAD;\n}",
+        "stylelist": [
+        {
+            "sname": ".bootstrap-frm",
+            "style": "margin-left:auto;margin-right:auto;max-width:500px;background:#FFF;padding:20px 30px 20px 30px;font:12px \"Helvetica Neue\", Helvetica, Arial, sans-serif;color:#888;text-shadow:1px 1px 1px #FFF;border:1px solid #DDD;border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px;"
+        },
+        {
+            "sname": ".bootstrap-frm h1",
+            "style": "font:25px \"Helvetica Neue\", Helvetica, Arial, sans-serif;padding:0px 0px 10px 40px;display:block;border-bottom:1px solid #DADADA;margin:-10px -30px 30px -30px;color:#888;"
+        },
+        {
+            "sname": ".bootstrap-frm h1>span",
+            "style": "display:block;font-size:11px;"
+        },
+        {
+            "sname": ".bootstrap-frm label",
+            "style": "display:block;margin:0px 0px 5px;"
+        },
+        {
+            "sname": ".bootstrap-frm label>span",
+            "style": "float:left;width:20%;text-align:right;padding-right:10px;margin-top:10px;color:#333;font-family:\"Helvetica Neue\", Helvetica, Arial, sans-serif;font-weight:bold;"
+        },
+        {
+            "sname": ".bootstrap-frm input[type=\"text\"], .bootstrap-frm input[type=\"email\"], .bootstrap-frm textarea, .bootstrap-frm select",
+            "style": "border:1px solid #CCC;color:#888;height:20px;line-height:15px;margin-bottom:16px;margin-right:6px;margin-top:2px;outline:0 none;padding:5px 0px 5px 5px;width:70%;border-radius:4px;-webkit-border-radius:4px;-moz-border-radius:4px;-webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.075);box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.075);-moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.075);"
+        },
+        {
+            "sname": ".bootstrap-frm select",
+            "style": "background:#FFF url('/images/down-arrow.png') no-repeat right,#FFF url('/images/down-arrow.png') no-repeat right;appearance:none;-webkit-appearance:none;-moz-appearance:none;text-indent:0.01px;text-overflow:'';width:70%;height:35px;line-height:15px;"
+        },
+        {
+            "sname": ".bootstrap-frm textarea",
+            "style": "height:100px;padding:5px 0px 0px 5px;width:70%;"
+        },
+        {
+            "sname": ".bootstrap-frm .button",
+            "style": "background:#FFF;border:1px solid #CCC;padding:10px 25px 10px 25px;color:#333;border-radius:4px;"
+        },
+        {
+            "sname": ".bootstrap-frm .button:hover",
+            "style": "color:#333;background-color:#EBEBEB;border-color:#ADADAD;"
+        }],
+        "cssurl": "",
+        "lastupdate": "2016-07-15T05:02:36.145Z",
+        "domdetail": "<label><span/><input/></label>",
+        "htmlurl": "/data/json/htmlsample.html"
+    },
+    {
+        "code": "cs160710112228",
+        "name": "form-style-4",
+        "desc": "",
+        "domtype": "form",
+        "cssscript": ".form-style-4 {\n\twidth: 100%;\n\tfont-size: 16px;\n\tbackground: #495C70;\n\tpadding: 30px 30px 15px 30px;\n\tborder: 5px solid #53687E;\n}\n.form-style-4 input[type=submit],\n.form-style-4 input[type=button],\n.form-style-4 input[type=text],\n.form-style-4 input[type=email],\n.form-style-4 textarea,\n.form-style-4 label {\n\tfont-family: Georgia, \"Times New Roman\", Times, serif;\n\tfont-size: 16px;\n\tcolor: #fff;\n}\n.form-style-4 label {\n\tdisplay: block;\n\tmargin-bottom: 10px;\n}\n.form-style-4 label > span {\n\tdisplay: inline-block;\n\tfloat: left;\n\twidth: 150px;\n}\n.form-style-4 input[type=text],\n.form-style-4 input[type=email] {\n\tbackground: transparent;\n\tborder: none;\n\tborder-bottom: 1px dashed #83A4C5;\n\twidth: 275px;\n\toutline: none;\n\tpadding: 0px 0px 0px 0px;\n\tfont-style: italic;\n}\n.form-style-4 textarea {\n\tfont-style: italic;\n\tpadding: 0px 0px 0px 0px;\n\tbackground: transparent;\n\toutline: none;\n\tborder: none;\n\tborder-bottom: 1px dashed #83A4C5;\n\twidth: 275px;\n\toverflow: hidden;\n\tresize: none;\n\theight: 20px;\n}\n.form-style-4 textarea:focus, \n.form-style-4 input[type=text]:focus,\n.form-style-4 input[type=email]:focus,\n.form-style-4 input[type=email] :focus {\n\tborder-bottom: 1px dashed #D9FFA9;\n}\n.form-style-4 input[type=submit],\n.form-style-4 input[type=button] {\n\tbackground: #576E86;\n\tborder: none;\n\tpadding: 8px 10px 8px 10px;\n\tborder-radius: 5px;\n\tcolor: #A8BACE;\n}\n.form-style-4 input[type=submit]:hover,\n.form-style-4 input[type=button]:hover {\n\tbackground: #394D61;\n}\n",
+        "stylelist": [
+        {
+            "sname": ".form-style-4",
+            "style": "width:100%;font-size:16px;background:#495C70;padding:30px 30px 15px 30px;border:5px solid #53687E;"
+        },
+        {
+            "sname": ".form-style-4 input[type=submit],\n.form-style-4 input[type=button],\n.form-style-4 input[type=text],\n.form-style-4 input[type=email],\n.form-style-4 textarea,\n.form-style-4 label",
+            "style": "font-family:Georgia, \"Times New Roman\", Times, serif;font-size:16px;color:#fff;"
+        },
+        {
+            "sname": ".form-style-4 label",
+            "style": "display:block;margin-bottom:10px;"
+        },
+        {
+            "sname": ".form-style-4 label > span",
+            "style": "display:inline-block;float:left;width:150px;"
+        },
+        {
+            "sname": ".form-style-4 input[type=text],\n.form-style-4 input[type=email]",
+            "style": "background:transparent;border:none;border-bottom:1px dashed #83A4C5;width:275px;outline:none;padding:0px 0px 0px 0px;font-style:italic;"
+        },
+        {
+            "sname": ".form-style-4 textarea",
+            "style": "font-style:italic;padding:0px 0px 0px 0px;background:transparent;outline:none;border:none;border-bottom:1px dashed #83A4C5;width:275px;overflow:hidden;resize:none;height:20px;"
+        },
+        {
+            "sname": ".form-style-4 textarea:focus, \n.form-style-4 input[type=text]:focus,\n.form-style-4 input[type=email]:focus,\n.form-style-4 input[type=email] :focus",
+            "style": "border-bottom:1px dashed #D9FFA9;"
+        },
+        {
+            "sname": ".form-style-4 input[type=submit],\n.form-style-4 input[type=button]",
+            "style": "background:#576E86;border:none;padding:8px 10px 8px 10px;border-radius:5px;color:#A8BACE;"
+        },
+        {
+            "sname": ".form-style-4 input[type=submit]:hover,\n.form-style-4 input[type=button]:hover",
+            "style": "background:#394D61;"
+        }],
+        "domdetail": "<label><span/><input/></label>",
+        "cssurl": "",
+        "lastupdate": "2016-07-16T03:16:49.921Z",
+        "htmlsample": "<form class=\"form-style-4\" action=\"\" method=\"post\">\n<label for=\"field1\">\n<span>Enter Your Name</span><input type=\"text\" name=\"field1\" required=\"true\" />\n</label>\n<label for=\"field2\">\n<span>Email Address</span><input type=\"email\" name=\"field2\" required=\"true\" />\n</label>\n<label for=\"field3\">\n<span>Short Subject</span><input type=\"text\" name=\"field3\" required=\"true\" />\n</label>\n<label for=\"field4\">\n<span>Message to Us</span><textarea name=\"field4\" onkeyup=\"adjust_textarea(this)\" required=\"true\"></textarea>\n</label>\n<label>\n<span>&nbsp;</span><input type=\"submit\" value=\"Send Letter\" />\n</label>\n</form>"
+    },
+    {
+        "code": "cs16072975214",
+        "name": "form-style-6-test",
+        "desc": "",
+        "domtype": "form",
+        "cssscript": ".form-style-6-test {\n\tfont: 100% Arial, Helvetica, sans-serif;\n\tmax-width: 400px;\n\tmargin: 10px auto;\n\tpadding: 16px;\n\tbackground: #F7F7F7;\n}\n.form-style-6-test h1 {\n\tfont-style: normal;\n\tcolor: #000000;\n\tpadding: 20px 0px;\n\tmargin: -16px -16px 16px -16px;\n\ttext-align: center;\n}\n.form-style-6-test input[type=\"text\"],\n.form-style-6-test input[type=\"date\"],\n.form-style-6-test input[type=\"datetime\"],\n.form-style-6-test input[type=\"email\"],\n.form-style-6-test input[type=\"number\"],\n.form-style-6-test input[type=\"search\"],\n.form-style-6-test input[type=\"time\"],\n.form-style-6-test input[type=\"url\"],\n.form-style-6-test textarea,\n.form-style-6-test select {\n\t-webkit-transition: all 0.30s ease-in-out;\n\t-moz-transition: all 0.30s ease-in-out;\n\t-ms-transition: all 0.30s ease-in-out;\n\t-o-transition: all 0.30s ease-in-out;\n\toutline: none;\n\tbox-sizing: border-box;\n\t-webkit-box-sizing: border-box;\n\t-moz-box-sizing: border-box;\n\twidth: 100%;\n\tbackground: #fff;\n\tmargin-bottom: 4%;\n\tborder: 1px solid #ccc;\n\tpadding: 3%;\n\tcolor: #555;\n\tfont: 95% Arial, Helvetica, sans-serif;\n}\n.form-style-6-test input[type=\"text\"]:focus,\n.form-style-6-test input[type=\"date\"]:focus,\n.form-style-6-test input[type=\"datetime\"]:focus,\n.form-style-6-test input[type=\"email\"]:focus,\n.form-style-6-test input[type=\"number\"]:focus,\n.form-style-6-test input[type=\"search\"]:focus,\n.form-style-6-test input[type=\"time\"]:focus,\n.form-style-6-test input[type=\"url\"]:focus,\n.form-style-6-test textarea:focus,\n.form-style-6-test select:focus {\n\tbox-shadow: 0 0 5px #43D1AF;\n\tpadding: 3%;\n\tborder: 1px solid #43D1AF;\n}\n.form-style-6-test input[type=\"submit\"],\n.form-style-6-test input[type=\"button\"] {\n\tbox-sizing: border-box;\n\t-webkit-box-sizing: border-box;\n\t-moz-box-sizing: border-box;\n\twidth: 100%;\n\tpadding: 3%;\n\tbackground: #43D1AF;\n\tborder-bottom: 2px solid #30C29E;\n\tborder-top-style: none;\n\tborder-right-style: none;\n\tborder-left-style: none;\n\tcolor: #fff;\n}\n.form-style-6-test input[type=\"submit\"]:hover,\n.form-style-6-test input[type=\"button\"]:hover {\n\tbackground: #2EBC99;\n}\n",
+        "stylelist": [
+        {
+            "sname": ".form-style-6-test",
+            "style": "font:100% Arial, Helvetica, sans-serif;max-width:400px;margin:10px auto;padding:16px;background:#F7F7F7;"
+        },
+        {
+            "sname": ".form-style-6-test h1",
+            "style": "font-style:normal;color:#000000;padding:20px 0px;margin:-16px -16px 16px -16px;text-align:center;"
+        },
+        {
+            "sname": ".form-style-6-test input[type=\"text\"],\n.form-style-6-test input[type=\"date\"],\n.form-style-6-test input[type=\"datetime\"],\n.form-style-6-test input[type=\"email\"],\n.form-style-6-test input[type=\"number\"],\n.form-style-6-test input[type=\"search\"],\n.form-style-6-test input[type=\"time\"],\n.form-style-6-test input[type=\"url\"],\n.form-style-6-test textarea,\n.form-style-6-test select",
+            "style": "-webkit-transition:all 0.30s ease-in-out;-moz-transition:all 0.30s ease-in-out;-ms-transition:all 0.30s ease-in-out;-o-transition:all 0.30s ease-in-out;outline:none;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;width:100%;background:#fff;margin-bottom:4%;border:1px solid #ccc;padding:3%;color:#555;font:95% Arial, Helvetica, sans-serif;"
+        },
+        {
+            "sname": ".form-style-6-test input[type=\"text\"]:focus,\n.form-style-6-test input[type=\"date\"]:focus,\n.form-style-6-test input[type=\"datetime\"]:focus,\n.form-style-6-test input[type=\"email\"]:focus,\n.form-style-6-test input[type=\"number\"]:focus,\n.form-style-6-test input[type=\"search\"]:focus,\n.form-style-6-test input[type=\"time\"]:focus,\n.form-style-6-test input[type=\"url\"]:focus,\n.form-style-6-test textarea:focus,\n.form-style-6-test select:focus",
+            "style": "box-shadow:0 0 5px #43D1AF;padding:3%;border:1px solid #43D1AF;"
+        },
+        {
+            "sname": ".form-style-6-test input[type=\"submit\"],\n.form-style-6-test input[type=\"button\"]",
+            "style": "box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;width:100%;padding:3%;background:#43D1AF;border-bottom:2px solid #30C29E;border-top-style:none;border-right-style:none;border-left-style:none;color:#fff;"
+        },
+        {
+            "sname": ".form-style-6-test input[type=\"submit\"]:hover,\n.form-style-6-test input[type=\"button\"]:hover",
+            "style": "background:#2EBC99;"
+        }],
+        "domdetail": "<input />",
+        "cssurl": "",
+        "lastupdate": "2016-07-29T01:03:53.418Z"
+    },
+    {
+        "code": "cs160710112753",
+        "name": "form-style-6",
+        "desc": "",
+        "domtype": "form",
+        "cssscript": ".form-style-6 {\n\tfont: 95% Arial, Helvetica, sans-serif;\n\tmax-width: 400px;\n\tmargin: 10px auto;\n\tpadding: 16px;\n\tbackground: #F7F7F7;\n}\n.form-style-6 h1,\n.form-style-6 h2 {\n\tfont-size: 140%;\n\tfont-style: normal;\n\tcolor: #000000;\n\tpadding: 20px 0px;\n\tmargin: -16 -16px 16px -16pxpx;\n\ttext-align: center;\n}\n.form-style-6 input,\n.form-style-6 input[type=\"text\"],\n.form-style-6 input[type=\"date\"],\n.form-style-6 input[type=\"datetime\"],\n.form-style-6 input[type=\"email\"],\n.form-style-6 input[type=\"number\"],\n.form-style-6 input[type=\"search\"],\n.form-style-6 input[type=\"time\"],\n.form-style-6 input[type=\"url\"],\n.form-style-6 textarea,\n.form-style-6 select {\n\t-webkit-transition: all 0.30s ease-in-out;\n\t-moz-transition: all 0.30s ease-in-out;\n\t-ms-transition: all 0.30s ease-in-out;\n\t-o-transition: all 0.30s ease-in-out;\n\toutline: none;\n\tbox-sizing: border-box;\n\t-webkit-box-sizing: border-box;\n\t-moz-box-sizing: border-box;\n\twidth: 100%;\n\tbackground: #fff;\n\tmargin-bottom: 4%;\n\tborder: 1px solid #ccc;\n\tpadding: 3%;\n\tcolor: #555;\n\tfont: 95% Arial, Helvetica, sans-serif;\n}\n.form-style-6 input:focus,\n.form-style-6 input[type=\"text\"]:focus,\n.form-style-6 input[type=\"date\"]:focus,\n.form-style-6 input[type=\"datetime\"]:focus,\n.form-style-6 input[type=\"email\"]:focus,\n.form-style-6 input[type=\"number\"]:focus,\n.form-style-6 input[type=\"search\"]:focus,\n.form-style-6 input[type=\"time\"]:focus,\n.form-style-6 input[type=\"url\"]:focus,\n.form-style-6 textarea:focus,\n.form-style-6 select:focus {\n\tbox-shadow: 0 0 5px #43D1AF;\n\tpadding: 3%;\n\tborder: 1px solid #43D1AF;\n}\n.form-style-6 input[type=\"submit\"],\n.form-style-6 input[type=\"button\"] {\n\tbox-sizing: border-box;\n\t-webkit-box-sizing: border-box;\n\t-moz-box-sizing: border-box;\n\twidth: 100%;\n\tpadding: 3%;\n\tbackground: #43D1AF;\n\tborder-bottom: 2px solid #30C29E;\n\tborder-top-style: none;\n\tborder-right-style: none;\n\tborder-left-style: none;\n\tcolor: #fff;\n}\n.form-style-6 input[type=\"submit\"]:hover,\n.form-style-6 input[type=\"button\"]:hover {\n\tbackground: #2EBC99;\n}\n",
+        "stylelist": [
+        {
+            "sname": ".form-style-6",
+            "style": "font:95% Arial, Helvetica, sans-serif;max-width:400px;margin:10px auto;padding:16px;background:#F7F7F7;"
+        },
+        {
+            "sname": ".form-style-6 h1,\n.form-style-6 h2",
+            "style": "font-size:140%;font-style:normal;color:#000000;padding:20px 0px;margin:-16 -16px 16px -16pxpx;text-align:center;"
+        },
+        {
+            "sname": ".form-style-6 input,\n.form-style-6 input[type=\"text\"],\n.form-style-6 input[type=\"date\"],\n.form-style-6 input[type=\"datetime\"],\n.form-style-6 input[type=\"email\"],\n.form-style-6 input[type=\"number\"],\n.form-style-6 input[type=\"search\"],\n.form-style-6 input[type=\"time\"],\n.form-style-6 input[type=\"url\"],\n.form-style-6 textarea,\n.form-style-6 select",
+            "style": "-webkit-transition:all 0.30s ease-in-out;-moz-transition:all 0.30s ease-in-out;-ms-transition:all 0.30s ease-in-out;-o-transition:all 0.30s ease-in-out;outline:none;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;width:100%;background:#fff;margin-bottom:4%;border:1px solid #ccc;padding:3%;color:#555;font:95% Arial, Helvetica, sans-serif;"
+        },
+        {
+            "sname": ".form-style-6 input:focus,\n.form-style-6 input[type=\"text\"]:focus,\n.form-style-6 input[type=\"date\"]:focus,\n.form-style-6 input[type=\"datetime\"]:focus,\n.form-style-6 input[type=\"email\"]:focus,\n.form-style-6 input[type=\"number\"]:focus,\n.form-style-6 input[type=\"search\"]:focus,\n.form-style-6 input[type=\"time\"]:focus,\n.form-style-6 input[type=\"url\"]:focus,\n.form-style-6 textarea:focus,\n.form-style-6 select:focus",
+            "style": "box-shadow:0 0 5px #43D1AF;padding:3%;border:1px solid #43D1AF;"
+        },
+        {
+            "sname": ".form-style-6 input[type=\"submit\"],\n.form-style-6 input[type=\"button\"]",
+            "style": "box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;width:100%;padding:3%;background:#43D1AF;border-bottom:2px solid #30C29E;border-top-style:none;border-right-style:none;border-left-style:none;color:#fff;"
+        },
+        {
+            "sname": ".form-style-6 input[type=\"submit\"]:hover,\n.form-style-6 input[type=\"button\"]:hover",
+            "style": "background:#2EBC99;"
+        }],
+        "domdetail": "<input/>",
+        "cssurl": "",
+        "lastupdate": "2016-07-30T23:29:48.546Z",
+        "htmlsample": "<div class=\"form-style-6\">\n<h1>Contact Us</h1>\n<form>\n<input type=\"text\" name=\"field1\" placeholder=\"Your Name\" />\n<input type=\"email\" name=\"field2\" placeholder=\"Email Address\" />\n<textarea name=\"field3\" placeholder=\"Type your Message\"></textarea>\n<input type=\"submit\" value=\"Send\" />\n</form>\n</div>"
+    },
+    {
+        "code": "cs16071214632",
+        "name": "form-style-3",
+        "desc": "fieldset support",
+        "domtype": "form",
+        "cssscript": ".form-style-3 {\n\tmax-width: 450px;\n\tfont-family: \"Lucida Sans Unicode\", \"Lucida Grande\", sans-serif;\n}\n.form-style-3 label {\n\tdisplay: block;\n\tmargin-bottom: 10px;\n}\n.form-style-3 label > span {\n\tfloat: left;\n\twidth: 100px;\n\tcolor: #F072A9;\n\tfont-weight: bold;\n\tfont-size: 13px;\n\ttext-shadow: 1px 1px 1px #fff;\n}\n.form-style-3 fieldset {\n\tborder-radius: 10px;\n\t-webkit-border-radius: 10px;\n\t-moz-border-radius: 10px;\n\tmargin: 0px 0px 10px 0px;\n\tborder: 1px solid #FFD2D2;\n\tpadding: 20px;\n\tbackground: #FFF4F4;\n\tbox-shadow: inset 0px 0px 15px #FFE5E5;\n\t-moz-box-shadow: inset 0px 0px 15px #FFE5E5;\n\t-webkit-box-shadow: inset 0px 0px 15px #FFE5E5;\n}\n.form-style-3 fieldset legend {\n\tcolor: #FFA0C9;\n\tborder-top: 1px solid #FFD2D2;\n\tborder-left: 1px solid #FFD2D2;\n\tborder-right: 1px solid #FFD2D2;\n\tborder-radius: 5px 5px 0px 0px;\n\t-webkit-border-radius: 5px 5px 0px 0px;\n\t-moz-border-radius: 5px 5px 0px 0px;\n\tbackground: #FFF4F4;\n\tpadding: 0px 8px 3px 8px;\n\tbox-shadow: -0px -1px 2px #F1F1F1;\n\t-moz-box-shadow: -0px -1px 2px #F1F1F1;\n\t-webkit-box-shadow: -0px -1px 2px #F1F1F1;\n\tfont-weight: normal;\n\tfont-size: 12px;\n}\n.form-style-3 textarea {\n\twidth: 250px;\n\theight: 100px;\n}\n.form-style-3 input[type=text],\n.form-style-3 input[type=date],\n.form-style-3 input[type=datetime],\n.form-style-3 input[type=number],\n.form-style-3 input[type=search],\n.form-style-3 input[type=time],\n.form-style-3 input[type=url],\n.form-style-3 input[type=email],\n.form-style-3 select, \n.form-style-3 textarea {\n\tborder-radius: 3px;\n\t-webkit-border-radius: 3px;\n\t-moz-border-radius: 3px;\n\tborder: 1px solid #FFC2DC;\n\toutline: none;\n\tcolor: #F072A9;\n\tpadding: 5px 8px 5px 8px;\n\tbox-shadow: inset 1px 1px 4px #FFD5E7;\n\t-moz-box-shadow: inset 1px 1px 4px #FFD5E7;\n\t-webkit-box-shadow: inset 1px 1px 4px #FFD5E7;\n\tbackground: #FFEFF6;\n\twidth: 50%;\n}\n.form-style-3  input[type=submit],\n.form-style-3  input[type=button] {\n\tbackground: #EB3B88;\n\tborder: 1px solid #C94A81;\n\tpadding: 5px 15px 5px 15px;\n\tcolor: #FFCBE2;\n\tbox-shadow: inset -1px -1px 3px #FF62A7;\n\t-moz-box-shadow: inset -1px -1px 3px #FF62A7;\n\t-webkit-box-shadow: inset -1px -1px 3px #FF62A7;\n\tborder-radius: 3px,3px;\n\t-webkit-border-radius: 3px;\n\t-moz-border-radius: 3px;\n\tfont-weight: bold;\n}\n.required {\n\tcolor: red;\n\tfont-weight: normal;\n}\n",
+        "stylelist": [
+        {
+            "sname": ".form-style-3",
+            "style": "max-width:450px;font-family:\"Lucida Sans Unicode\", \"Lucida Grande\", sans-serif;"
+        },
+        {
+            "sname": ".form-style-3 label",
+            "style": "display:block;margin-bottom:10px;"
+        },
+        {
+            "sname": ".form-style-3 label > span",
+            "style": "float:left;width:100px;color:#F072A9;font-weight:bold;font-size:13px;text-shadow:1px 1px 1px #fff;"
+        },
+        {
+            "sname": ".form-style-3 fieldset",
+            "style": "border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;margin:0px 0px 10px 0px;border:1px solid #FFD2D2;padding:20px;background:#FFF4F4;box-shadow:inset 0px 0px 15px #FFE5E5;-moz-box-shadow:inset 0px 0px 15px #FFE5E5;-webkit-box-shadow:inset 0px 0px 15px #FFE5E5;"
+        },
+        {
+            "sname": ".form-style-3 fieldset legend",
+            "style": "color:#FFA0C9;border-top:1px solid #FFD2D2;border-left:1px solid #FFD2D2;border-right:1px solid #FFD2D2;border-radius:5px 5px 0px 0px;-webkit-border-radius:5px 5px 0px 0px;-moz-border-radius:5px 5px 0px 0px;background:#FFF4F4;padding:0px 8px 3px 8px;box-shadow:-0px -1px 2px #F1F1F1;-moz-box-shadow:-0px -1px 2px #F1F1F1;-webkit-box-shadow:-0px -1px 2px #F1F1F1;font-weight:normal;font-size:12px;"
+        },
+        {
+            "sname": ".form-style-3 textarea",
+            "style": "width:250px;height:100px;"
+        },
+        {
+            "sname": ".form-style-3 input[type=text],\n.form-style-3 input[type=date],\n.form-style-3 input[type=datetime],\n.form-style-3 input[type=number],\n.form-style-3 input[type=search],\n.form-style-3 input[type=time],\n.form-style-3 input[type=url],\n.form-style-3 input[type=email],\n.form-style-3 select, \n.form-style-3 textarea",
+            "style": "border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;border:1px solid #FFC2DC;outline:none;color:#F072A9;padding:5px 8px 5px 8px;box-shadow:inset 1px 1px 4px #FFD5E7;-moz-box-shadow:inset 1px 1px 4px #FFD5E7;-webkit-box-shadow:inset 1px 1px 4px #FFD5E7;background:#FFEFF6;width:50%;"
+        },
+        {
+            "sname": ".form-style-3  input[type=submit],\n.form-style-3  input[type=button]",
+            "style": "background:#EB3B88;border:1px solid #C94A81;padding:5px 15px 5px 15px;color:#FFCBE2;box-shadow:inset -1px -1px 3px #FF62A7;-moz-box-shadow:inset -1px -1px 3px #FF62A7;-webkit-box-shadow:inset -1px -1px 3px #FF62A7;border-radius:3px,3px;-webkit-border-radius:3px;-moz-border-radius:3px;font-weight:bold;"
+        },
+        {
+            "sname": ".required",
+            "style": "color:red;font-weight:normal;"
+        }],
+        "domdetail": "<label><span/><input/></label>",
+        "cssurl": "",
+        "htmlsample": "<div class=\"form-style-3\">\n<form>\n<fieldset><legend>Personal</legend>\n<label for=\"field1\"><span>Name <span class=\"required\">*</span></span><input type=\"text\" class=\"input-field\" name=\"field1\" value=\"\" /></label>\n<label for=\"field2\"><span>Email <span class=\"required\">*</span></span><input type=\"email\" class=\"input-field\" name=\"field2\" value=\"\" /></label>\n<label for=\"field3\"><span>Phone <span class=\"required\">*</span></span><input type=\"text\" class=\"input-field\" name=\"field3\" value=\"\" /></label>\n<label for=\"field4\"><span>Subject</span><select name=\"field4\" class=\"select-field\">\n<option value=\"Appointment\">Appointment</option>\n<option value=\"Interview\">Interview</option>\n<option value=\"Regarding a post\">Regarding a post</option>\n</select></label>\n</fieldset>\n<fieldset><legend>Message</legend>\n<label for=\"field6\"><span>Message <span class=\"required\">*</span></span><textarea name=\"field6\" class=\"textarea-field\"></textarea></label>\n<label><span>&nbsp;</span><input type=\"submit\" value=\"Submit\" /></label>\n</fieldset>\n</form>\n</div>",
+        "lastupdate": "2016-08-02T06:11:29.542Z"
+    },
+    {
+        "code": "cs171105112853",
+        "name": "demo-table",
+        "desc": "",
+        "domtype": "table",
+        "cssscript": "/* Table */\n\t\t.demo-table {\n\t\t\tborder-collapse: collapse;\n\t\t\tfont-size: 13px;\n\t\t}\n\t\t.demo-table th, \n\t\t.demo-table td {\n\t\t\tborder: 1px solid #e1edff;\n\t\t\tpadding: 7px 17px;\n\t\t}\n\t\t.demo-table .title {\n\t\t\tcaption-side: bottom;\n\t\t\tmargin-top: 12px;\n\t\t}\n\t\t\n\t\t/* Table Header */\n\t\t.demo-table thead th {\n\t\t\tbackground-color: #508abb;\n\t\t\tcolor: #FFFFFF;\n\t\t\tborder-color: #6ea1cc !important;\n\t\t\ttext-transform: uppercase;\n\t\t}\n\t\t\n\t\t/* Table Body */\n\t\t.demo-table tbody td {\n\t\t\tcolor: #353535;\n\t\t}\n\t\t.demo-table tbody td:first-child,\n\t\t.demo-table tbody td:last-child,\n\t\t.demo-table tbody td:nth-child(4) {\n\t\t\ttext-align: right;\n\t\t}\n\t\t.demo-table tbody tr:nth-child(odd) td {\n\t\t\tbackground-color: #f4fbff;\n\t\t}\n\t\t.demo-table tbody tr:hover td {\n\t\t\tbackground-color: #ffffa2;\n\t\t\tborder-color: #ffff0f;\n\t\t\ttransition: all .2s;\n\t\t}\n\t\t\n\t\t/* Table Footer */\n\t\t.demo-table tfoot th {\n\t\t\tbackground-color: #e5f5ff;\n\t\t}\n\t\t.demo-table tfoot th:first-child {\n\t\t\ttext-align: left;\n\t\t}\n\t\t.demo-table tbody td:empty\n\t\t{\n\t\t\tbackground-color: #ffcccc;\n\t\t}",
+        "stylelist": [],
+        "domdetail": "",
+        "cssurl": "",
+        "htmlsample": "<table class=\"demo-table\">\n\t\t<caption class=\"title\">Table 1. Sales Data of Electronics Division</caption>\n\t\t<thead>\n\t\t\t<tr>\n\t\t\t\t<th>No</th>\n\t\t\t\t<th>Customer</th>\n\t\t\t\t<th>Item</th>\n\t\t\t\t<th>Date</th>\n\t\t\t\t<th>Amount</th>\n\t\t\t</tr>\n\t\t</thead>\n\t\t<tbody>\n\t\t\t<tr>\n\t\t\t\t<td>1</td>\n\t\t\t\t<td>Anthony</td>\n\t\t\t\t<td>Television</td>\n\t\t\t\t<td>September 07, 2016</td>\n\t\t\t\t<td>250</td>\n\t\t\t</tr>\n\t\t\t<tr>\n\t\t\t\t<td>2</td>\n\t\t\t\t<td>Bryan</td>\n\t\t\t\t<td>Washing Machine</td>\n\t\t\t\t<td>July 10, 2016</td>\n\t\t\t\t<td>150</td>\n\t\t\t</tr>\n\t\t\t<tr>\n\t\t\t\t<td>3</td>\n\t\t\t\t<td>Cherly</td>\n\t\t\t\t<td>Water Dispenser</td>\n\t\t\t\t<td>August 11, 2016</td>\n\t\t\t\t<td>95</td>\n\t\t\t</tr>\n\t\t\t<tr>\n\t\t\t\t<td>4</td>\n\t\t\t\t<td>Dean</td>\n\t\t\t\t<td>Refrigerator</td>\n\t\t\t\t<td>September 15, 2016</td>\n\t\t\t\t<td>175</td>\n\t\t\t</tr>\n\t\t\t\n\t\t</tbody>\n\t\t<tfoot>\n\t\t\t<tr>\n\t\t\t\t<th colspan=\"4\">Total</th>\n\t\t\t\t<th>1040</th>\n\t\t\t</tr>\n\t\t</tfoot>\n\t</table>"
+    },
+    {
+        "code": "cs160713104157",
+        "name": "zui-table",
+        "desc": "",
+        "domtype": "table",
+        "cssscript": ".zui-table {\n    border: solid 1px #DDEEEE;\n    border-collapse: collapse;\n    border-spacing: 0;\n    font: normal 13px Arial, sans-serif;\n}\n.zui-table thead th {\n    background-color: #DDEFEF;\n    border: solid 1px #DDEEEE;\n    color: #336B6B;\n    padding: 10px;\n    text-align: left;\n    text-shadow: 1px 1px 1px #fff;\n}\n.zui-table tbody td {\n    border: solid 1px #DDEEEE;\n    color: #333;\n    padding: 10px;\n    text-shadow: 1px 1px 1px #fff;\n}\n.zui-table tbody tr:nth-child(odd) {\n    background-color: #fff;\n}\n.zui-table tbody tr:nth-child(even) {\n    background-color: #EEF7EE;\n}\n.zui-table tbody tr:hover {\n    background-color: #CCE7E7;\n}",
+        "stylelist": [
+        {
+            "sname": ".zui-table",
+            "style": "border:solid 1px #DDEEEE;border-collapse:collapse;border-spacing:0;font:normal 13px Arial, sans-serif;"
+        },
+        {
+            "sname": ".zui-table thead th",
+            "style": "background-color:#DDEFEF;border:solid 1px #DDEEEE;color:#336B6B;padding:10px;text-align:left;text-shadow:1px 1px 1px #fff;"
+        },
+        {
+            "sname": ".zui-table tbody td",
+            "style": "border:solid 1px #DDEEEE;color:#333;padding:10px;text-shadow:1px 1px 1px #fff;"
+        },
+        {
+            "sname": ".zui-table tbody tr:nth-child(odd)",
+            "style": "background-color:#fff;"
+        },
+        {
+            "sname": ".zui-table tbody tr:nth-child(even)",
+            "style": "background-color:#EEF7EE;"
+        },
+        {
+            "sname": ".zui-table tbody tr:hover",
+            "style": "background-color:#CCE7E7;"
+        },
+        {
+            "sname": ".zui-table-horizontal tbody td",
+            "style": "border-left:none;border-right:none;"
+        }],
+        "domdetail": "",
+        "cssurl": "",
+        "htmlsample": "<table class=\"zui-table\">\n    <thead>\n        <tr>\n            <th>Name</th>\n            <th>Position</th>\n            <th>Height</th>\n            <th>Born</th>\n            <th>Salary</th>\n        </tr>\n    </thead>\n    <tbody>\n        <tr>\n            <td>DeMarcus Cousins</td>\n            <td>C</td>\n            <td>6'11\"</td>\n            <td>08-13-1990</td>\n            <td>$4,917,000</td>\n        </tr>\n        <tr>\n            <td>Isaiah Thomas</td>\n            <td>PG</td>\n            <td>5'9\"</td>\n            <td>02-07-1989</td>\n            <td>$473,604</td>\n        </tr>\n        <tr>\n            <td>Ben McLemore</td>\n            <td>SG</td>\n            <td>6'5\"</td>\n            <td>02-11-1993</td>\n            <td>$2,895,960</td>\n        </tr>\n    \n    </tbody>\n</table>",
+        "lastupdate": "2016-07-13T01:43:59.742Z"
+    },
+    {
+        "code": "cs16071314926",
+        "name": "newspaper-c",
+        "desc": "",
+        "domtype": "table",
+        "domdetail": "",
+        "cssscript": "",
+        "cssurl": "/App_Themes/express-css-table-design/style.css",
+        "htmlsample": "<table summary=\"Employee Pay Sheet\">\n    <thead>\n    \t<tr>\n        \t<th scope=\"col\">Employee</th>\n            <th scope=\"col\">Salary</th>\n            <th scope=\"col\">Bonus</th>\n            <th scope=\"col\">Supervisor</th>\n        </tr>\n    </thead>\n    <tbody>\n    \t<tr>\n        \t<td>Stephen C. Cox</td>\n            <td>$300</td>\n            <td>$50</td>\n            <td>Bob</td>\n        </tr>\n        <tr>\n        \t<td>Josephin Tan</td>\n            <td>$150</td>\n            <td>-</td>\n            <td>Annie</td>\n        </tr>\n     \n        <tr>\n        \t<td>James A. Pentel</td>\n            <td>$175</td>\n            <td>$25</td>\n            <td>Annie</td>\n        </tr>\n    </tbody>\n</table>",
+        "lastupdate": "2016-07-13T05:09:16.607Z"
+    },
+    {
+        "code": "cs17110811232",
+        "name": "nudetable",
+        "desc": "",
+        "domtype": "table",
+        "domdetail": "",
+        "cssscript": ".nudetable {\n    border:none;\n    border-collapse: collapse;\n    border-spacing: 0;\n    font: normal 13px Arial, sans-serif;\n}\n.nudetable thead th {\n    display:none\n}\n.nudetable tbody td {\n    border: none;\n    color: #333;\n    padding: 3px;\n    text-shadow: 1px 1px 1px #fff;\n}\n\n.nudetable tbody tr:hover {\n    background-color: #CCE7E7;\n}\n.nudetable tfoot th {\n    border:none;\n    background-color: #FFFFFF;\n}",
+        "cssurl": ""
+    },
+    {
+        "code": "general",
+        "name": "general",
+        "desc": "",
+        "domtype": "table",
+        "domdetail": "",
+        "cssscript": "/* Table */\n.general {\n\tborder-collapse: collapse;width:100%;\n}\n.general th, \n.general td {\n\tpadding:3px ;\nborder: 1px solid #D3D3D3;\nborder-collapse:collapse;\n}\n\t\t\n\t\t\n/* Table Body */\n.general tbody tr:nth-child(odd) {\n    background-color: #fff;\n}\n.general tbody tr:nth-child(even) {\n    background-color: #FAFBFC;\n}\n\n.general tbody tr:hover td {\n\tbackground-color: #EFF7FD;\n\tborder-color: #ffff0f;\n\ttransition: all .2s;\n}",
+        "cssurl": ""
+    }],
