@@ -2,6 +2,8 @@ version: "2"
 volumes:
         mongodbdata:
             external: true
+        jsondata:
+            external: true
 services:
   app:
     container_name: imc1
@@ -9,6 +11,8 @@ services:
       - MONGO_URI=mongodb://imcmongo:27017/local
     restart: always
     build: .
+    volumes:
+      - jsondata:/data/json
     ports:
       - "3001:3001"
     links:
