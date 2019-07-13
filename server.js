@@ -64,7 +64,7 @@ require('./router/index.js')(app,passport);
 
 app.set('port', process.env.PORT || 3001);
 var server=app.listen(app.get('port'), function(){
-  console.log('Server is running on Port: ',server.address().port);
+  console.log('Server is running on Port!!: ',server.address().port);
 });
 
 // //this is for openshift
