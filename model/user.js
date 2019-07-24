@@ -33,6 +33,15 @@ db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 var userSchema = mongoose.Schema({
   // email        : String,
   // password: String
+
+    // id: req.body.id,
+    //             password: createHash(password),
+    //               name:req.body.username,
+    //               comp:req.body.comp,
+    //               group:req.body.group,
+    //               email:req.body.email
+
+                  
 id:String,
 password:String,
   email: String,

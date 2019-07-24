@@ -1,6 +1,6 @@
-const Table = require('../model/company.js');
+const Company = require('../model/company.js');
 function dtset(req,res){
-  const rtn=new Table({
+  const rtn=new Company({
     id: req.body.id || "user",
     name: req.body.name,
     language:req.body.language,
@@ -43,7 +43,7 @@ exports.create = (req, res) => {
 
 // Retrieve and return all users from the database.
 exports.findAll = (req, res) => {
-  Table.find()
+  Company.find()
      .then(list => {
          res.send(list);
      }).catch(err => {
@@ -56,8 +56,8 @@ exports.findAll = (req, res) => {
 // Find a single user with a userId
 exports.findOne = (req, res) => {
   console.log(req.params.id,req.params)
-  Table.find( { "id":req.params.id } )
-  //Table.findById(req.params.id)
+  Company.find( { "id":req.params.id } )
+  //Company.findById(req.params.id)
      .then(result => {
          if(!result) {
              return res.status(404).send({
@@ -91,7 +91,7 @@ exports.update = (req, res) => {
          language: req.body.language
      }
      // Find note and update it with the request body
-     Table.findByIdAndUpdate(req.params.id, dtobj, {new: true})
+     Company.findByIdAndUpdate(req.params.id, dtobj, {new: true})
      .then(dt => {
          if(!dt) {
              return res.status(404).send({
@@ -113,7 +113,7 @@ exports.update = (req, res) => {
 
 // Delete a user with the specified userId in the request
 exports.delete = (req, res) => {
-  Table.findByIdAndRemove(req.params.id)
+  Company.findByIdAndRemove(req.params.id)
       .then(dt => {
           if(!dt) {
               return res.status(404).send({
