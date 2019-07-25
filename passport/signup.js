@@ -15,14 +15,14 @@ module.exports = function(passport) {
     session: false, // 세션에 저장 여부
     passReqToCallback: true // allows us to pass back the entire request to the callback
   }, function(req, username, password, done) {
-    console.log(req.body)
+    console.log(req.body,username,password);
     switch (config.basic.passport.datasrc) {
       case "mongodb":
 
         findOrCreateUser = function() {
           // find a user in Mongo with provided username
           User.findOne({
-            username_field: username
+            username_field: req.body.id
           }, function(err, user) {
             // In case of any error, return using the done method
             if (err) {
@@ -31,7 +31,7 @@ module.exports = function(passport) {
             }
             // already exists
             if (user) {
-              console.log('User already exists with id: ' + username);
+              console.log('User already exists with id: ' + req.body.id);
               //return done(null, false, req.flash('message', 'User Already Exists'));
               return done(null, false, {message: 'User Already Exists'});
             } else {
@@ -46,9 +46,9 @@ module.exports = function(passport) {
                 //   group:req.body.group,
                 //   email:req.body.email
                 // }
-                id: username,
+                id: req.body.id,
                 password: createHash(password),
-                  name:req.body.name,
+                  name:req.body.username,
                   comp:req.body.comp,
                   group:req.body.group,
                   email:req.body.email

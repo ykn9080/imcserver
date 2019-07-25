@@ -23,5 +23,6 @@ services:
     volumes:
       #- ../Program\ Files/MongoDB/Server/4.0/data:/data/db
       - mongodbdata:/data/db
+      - /var/run/docker.sock:/var/run/docker.sock
     ports:
       - "8001:27017"
