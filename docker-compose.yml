@@ -4,6 +4,8 @@ volumes:
             external: true
         jsondata:
             external: true
+        svrnode_modules:
+            external: true
 services:
   app:
     container_name: imc1
@@ -13,6 +15,7 @@ services:
     build: .
     volumes:
       - jsondata:/data/json
+      - svrnode_modules:/node_modules
     ports:
       - "3001:3001"
     links:
@@ -23,6 +26,5 @@ services:
     volumes:
       #- ../Program\ Files/MongoDB/Server/4.0/data:/data/db
       - mongodbdata:/data/db
-      - /var/run/docker.sock:/var/run/docker.sock
     ports:
       - "8001:27017"
