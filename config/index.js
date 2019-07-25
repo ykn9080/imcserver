@@ -25,7 +25,7 @@ const basic = {
 
 };
 const currentsetting={
-  datasrc:basic.mongodb.docean
+  datasrc:basic.mongodb.local
   //datasrc:basic.mongodb.mlab
 
 }
