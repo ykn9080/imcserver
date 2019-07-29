@@ -22,7 +22,7 @@ services:
       - imcmongo
   imcmongo:
     container_name: imcmongo1
-    image: mongo
+    image: yknam/imcmongo:first
     volumes:
       #- ../Program\ Files/MongoDB/Server/4.0/data:/data/db
       - mongodbdata:/data/db
