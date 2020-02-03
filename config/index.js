@@ -25,8 +25,8 @@ const basic = {
 
 };
 const currentsetting={
-  datasrc:basic.mongodb.local
-  //datasrc:basic.mongodb.mlab
+  //datasrc:basic.mongodb.local
+  datasrc:basic.mongodb.docean
 
 }
 module.exports = {basic,currentsetting};
