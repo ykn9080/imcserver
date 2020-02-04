@@ -1,56 +1,51 @@
-const auth=require('../passport/auth');
-const filefunc = require('../function/filefunc');
+const auth = require("../passport/auth");
+const filefunc = require("../function/filefunc");
 
 module.exports = (app, passport) => {
-
-  require('./login.js')(app, passport);
-  require('./auth.js')(app, passport);
-  require('./signup.js')(app, passport);
-  require('./localuser.js')(app,passport);
+  require("./login.js")(app, passport);
+  require("./auth.js")(app, passport);
+  require("./signup.js")(app, passport);
+  require("./localuser.js")(app, passport);
   //require('./mssql.js')(app); //smartasp 디비복구후 재생!!!!!!!!!!!!
-  require('./api.js')(app,passport);
-    require('./file.js')(app);
-
+  require("./api.js")(app, passport);
+  require("./reuseCRUD.js")(app, passport);
+  require("./file.js")(app);
 
   // Define the home page route
-  app.get('/', function(req, res) {
-    res.render('index.html', {user: req.user});
+  app.get("/", function(req, res) {
+    res.render("index.html", { user: req.user });
   });
 
-  app.get('/profile', auth().authenticate(), function(req, res) {
+  app.get("/profile", auth().authenticate(), function(req, res) {
     //here it is
-   var user = req.user;
-console.log(user)
+    var user = req.user;
+    console.log(user);
 
-   //you probably also want to pass this to your view
-   res.render('profile', { title: 'profile', user: user });
+    //you probably also want to pass this to your view
+    res.render("profile", { title: "profile", user: user });
     // res.render('profile.html', {
     //   user: req.user // get the user out of session and pass to template
     // });
   });
-  app.get('/logout', function(req, res) {
+  app.get("/logout", function(req, res) {
     req.logout();
-    res.redirect('/');
+    res.redirect("/");
   });
   // Define the about route
-  app.get('/about', function(req, res) {
-    res.render('about.html');
+  app.get("/about", function(req, res) {
+    res.render("about.html");
   });
 
-
-  app.post('/findpath', function(req, res) {
-       var rtn=filefunc.findpathread(req.body.relpath, req.body.myinfo);
-       res.send(rtn);
+  app.post("/findpath", function(req, res) {
+    var rtn = filefunc.findpathread(req.body.relpath, req.body.myinfo);
+    res.send(rtn);
   });
-  app.post('/makepath', function(req, res) {
-
-       var rtn=filefunc.makedirfile(req.body.dir, req.body.name);
-       console.log('rtn',rtn)
-      filefunc.makeDirectory(rtn);
-      filefunc.writeFile(rtn,"good morning")
+  app.post("/makepath", function(req, res) {
+    var rtn = filefunc.makedirfile(req.body.dir, req.body.name);
+    console.log("rtn", rtn);
+    filefunc.makeDirectory(rtn);
+    filefunc.writeFile(rtn, "good morning");
   });
-
-
 
   // =====================================
   // LOGOUT ==============================
@@ -88,26 +83,23 @@ console.log(user)
   // 	});
 
   //module.exports = router;
-}
+};
 
 // route middleware to make sure
 function isLoggedIn(req, res, next) {
-
   // if user is authenticated in the session, carry on
-  if (req.isAuthenticated())
-    return next();
+  if (req.isAuthenticated()) return next();
 
   // if they aren't redirect them to the home page
-  res.redirect('/');
+  res.redirect("/");
 }
 
 var isAuthenticated = function(req, res, next) {
   // if user is authenticated in the session, call the next() to call the next request handler
   // Passport adds this method to request object. A middleware is allowed to add properties to
   // request and response objects
-  if (req.isAuthenticated())
-    return next();
+  if (req.isAuthenticated()) return next();
 
   // if the user is not authenticated then redirect him to the login page
-  res.redirect('/');
-}
+  res.redirect("/");
+};
