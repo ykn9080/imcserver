@@ -7,7 +7,7 @@ const models = {};
 models.Menu, model.Control등으로 접근
 /router/reuseCRUD.js에서 접근처리
 */
-const MenuSchema = new Schema({
+const menuSchema = new Schema({
   id: String,
   pid: String,
   comp: String,
@@ -26,7 +26,7 @@ const MenuSchema = new Schema({
   ]
 });
 
-const accessgroupSchema = new Schema({
+const accessGroupSchema = new Schema({
   comp: String,
   groupid: String,
   name: String,
@@ -50,9 +50,12 @@ const controlSchema = new Schema({
   access: [String],
   private: Boolean
 });
-
+const simpleSchema = new Schema({
+  ctrid: String
+});
 models.Control = mongoose.model("control", controlSchema);
 models.Menu = mongoose.model("menu", menuSchema);
 models.accessGroup = mongoose.model("accessGroup", accessGroupSchema);
+models.simple = mongoose.model("simple", simpleSchema);
 
 module.exports = models;

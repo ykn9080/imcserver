@@ -7,9 +7,19 @@
 const auth = require("../passport/auth");
 module.exports = (app, passport) => {
   const models = require("../model/models");
-  const crud = require("../controller/reuseCRUD");
 
-  app.use("/reuse/menu", crud(models.Menu));
-  app.use("/reuse/control", crud(models.Control));
-  app.use("/reuse/accessgroup", crud(models.accessGroup));
+  app.use("/reuse/menu", require("../controller/reuseCRUD")(models.Menu));
+  app.use("/reuse/control", require("../controller/reuseCRUD")(models.Control));
+  app.use(
+    "/reuse/accessgroup",
+    require("../controller/reuseCRUD")(models.accessGroup)
+  );
+  app.use("/reuse/simple", require("../controller/reuseCRUD")(models.simple));
+
+  //   /*mongodb api collection*/
+  //   app.post('/CompanyAdd', company.create);
+  //   app.get('/CompanyAll', company.findAll);
+  //   app.get('/Company/:id', company.findOne);
+  //   app.put('/Company/update/:id', company.update);
+  //   app.delete('/Company/delete/:id', company.delete);
 };
