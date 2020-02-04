@@ -1,5 +1,6 @@
 #!/bin/bash
 # ex code) dockerinstall server
+# docker hub에서 image pull한후 compose up함
 
 SVR_OR_CLIENT=$1
 COMPOSE_DIR="imcclient"
