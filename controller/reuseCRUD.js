@@ -73,18 +73,36 @@ module.exports = Collection => {
   // Update
   // ======
   const update = (req, res) => {
+    const keycode = Object.keys(req.query);
+    const changedEntry = req.body;
     let query = { _id: req.params._id };
+
+    if (req.params._id == "multiupdate") {
+      changedEntry.forEach((k, i) => {
+        query = { keycode: k.keycode };
+        const update = { $set: k };
+        let options = { upsert: true, new: true, setDefaultsOnInsert: true };
+        Collection.findOneAndUpdate(query, update, options, e => {
+          if (e) res.sendStatus(500);
+          else res.sendStatus(200);
+        });
+      });
+      return false;
+    }
     //querystring이 있을 경우 query를 대체함
-    if (Object.keys(req.query).length > 0) {
+    if (keycode.length > 0) {
       query = req.query;
     }
 
-    const changedEntry = req.body;
     Collection.update(query, { $set: changedEntry }, e => {
       if (e) res.sendStatus(500);
       else res.sendStatus(200);
     });
   };
+  // ======
+  // MultiUpdate: array로 batch update처리
+  // url은 "/mutiupdate?id=userid"과 같이 전송
+  // ======
 
   // ======
   // Remove
