@@ -41,14 +41,29 @@ module.exports = Collection => {
   // ========
   // Read one
   // ========
-  const readOne = (req, res) => {
-    const { _id } = req.params;
-
+  const readOne = (req, res, next) => {
+    /* reqest.query 경우
+      예: http://localhost:3001/reuse/control/:_id?ctrid=gggg
+    */
+    if (Object.keys(req.query).length > 0) {
+      var query = Collection.find(req.query);
+      query.exec(function(err, someValue) {
+        if (err) return next(err);
+        res.send(someValue);
+      });
+      return null;
+    }
+    /* request.param 경우
+      예: http://localhost:3001/reuse/control/:_id
+      control/:_id
+    */
+    let { _id } = req.params;
     Collection.findById(_id, (e, result) => {
       if (e) {
         res.status(500).send(e);
         console.log(e.message);
       } else {
+        //res.send(result);
         res.send(result);
       }
     });
@@ -58,8 +73,14 @@ module.exports = Collection => {
   // Update
   // ======
   const update = (req, res) => {
+    let query = { _id: req.params._id };
+    //querystring이 있을 경우 query를 대체함
+    if (Object.keys(req.query).length > 0) {
+      query = req.query;
+    }
+
     const changedEntry = req.body;
-    Collection.update({ _id: req.params._id }, { $set: changedEntry }, e => {
+    Collection.update(query, { $set: changedEntry }, e => {
       if (e) res.sendStatus(500);
       else res.sendStatus(200);
     });
@@ -69,7 +90,12 @@ module.exports = Collection => {
   // Remove
   // ======
   const remove = (req, res) => {
-    Collection.remove({ _id: req.params._id }, e => {
+    let query = { _id: req.params._id };
+    //querystring이 있을 경우 query를 대체함
+    if (Object.keys(req.query).length > 0) {
+      query = req.query;
+    }
+    Collection.remove(query, e => {
       if (e) res.status(500).send(e);
       else res.sendStatus(200);
     });
