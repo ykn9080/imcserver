@@ -2,6 +2,7 @@
 재사용가능한 CRUD로 모든 모델에서 공통사용
 모든 모델을 한곳에서 처리함 ./model/models.js
 /router/reuseCRUD.js에서 접근처리
+2020.2.6
 */
 
 const express = require("express");
@@ -75,42 +76,44 @@ module.exports = Collection => {
   const update = (req, res) => {
     const keycode = Object.keys(req.query);
     const changedEntry = req.body;
-    let query = { _id: req.params._id };
 
+    // ======
+    // MultiUpdate: array로 batch update처리
+    // url은 "/mutiupdate?id="과 같이 전송
+    // 현재는 multiupdate시 querystring 1개만 가능!!!!!!!!!! 수정할것
+    // ======
     if (req.params._id == "multiupdate") {
-      const update = { $set: changedEntry };
-      Collection.updateMany(req.query, update, function(err, result) {
-        if (err) {
-          res.send(err);
+      let bulk = Collection.collection.initializeUnorderedBulkOp();
+      changedEntry.forEach((k, i) => {
+        bulk
+          .find({ [keycode]: k[keycode] })
+          .upsert()
+          .update({ $set: k });
+      });
+
+      bulk.execute((e, result) => {
+        if (e) {
+          res.status(500).send(e);
+          console.log(e.message);
         } else {
           res.send(result);
         }
       });
-      // changedEntry.forEach((k, i) => {
-      //   query = { keycode: k.keycode };
-      //   const update = { $set: k };
-      //   let options = { upsert: true, new: true, setDefaultsOnInsert: true };
-      //   Collection.findOneAndUpdate(query, update, options, e => {
-      //     if (e) res.sendStatus(500);
-      //     else res.sendStatus(200);
-      //   });
-      // });
       return false;
     }
-    //querystring이 있을 경우 query를 대체함
+
+    //single update인 경우
+    let query = { _id: req.params._id };
     if (keycode.length > 0) {
+      //querystring이 있을 경우 query를 대체함
+      //localhost:3001/menu/<req.param._id>?qrystring=value
       query = req.query;
     }
-
     Collection.update(query, { $set: changedEntry }, e => {
       if (e) res.sendStatus(500);
       else res.sendStatus(200);
     });
   };
-  // ======
-  // MultiUpdate: array로 batch update처리
-  // url은 "/mutiupdate?id=userid"과 같이 전송
-  // ======
 
   // ======
   // Remove
