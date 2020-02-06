@@ -24,7 +24,6 @@
     "mssql": "^4.3.0",
     "multer": "^1.4.1",
     "mysql": "^2.16.0",
-    "nodemon": "^1.18.4",
     "passport": "^0.4.0",
     "passport-jwt": "^4.0.0",
     "passport-local": "^1.0.0",
@@ -51,5 +50,7 @@
   "author": "",
   "license": "ISC",
   "description": "",
-  "devDependencies": {}
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
 }
