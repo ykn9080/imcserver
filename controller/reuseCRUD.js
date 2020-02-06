@@ -78,15 +78,23 @@ module.exports = Collection => {
     let query = { _id: req.params._id };
 
     if (req.params._id == "multiupdate") {
-      changedEntry.forEach((k, i) => {
-        query = { keycode: k.keycode };
-        const update = { $set: k };
-        let options = { upsert: true, new: true, setDefaultsOnInsert: true };
-        Collection.findOneAndUpdate(query, update, options, e => {
-          if (e) res.sendStatus(500);
-          else res.sendStatus(200);
-        });
+      const update = { $set: changedEntry };
+      Collection.updateMany(req.query, update, function(err, result) {
+        if (err) {
+          res.send(err);
+        } else {
+          res.send(result);
+        }
       });
+      // changedEntry.forEach((k, i) => {
+      //   query = { keycode: k.keycode };
+      //   const update = { $set: k };
+      //   let options = { upsert: true, new: true, setDefaultsOnInsert: true };
+      //   Collection.findOneAndUpdate(query, update, options, e => {
+      //     if (e) res.sendStatus(500);
+      //     else res.sendStatus(200);
+      //   });
+      // });
       return false;
     }
     //querystring이 있을 경우 query를 대체함
