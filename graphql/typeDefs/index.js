@@ -41,12 +41,11 @@ type Query{
   menues:[menu]
 }
  input MenuInput {
-        id: String!
-    }
-
-    type Mutation {
-        createMenu(input: MenuInput): menu
-    }
+    id: String!
+}
+type Mutation {
+    createMenu(input: MenuInput): menu
+}
 
 `;
 

@@ -15,7 +15,7 @@ const schema = makeExecutableSchema({
 })
 //const schema = require('./graphql');
 //const apServer = new ApolloServer({ typeDefs, resolvers });
-console.log('this is resolver', resolvers)
+
 const apServer = new ApolloServer({
     typeDefs,
     resolvers
