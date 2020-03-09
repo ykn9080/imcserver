@@ -24,6 +24,22 @@ type user{
   group: String,
   comp: company
 }
+type menu{
+  _id:ID!,
+    pid: String,
+   title: String,
+   desc:String,
+   seq:Int,
+   private:Boolean,
+   access:[access],
+   layout:{
+    _id:ID!,
+    ctrid:ID,
+    seq:Int,
+    size:Int
+   }
+}
+
 type control{
    _id:ID!,
    type: String,
@@ -35,14 +51,35 @@ type control{
     access: [accessGroup],
     private: Boolean
 }
+type accessGroup{
+   comp: company,
+    name: String,
+    desc: String,
+    users: [user],
+    subGroup: [accessGroup]
+}
 
 type Query{
   companies:[company]
   users:[user]
+  accessGroups[accessGroup]
+menues:[menu]
     controls:[control]
+    
+
+  company(_id:ID!):company
   user(_id:ID!):user
+  accessGroup(_id:ID!):accessGroup
+  menu(_id:ID!):menu
+  control(_id:ID!):control
 }
 
+ input MenuInput {
+    id: String!
+}
+type Mutation {
+    createMenu(input: MenuInput): menu
+}
 
 `;
 
