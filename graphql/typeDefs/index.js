@@ -1,11 +1,12 @@
 var Graphql = require("graphql");
 var { makeExecutableSchema } = require("graphql-tools");
-
+scalar Date;
 //var { company, menu, control, accessGroup } = require("../model/models");
 var company = require("../../model/models")["Company"];
 
 var menu = require("../../model/models")["Menu"];
 var user = require("../../model/models")["User"];
+
 const typeDefs = `
 type company{
   _id:ID!,
@@ -23,29 +24,25 @@ type user{
   group: String,
   comp: company
 }
-type menu{
-  _id:ID!,
-   id: String,
-    pid: String
-}
-type geo{
-  lat:Float,
-  lng:Float
+type control{
+   _id:ID!,
+   type: String,
+    title: String,
+    desc: String,
+    created: Date,
+    comp: company,
+    origincontrol: control,
+    access: [accessGroup],
+    private: Boolean
 }
 
 type Query{
   companies:[company]
   users:[user]
-  getuser(_id:ID!):user
-  getmenu(_id:ID!):menu
-  menues:[menu]
+    controls:[control]
+  user(_id:ID!):user
 }
- input MenuInput {
-    id: String!
-}
-type Mutation {
-    createMenu(input: MenuInput): menu
-}
+
 
 `;
 
