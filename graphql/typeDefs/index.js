@@ -28,17 +28,16 @@ type accessGroup{
    comp: company,
    name: String,
    desc: String,
-   users: [user],
-   subGroup: [accessGroup]
+   parent: [accessGroup]
 }
 type menu{
    _id:ID!,
-   pid: String,
+   pid: menu,
    title: String,
    desc:String,
    seq:Int,
-   private:Boolean,
    comp:company,
+   creator:user
    access:[accessGroup],
    layout:[layout]
 }
@@ -47,6 +46,7 @@ type layout{
     ctrid:control,
     seq:Int,
     size:Int
+    reference:menu
  }
 type control{
    _id:ID!,
@@ -54,10 +54,10 @@ type control{
    title: String,
    desc: String,
    created: String,
+   creator:user,
    comp: company,
    origincontrol: control,
-   access: [accessGroup],
-   private: Boolean
+   access: [accessGroup]
 }
 
 
@@ -73,8 +73,21 @@ type Query{
   controls:[control]
   control(_id:ID!):control
 }
+input MenuInput {
+        id: String!
+    }
 
- 
+
+type Mutation {
+   addCompany(id:String!,name: String!,language:String,module:String): company,
+   updateCompany(_id: ID!,id:String!, name: String!,language:String,module:String): company,
+   deleteCompany(_id: ID!): DeleteResponse,
+    createMenu(input: MenuInput): menu
+  }
+
+  type DeleteResponse {
+    ok: Boolean!
+  }
 
 `;
 
