@@ -1,6 +1,6 @@
 var Graphql = require("graphql");
 var { makeExecutableSchema } = require("graphql-tools");
-scalar Date;
+
 //var { company, menu, control, accessGroup } = require("../model/models");
 var company = require("../../model/models")["Company"];
 
@@ -24,62 +24,57 @@ type user{
   group: String,
   comp: company
 }
+type accessGroup{
+   comp: company,
+   name: String,
+   desc: String,
+   users: [user],
+   subGroup: [accessGroup]
+}
 type menu{
-  _id:ID!,
-    pid: String,
+   _id:ID!,
+   pid: String,
    title: String,
    desc:String,
    seq:Int,
    private:Boolean,
-   access:[access],
-   layout:{
+   comp:company,
+   access:[accessGroup],
+   layout:[layout]
+}
+type layout{
     _id:ID!,
-    ctrid:ID,
+    ctrid:control,
     seq:Int,
     size:Int
-   }
-}
-
+ }
 type control{
    _id:ID!,
    type: String,
-    title: String,
-    desc: String,
-    created: Date,
-    comp: company,
-    origincontrol: control,
-    access: [accessGroup],
-    private: Boolean
-}
-type accessGroup{
+   title: String,
+   desc: String,
+   created: String,
    comp: company,
-    name: String,
-    desc: String,
-    users: [user],
-    subGroup: [accessGroup]
+   origincontrol: control,
+   access: [accessGroup],
+   private: Boolean
 }
+
 
 type Query{
   companies:[company]
-  users:[user]
-  accessGroups[accessGroup]
-menues:[menu]
-    controls:[control]
-    
-
   company(_id:ID!):company
+  users:[user]
   user(_id:ID!):user
+  accessGroups:[accessGroup]
   accessGroup(_id:ID!):accessGroup
+  menues:[menu]
   menu(_id:ID!):menu
+  controls:[control]
   control(_id:ID!):control
 }
 
- input MenuInput {
-    id: String!
-}
-type Mutation {
-    createMenu(input: MenuInput): menu
-}
+ 
 
 `;
 

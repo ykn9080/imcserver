@@ -18,32 +18,46 @@ var company = require("../../model/models")["Company"];
 
 var menu = require("../../model/models")["Menu"];
 var user = require("../../model/models")["User"];
+var control = require("../../model/models")["Control"];
 
 const resolvers = {
     Query: {
-        companies() {
-            return company.find({});
+        async companies() {
+            return await company.find({});
         },
-        users() {
-            return user.find({}).populate("comp")
+        async company(parent, { _id }) {
+            return await company.findById(_id)
+        },
+        async users() {
+            return await user.find({}).populate("comp")
             // .exec((err, usr) => {
             //     return usr;
             // });
-        },
-        // menues() {
-        //     return menu.find({});
-        // },
-        async controls() {
-            return await control.find({});
         },
         async user(parent, { _id }) {
             //return await user.findById(_id);
             return await user.findById(_id).populate("comp");
         },
-        // async menu(parent, { _id }) {
-        //     //return find(user, { id: id });
-        //     return await menu.findById(_id);
-        // },
+        async accessGroups() {
+            return await accessGroup.find({});
+        },
+        async accessGroup(parent, { _id }) {
+            return await accessGroup.findById(_id)
+        },
+        async menues() {
+            return await menu.find({}).populate("layout.ctrid").populate("comp").populate("access");
+        },
+        async menu(parent, { _id }) {
+            return await menu.findById(_id).populate("comp").populate("layout.ctrid").populate("access");
+        },
+        async controls() {
+            return await control.find({}).populate("comp").populate("access");
+        },
+        async  control(parent, { _id }) {
+            return await control.findById(_id).populate("comp").populate("access")
+        },
+
+
         // async menues() {
         //     //return find(user, { id: id });
         //     return await menu.find({});
