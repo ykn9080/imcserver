@@ -55,32 +55,62 @@ const resolvers = {
         }
     },
     Mutation: {
-        async addCompany(root, { id, name, language, module }) {
-            const comp = new company({ id, name, language, module });
+        async createCompany(root, args) {
+            console.log(args.input)
+            const comp = new company(arg.input);
             await comp.save();
             return comp;
-        },
-        updateCompany: (root, { _id, id, name, language, module }) => {
-            const comp = company.findById(_id);
-            if (!comp) {
-                throw new Error(`Couldn’t find author with _id ${_id}`);
+            /* playgroun sample
+            mutation{
+              createComp(input:{
+                id:"22"
+                name:"testcomp222"
+                language:"kr"}){
+                name
+                _id
+              }
             }
-            comp.id = id;
-            comp.name = name;
-            comp.language = language;
-            comp.module = module;
-            return comp;
+            */
         },
-        deleteCompany: (root, { _id }) => {
-            const isExists = company.findIndex((comp) => comp._id === _id)
+        async updateCompany(root, { _id, input }) {
+            const data = await company.findByIdAndUpdate(_id, input, { new: true })
+            console.log(data)
+            if (!data) {
+                throw new Error('Error')
+            }
+            return data
+            /* playgroun sample
+            mutation{
+              updateComp(_id:"5e6876f40304567c4a6d8506",input:{
+                id:"221"
+                name:"testcomp2221"
+                language:"kr"}){
+                name
+                id
+                _id
+              }
+            }
+            */
+        },
+        deleteCompany(root, { _id }) {
+            const ok = Boolean(company.findById(_id));
+            company.findByIdAndRemove(_id);
+            return { ok };
 
-            if (!isExists) {
-                throw new Error('Not exist!')
+            /* playgroun sample
+             mutation{
+              deleteComp(_id:"5e68871e2703769cc6112609"){
+                 ok
+              }
             }
-            //splice will return the removed items from the array object
-            const deleted = company.splice(isExists, 1)
-            return deleted[0]
-        }
+            */
+        },
+        async createMenu(root, args) {
+            console.log(args.input)
+            const menu = new menu(arg.input);
+            await menu.save();
+            return menu;
+        },
     }
 };
 
