@@ -57,7 +57,7 @@ const resolvers = {
     Mutation: {
         async createCompany(root, args) {
             console.log(args.input)
-            const comp = new company(arg.input);
+            const comp = new company(args.input);
             await comp.save();
             return comp;
             /* playgroun sample
@@ -74,7 +74,6 @@ const resolvers = {
         },
         async updateCompany(root, { _id, input }) {
             const data = await company.findByIdAndUpdate(_id, input, { new: true })
-            console.log(data)
             if (!data) {
                 throw new Error('Error')
             }
@@ -105,12 +104,74 @@ const resolvers = {
             }
             */
         },
-        async createMenu(root, args) {
-            console.log(args.input)
-            const menu = new menu(arg.input);
-            await menu.save();
-            return menu;
+        async createUser(root, args) {
+            const menuitem = new user(args.input);
+            await menuitem.save();
+            return menuitem;
         },
+        async updateUser(root, { _id, input }) {
+            const data = await user.findByIdAndUpdate(_id, input, { new: true })
+            if (!data) {
+                throw new Error('Error')
+            }
+            return data
+        },
+        async deleteUser(root, { _id }) {
+            const ok = Boolean(user.findById(_id));
+            user.findByIdAndRemove(_id);
+            return { ok };
+        },
+        async createAccessGroup(root, args) {
+            const item = new accessGroup(args.input);
+            await item.save();
+            return item;
+        },
+        async updateAccessGroup(root, { _id, input }) {
+            const data = await accessGroup.findByIdAndUpdate(_id, input, { new: true })
+            if (!data) {
+                throw new Error('Error')
+            }
+            return data
+        },
+        async deleteAccessGroup(root, { _id }) {
+            const ok = Boolean(accessGroup.findById(_id));
+            accessGroup.findByIdAndRemove(_id);
+            return { ok };
+        },
+        async createMenu(root, args) {
+            const menuitem = new menu(args.input);
+            await menuitem.save();
+            return menuitem;
+        },
+        async updateMenu(root, { _id, input }) {
+            const data = await menu.findByIdAndUpdate(_id, input, { new: true })
+            if (!data) {
+                throw new Error('Error')
+            }
+            return data
+        },
+        async deleteMenu(root, { _id }) {
+            const ok = Boolean(menu.findById(_id));
+            menu.findByIdAndRemove(_id);
+            return { ok };
+        },
+        async createControl(root, args) {
+            const ctr = new control(args.input);
+            await ctr.save();
+            return ctr;
+        },
+        async updateControl(root, { _id, input }) {
+            const data = await control.findByIdAndUpdate(_id, input, { new: true })
+            if (!data) {
+                throw new Error('Error')
+            }
+            return data
+        },
+        async deleteControl(root, { _id }) {
+            const ok = Boolean(control.findById(_id));
+            control.findByIdAndRemove(_id);
+            return { ok };
+        }
     }
 };
 

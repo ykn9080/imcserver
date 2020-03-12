@@ -75,37 +75,38 @@ type Query{
 
 
 input CompanyInput{
-  id:String!
-  name: String!
+  id:String
+  name: String
   language:String
   module:String
 }
 input UserInput{
-  id:String!,
-  password:String!,
-  email: String!,
-  name: String!,
+  id:String,
+  password:String,
+  email: String,
+  name: String,
   group: String,
-  comp: CompanyInput
+  comp: ID
 }
 input AccessGroupInput{
-  comp: CompanyInput,
+  comp: ID,
   name: String,
   desc: String,
-  parent: AccessGroupInput
+  parent: ID
 }
 
 input MenuInput {
-   pid: MenuInput,
+   pid: ID,
    title: String,
    desc:String,
    seq:Int,
-   comp:CompanyInput,
-   creator:UserInput
-   access:AccessGroupInput
+   comp:ID,
+   creator:ID
+   access:ID
+   layout:[LayoutInput]
 }
 input LayoutInput{
-   ctrid:ControlInput,
+   ctrid:ID,
    seq:Int,
    size:Int
 }
@@ -114,10 +115,10 @@ input ControlInput{
    title: String,
    desc: String,
    created: String,
-   creator:UserInput,
-   comp: CompanyInput,
-   origincontrol: ControlInput,
-   access: AccessGroupInput
+   creator:ID,
+   comp: ID,
+   origincontrol: ID,
+   access: ID
 }
 
 type Mutation {
@@ -125,9 +126,22 @@ type Mutation {
   updateCompany(_id: ID!, input: CompanyInput): company
   deleteCompany(_id:ID!):DeleteResponse
 
+  createUser(input: UserInput): user
+  updateUser(_id: ID!, input: UserInput): user
+  deleteUser(_id:ID!):DeleteResponse
+
+  createAccessGroup(input: AccessGroupInput): accessGroup
+  updateAccessGroup(_id: ID!, input: AccessGroupInput): accessGroup
+  deleteAccessGroup(_id: ID!): DeleteResponse
+
   createMenu(input: MenuInput): menu
- updateMenu(_id: ID!, input: MenuInput): menu
- deleteMenu(_id: ID!): DeleteResponse
+  updateMenu(_id: ID!, input: MenuInput): menu
+  deleteMenu(_id: ID!): DeleteResponse
+
+  createControl(input: ControlInput): control
+  updateControl(_id: ID!,input: ControlInput): control
+  deleteControl(_id: ID!): DeleteResponse
+
 }
 
   type DeleteResponse {
