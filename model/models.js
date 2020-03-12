@@ -11,7 +11,6 @@ const menuSchema = new Schema({
     title: String,
     desc: String,
     seq: Number,
-    private: Boolean,
     pid: { type: Schema.Types.ObjectId, ref: 'Menu' },
     comp: { type: Schema.Types.ObjectId, ref: 'Company' },
     creator: { type: Schema.Types.ObjectId, ref: 'User' },
@@ -33,15 +32,14 @@ var userSchema = mongoose.Schema({
     password: String,
     email: String,
     name: String,
-    group: String,
+    group: [{ type: Schema.Types.ObjectId, ref: 'AccessGroup' }],
     comp: { type: Schema.Types.ObjectId, ref: 'Company' }
 });
 const accessGroupSchema = new Schema({
     comp: { type: Schema.Types.ObjectId, ref: 'Company' },
     name: String,
     desc: String,
-    users: [{ type: Schema.Types.ObjectId, ref: 'User' }],
-    subGroup: [{ type: Schema.Types.ObjectId, ref: 'AccessGroup' }]
+    parent: { type: Schema.Types.ObjectId, ref: 'AccessGroup' }]
 });
 
 const controlSchema = new Schema({
@@ -49,10 +47,10 @@ const controlSchema = new Schema({
     title: String,
     desc: String,
     created: { type: Date, default: Date.now },
+    creator: { type: Schema.Types.ObjectId, ref: 'User' },
     comp: { type: Schema.Types.ObjectId, ref: 'Company' },
     origincontrol: { type: Schema.Types.ObjectId, ref: 'Control' },
     access: [{ type: Schema.Types.ObjectId, ref: 'AccessGroup' }],
-    private: Boolean
 });
 const simpleSchema = new Schema({
     name: String,
