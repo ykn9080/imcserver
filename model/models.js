@@ -39,7 +39,7 @@ const accessGroupSchema = new Schema({
     comp: { type: Schema.Types.ObjectId, ref: 'Company' },
     name: String,
     desc: String,
-    parent: { type: Schema.Types.ObjectId, ref: 'AccessGroup' }]
+    parent: { type: Schema.Types.ObjectId, ref: 'AccessGroup' }
 });
 
 const controlSchema = new Schema({
