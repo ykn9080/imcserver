@@ -93,12 +93,13 @@ const resolvers = {
         },
         deleteCompany(root, { _id }) {
             const ok = Boolean(company.findById(_id));
-            company.findByIdAndRemove(_id);
+             company.remove({ _id: _id }).exec();
+            //company.findByIdAndRemove(_id);
             return { ok };
 
             /* playgroun sample
              mutation{
-              deleteComp(_id:"5e68871e2703769cc6112609"){
+              deleteCompany(_id:"5e68871e2703769cc6112609"){
                  ok
               }
             }
