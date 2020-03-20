@@ -4,7 +4,7 @@ var filefunc = require('../function/filefunc');
 var crudfunc = require('../function/crudfunc');
 var getAllChildren = require('../function/getAllChildren');
 
-const models=require('../model/models');
+const models = require('../model/models');
 
 module.exports = (app, passport) => {
     /* GET ALL PRODUCTS */
@@ -76,20 +76,20 @@ module.exports = (app, passport) => {
                 //    if(user.group=="SystemAdmins")  myinfo="";
                 var spath = filefunc.findpathread("/data/json/imctable.json", myinfo);
                 var spath1 = filefunc.findpathread("/data/json/imcdata.json", myinfo);
-                var spath2=filefunc.findpathread("/data/json/imcsetting.json",user.comp + ",");
+                var spath2 = filefunc.findpathread("/data/json/imcsetting.json", user.comp + ",");
                 var spath3 = filefunc.findpathread("/data/json/imclist.json", myinfo);
                 var file = crudfunc.readFile(spath);
-                var system=crudfunc.readFile(spath2);
-                var list=crudfunc.readFile(spath3);
-                if(system!="") system=JSON.parse(system);
+                var system = crudfunc.readFile(spath2);
+                var list = crudfunc.readFile(spath3);
+                if (system != "") system = JSON.parse(system);
                 // var css=system.csslist;
                 // delete system.csslist;
-                const menu=await models.Menu.find({comp:user.comp});
-                const submenu=getAllChildren.getAllChildren(menu,"5e734abd70d930f8509ac07a");
+                const menu = await models.Menu.find({ comp: user.comp });
+                const submenu = getAllChildren.get(menu, "5e734abd70d930f8509ac07a");
                 var imcdata = JSON.parse(crudfunc.readFile(spath1));
-               // imcdata = removedatalist(imcdata);
+                // imcdata = removedatalist(imcdata);
                 //console.log("spath:", spath, "myinfo:", myinfo, "obj.key:", Object.keys(JSON.parse(file)));
-                return res.status(200).json({ token: JWTToken, user: user, list:list,system:system, file: file, dtsrc: JSON.stringify(imcdata),menu:JSON.stringify(submenu) });
+                return res.status(200).json({ token: JWTToken, user: user, list: list, system: system, file: file, dtsrc: JSON.stringify(imcdata), menu: JSON.stringify(submenu) });
             }
         })(req, res, next);
     });
@@ -98,7 +98,7 @@ module.exports = (app, passport) => {
         imcdata.forEach(dtsrc => {
             if (dtsrc.dtype == "database") {
                 if (dtsrc.hasOwnProperty("querylist")) {
-                    (dtsrc.querylist).forEach(k=> {
+                    (dtsrc.querylist).forEach(k => {
                         if (k.sqlcommand == "select") {
                             k.datalist = [];
                         }
