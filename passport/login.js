@@ -18,7 +18,7 @@ console.log('in passport')
     passReqToCallback: true
   }, function(req, username, password, done) {
     // check in mongo if a user with username exists or not
-    console.log('chk login',req.body,username,password,config.basic.passport.datasrc)
+    //console.log('chk login',req.body,username,password,config.basic.passport.datasrc)
     switch (config.basic.passport.datasrc) {
       case "mongodb":
         User.findOne({
@@ -40,14 +40,14 @@ console.log('in passport')
           }
           // User and password both match, return user from done method
           // which will be treated like success
-          console.log(user, password);
+          //console.log(user, password);
           return done(null, user, user);
         });
         break;
         case "json":
 
         var user = JsonUser.user.filter(function(usr) {
-            console.log(usr.email,username)
+            //console.log(usr.email,username)
           return usr.id == username
         });
         if (user[0])

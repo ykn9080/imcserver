@@ -2,6 +2,9 @@ var User = require('../model/user.js');
 var config = require('../config/');
 var filefunc = require('../function/filefunc');
 var crudfunc = require('../function/crudfunc');
+var getAllChildren = require('../function/getAllChildren');
+
+const models=require('../model/models');
 
 module.exports = (app, passport) => {
     /* GET ALL PRODUCTS */
@@ -50,7 +53,7 @@ module.exports = (app, passport) => {
                 //res.json(user);
             });
 
-            function jwt(user) {
+            async function jwt(user) {
                 const jwt = require('jsonwebtoken');
                 var uuid;
 
@@ -81,11 +84,12 @@ module.exports = (app, passport) => {
                 if(system!="") system=JSON.parse(system);
                 // var css=system.csslist;
                 // delete system.csslist;
-
+                const menu=await models.Menu.find({comp:user.comp});
+                const submenu=getAllChildren.getAllChildren(menu,"5e734abd70d930f8509ac07a");
                 var imcdata = JSON.parse(crudfunc.readFile(spath1));
                // imcdata = removedatalist(imcdata);
                 //console.log("spath:", spath, "myinfo:", myinfo, "obj.key:", Object.keys(JSON.parse(file)));
-                return res.status(200).json({ token: JWTToken, user: user, list:list,system:system, file: file, dtsrc: JSON.stringify(imcdata) });
+                return res.status(200).json({ token: JWTToken, user: user, list:list,system:system, file: file, dtsrc: JSON.stringify(imcdata),menu:JSON.stringify(submenu) });
             }
         })(req, res, next);
     });
