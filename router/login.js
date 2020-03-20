@@ -84,12 +84,11 @@ module.exports = (app, passport) => {
                 if (system != "") system = JSON.parse(system);
                 // var css=system.csslist;
                 // delete system.csslist;
-                const menu = await models.Menu.find({ comp: user.comp });
-                const submenu = getAllChildren.get(menu, "5e734abd70d930f8509ac07a");
+                const usermenu = await models.Menu.find({ comp: user.comp, type: "user" });
                 var imcdata = JSON.parse(crudfunc.readFile(spath1));
                 // imcdata = removedatalist(imcdata);
                 //console.log("spath:", spath, "myinfo:", myinfo, "obj.key:", Object.keys(JSON.parse(file)));
-                return res.status(200).json({ token: JWTToken, user: user, list: list, system: system, file: file, dtsrc: JSON.stringify(imcdata), menu: JSON.stringify(submenu) });
+                return res.status(200).json({ token: JWTToken, user: user, list: list, system: system, file: file, dtsrc: JSON.stringify(imcdata), menu: JSON.stringify(usermenu) });
             }
         })(req, res, next);
     });
