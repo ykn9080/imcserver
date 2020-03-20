@@ -11,6 +11,7 @@ const menuSchema = new Schema({
     title: String,
     desc: String,
     seq: Number,
+    type: String,
     pid: { type: Schema.Types.ObjectId, ref: 'Menu' },
     comp: { type: Schema.Types.ObjectId, ref: 'Company' },
     creator: { type: Schema.Types.ObjectId, ref: 'User' },

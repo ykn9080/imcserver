@@ -35,6 +35,7 @@ type menu{
  pid: menu,
  title: String,
  desc:String,
+ type:String,
  seq:Int,
  comp:company,
  creator:user
@@ -99,6 +100,7 @@ input MenuInput {
    pid: ID,
    title: String,
    desc:String,
+   type:String,
    seq:Int,
    comp:ID,
    creator:ID
