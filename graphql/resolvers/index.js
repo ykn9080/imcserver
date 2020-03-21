@@ -44,6 +44,12 @@ const resolvers = {
         async menues() {
             return await menu.find({}).populate("pid").populate("layout.ctrid").populate("comp").populate("access");
         },
+        // async menues_type(parent, { type }) {
+        //     return await menu.find({ type: type }).populate("pid").populate("layout.ctrid").populate("comp").populate("access");
+        // },
+        async menues_type(parent, args, ctx, info) {
+            return await menu.find({ type: 'user' });
+        },
         async menu(parent, { _id }) {
             return await menu.findById(_id).populate("pid").populate("layout.ctrid").populate("comp").populate("access");
         },
@@ -93,7 +99,7 @@ const resolvers = {
         },
         deleteCompany(root, { _id }) {
             const ok = Boolean(company.findById(_id));
-             company.remove({ _id: _id }).exec();
+            company.remove({ _id: _id }).exec();
             //company.findByIdAndRemove(_id);
             return { ok };
 
