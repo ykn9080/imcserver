@@ -70,6 +70,7 @@ type Query{
   accessGroup(_id:ID!):accessGroup
   menues:[menu]
   menu(_id:ID!):menu
+  menues_type(type:String):menu
   controls:[control]
   control(_id:ID!):control
 }
