@@ -58,11 +58,23 @@ const simpleSchema = new Schema({
     company: { type: Schema.Types.ObjectId, ref: 'Company' },
     subgroup: [{ type: Schema.Types.ObjectId, ref: 'Simple' }]
 });
+
+const bootformSchema = new Schema({
+    name: String,
+    desc:String,
+    pathname:String,
+    seq:Number,
+    data:Object,
+    company: { type: Schema.Types.ObjectId, ref: 'Company' }
+});
+
+
 models.Control = mongoose.model("Control", controlSchema);
 models.Company = mongoose.model('Company', companySchema);
 models.User = mongoose.model('User', userSchema);
 models.Menu = mongoose.model("Menu", menuSchema);
 models.AccessGroup = mongoose.model("AccessGroup", accessGroupSchema);
 models.Simple = mongoose.model("Simple", simpleSchema);
+models.Bootform = mongoose.model("Bootform", bootformSchema);
 
 module.exports = models;

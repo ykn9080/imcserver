@@ -15,4 +15,5 @@ module.exports = (app, passport) => {
     require("../controller/reuseCRUD")(models.accessGroup)
   );
   app.use("/reuse/simple", require("../controller/reuseCRUD")(models.simple));
+  app.use("/bootform", require("../controller/reuseCRUD")(models.bootform));
 };

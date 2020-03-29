@@ -19,6 +19,7 @@ var company = require("../../model/models")["Company"];
 var menu = require("../../model/models")["Menu"];
 var user = require("../../model/models")["User"];
 var control = require("../../model/models")["Control"];
+var bootform = require("../../model/models")["Bootform"];
 
 const resolvers = {
     Query: {
@@ -58,6 +59,12 @@ const resolvers = {
         },
         async control(parent, { _id }) {
             return await control.findById(_id).populate("comp").populate("access")
+        },
+                async bootforms() {
+            return await bootform.find({}).populate("comp");
+        },
+        async bootform(parent, { _id }) {
+            return await bootform.findById(_id).populate("comp");
         }
     },
     Mutation: {
@@ -177,6 +184,23 @@ const resolvers = {
         async deleteControl(root, { _id }) {
             const ok = Boolean(control.findById(_id));
             control.findByIdAndRemove(_id);
+            return { ok };
+        },
+                async createBootform(root, args) {
+            const ctr = new bootform(args.input);
+            await ctr.save();
+            return ctr;
+        },
+        async updateBootform(root, { _id, input }) {
+            const data = await bootform.findByIdAndUpdate(_id, input, { new: true })
+            if (!data) {
+                throw new Error('Error')
+            }
+            return data
+        },
+        async deleteBootform(root, { _id }) {
+            const ok = Boolean(bootform.findById(_id));
+            bootform.findByIdAndRemove(_id);
             return { ok };
         }
     }

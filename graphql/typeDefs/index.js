@@ -60,7 +60,15 @@ type control{
    origincontrol: control,
    access: [accessGroup]
 }
-
+type bootform{
+    _id:ID!,
+    name:String,
+    desc:String,
+    seq:Int,
+    pathname:String,
+    data:[String]
+    comp: company
+ }
 type Query{
   companies:[company]
   company(_id:ID!):company
@@ -73,6 +81,8 @@ type Query{
   menues_type(type:String):menu
   controls:[control]
   control(_id:ID!):control
+  bootforms:[bootform]
+  bootform(_id:ID!):bootform
 }
 
 
@@ -123,7 +133,14 @@ input ControlInput{
    origincontrol: ID,
    access: ID
 }
-
+input BootformInput{
+    name:String,
+    desc:String,
+    seq:Int,
+    pathname:String,
+    data:[String],
+    comp: ID
+ }
 type Mutation {
   createCompany(input: CompanyInput): company
   updateCompany(_id: ID!, input: CompanyInput): company
@@ -144,6 +161,10 @@ type Mutation {
   createControl(input: ControlInput): control
   updateControl(_id: ID!,input: ControlInput): control
   deleteControl(_id: ID!): DeleteResponse
+
+  createBootform(input: BootformInput): bootform
+  updateBootform(_id: ID!,input: BootformInput): bootform
+  deleteBootform(_id: ID!): DeleteResponse
 
 }
 
