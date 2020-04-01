@@ -67,7 +67,18 @@ const bootformSchema = new Schema({
     data:Object,
     company: { type: Schema.Types.ObjectId, ref: 'Company' }
 });
-
+const formElementSchema = new Schema({
+    controlType:String,
+    labelText:String,
+    name: String,
+    desc:String,
+    placeholder:String,
+    formText:String,
+    as:String,
+    rowGroup:String,
+    optionArray:Object,
+    company: { type: Schema.Types.ObjectId, ref: 'Company' }
+});
 
 models.Control = mongoose.model("Control", controlSchema);
 models.Company = mongoose.model('Company', companySchema);
@@ -76,5 +87,6 @@ models.Menu = mongoose.model("Menu", menuSchema);
 models.AccessGroup = mongoose.model("AccessGroup", accessGroupSchema);
 models.Simple = mongoose.model("Simple", simpleSchema);
 models.Bootform = mongoose.model("Bootform", bootformSchema);
+models.FormElement = mongoose.model("FormElement", formElementSchema);
 
 module.exports = models;

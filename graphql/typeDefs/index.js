@@ -6,6 +6,11 @@ var company = require("../../model/models")["Company"];
 
 var menu = require("../../model/models")["Menu"];
 var user = require("../../model/models")["User"];
+var accessGroup = require("../../model/models")["AccessGroup"];
+var layout = require("../../model/models")["Layout"];
+var control = require("../../model/models")["Control"];
+var bootform = require("../../model/models")["Bootform"];
+// var formElement = require("../../model/models")["FormElement"];
 
 const typeDefs = `
 type company{
@@ -67,8 +72,10 @@ type bootform{
     seq:Int,
     pathname:String,
     data:[String]
-    comp: company
+    company: company
  }
+ 
+
 type Query{
   companies:[company]
   company(_id:ID!):company
@@ -83,6 +90,7 @@ type Query{
   control(_id:ID!):control
   bootforms:[bootform]
   bootform(_id:ID!):bootform
+
 }
 
 
@@ -139,8 +147,9 @@ input BootformInput{
     seq:Int,
     pathname:String,
     data:[String],
-    comp: ID
+    company: ID
  }
+
 type Mutation {
   createCompany(input: CompanyInput): company
   updateCompany(_id: ID!, input: CompanyInput): company
@@ -165,6 +174,8 @@ type Mutation {
   createBootform(input: BootformInput): bootform
   updateBootform(_id: ID!,input: BootformInput): bootform
   deleteBootform(_id: ID!): DeleteResponse
+
+
 
 }
 

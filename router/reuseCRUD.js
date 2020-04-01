@@ -16,4 +16,6 @@ module.exports = (app, passport) => {
   );
   app.use("/reuse/simple", require("../controller/reuseCRUD")(models.simple));
   app.use("/bootform", require("../controller/reuseCRUD")(models.Bootform));
+  app.use("/formelement", require("../controller/reuseCRUD")(models.FormElement));
+
 };

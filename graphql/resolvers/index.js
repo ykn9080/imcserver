@@ -10,16 +10,13 @@
 // console.log('this is resolvers', resolvers)
 // console.log('this for menu.resolvers', menu.resolvers, menu)
 
-var Graphql = require("graphql");
-//var { makeExecutableSchema } = require("graphql-tools");
+// var Graphql = require("graphql");
+// //var { makeExecutableSchema } = require("graphql-tools");
 
-//var { company, menu, control, accessGroup } = require("../model/models");
-var company = require("../../model/models")["Company"];
+// //var { company, menu, control, accessGroup } = require("../model/models");
+// var company = require("../../model/models")["Company"];
 
-var menu = require("../../model/models")["Menu"];
-var user = require("../../model/models")["User"];
-var control = require("../../model/models")["Control"];
-var bootform = require("../../model/models")["Bootform"];
+// var menu = require("../../model/models")["Menu"];
 
 const resolvers = {
     Query: {
@@ -60,12 +57,18 @@ const resolvers = {
         async control(parent, { _id }) {
             return await control.findById(_id).populate("comp").populate("access")
         },
-                async bootforms() {
+        async bootforms() {
             return await bootform.find({}).populate("comp");
         },
         async bootform(parent, { _id }) {
             return await bootform.findById(_id).populate("comp");
-        }
+        },
+        // async formElements() {
+        //     return await formElment.find({}).populate("comp");
+        // },
+        // async formElement(parent, { _id }) {
+        //     return await formElement.findById(_id).populate("comp");
+        // }
     },
     Mutation: {
         async createCompany(root, args) {
@@ -186,7 +189,7 @@ const resolvers = {
             control.findByIdAndRemove(_id);
             return { ok };
         },
-                async createBootform(root, args) {
+        async createBootform(root, args) {
             const ctr = new bootform(args.input);
             await ctr.save();
             return ctr;
@@ -202,12 +205,64 @@ const resolvers = {
             const ok = Boolean(bootform.findById(_id));
             bootform.findByIdAndRemove(_id);
             return { ok };
-        }
+        },
+       // async createFormElement(root, args) {
+       //      const ctr = new formElement(args.input);
+       //      await ctr.save();
+       //      return ctr;
+       //  },
+       //  async updateFormElement(root, { _id, input }) {
+       //      const data = await formElement.findByIdAndUpdate(_id, input, { new: true })
+       //      if (!data) {
+       //          throw new Error('Error')
+       //      }
+       //      return data
+       //  },
+       //  async deleteFormElement(root, { _id }) {
+       //      const ok = Boolean(formElement.findById(_id));
+       //      formElement.findByIdAndRemove(_id);
+       //      return { ok };
+       //  }
     }
 };
 
+//typeDef에서 에러나는 부분보관
+// type formElement{
+ //   _id:ID!,
+ //    controlType:String,
+ //    labelText:String,
+ //    name: String,
+ //    desc:String,
+ //    placeholder:String,
+ //    formText:String,
+ //    as:String,
+ //    rowGroup:String,
+ //    optionArray:[String]
+ //    company: company
+ // }
 
 
+  //   formElement:[formElement]
+  // formElement(_id:ID!):formElement
+
+
+ // input FormElementInput{
+ //    controlType:String,
+ //    labelText:String,
+ //    name: String,
+ //    desc:String,
+ //    placeholder:String,
+ //    formText:String,
+ //    as:String,
+ //    rowGroup:String,
+ //    optionArray:[String]
+ //    company: ID
+ // }
+
+
+  // createFormElement(input: FormElementInput): formElement
+  // updateFormElement(_id: ID!,input: FormElementInput): formElement
+  // deleteFormElement(_id: ID!): DeleteResponse
 
 
 module.exports = resolvers;
